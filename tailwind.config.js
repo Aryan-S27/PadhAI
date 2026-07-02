@@ -1,0 +1,55 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ["./src/**/*.{js,jsx,ts,tsx}", "./index.html"],
+  theme: {
+    extend: {
+      colors: {
+        background:    "#f4f2f0",
+        surface:       "#edeae7",
+        surfaceRaised: "#ffffff",
+        border:        "rgba(0,0,0,0.10)",
+        primary:       "#000000",
+        secondary:     "rgba(0,0,0,0.45)",
+        accent:        "#C8854A",
+        accentHover:   "#B0713A",
+        accentMuted:   "#F5E6D6",
+        success:       "#4A7C59",
+        warning:       "#C8854A",
+        error:         "#B54A3A",
+      },
+      fontFamily: {
+        sans:  ["Manrope", "system-ui", "sans-serif"],
+        serif: ["Source Serif 4", "Georgia", "serif"],
+      },
+      borderRadius: {
+        sm:   "4px",
+        md:   "8px",
+        lg:   "11px",
+        xl:   "12px",
+        "2xl": "24px",
+        pill: "100px",
+      },
+      boxShadow: {
+        card:       "0px 0.6px 1.57px -1.5px rgba(0,0,0,0.17), 0px 2px 5px -2px rgba(0,0,0,0.08), 0px 4px 12px -3px rgba(0,0,0,0.05)",
+        "card-hover":"0px 2px 8px -1px rgba(0,0,0,0.12), 0px 6px 20px -4px rgba(0,0,0,0.08)",
+        input:      "inset 0px 0px 0px 1px rgba(0,0,0,0.20)",
+      },
+      spacing: {
+        xs:    "2px",
+        sm:    "4px",
+        "md-sm": "8px",
+        md:    "10px",
+        "md-lg": "12px",
+        lg:    "16px",
+        xl:    "20px",
+        "2xl": "24px",
+        "3xl": "32px",
+        "4xl": "36px",
+        "5xl": "40px",
+        "6xl": "48px",
+        hero:  "80px",
+      },
+    },
+  },
+  plugins: [],
+};

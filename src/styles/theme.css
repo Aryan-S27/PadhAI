@@ -1,0 +1,288 @@
+/* ═══════════════════════════════════════════════════════════
+   Memoir Design System — Design Tokens
+   Warm linen palette · Source Serif 4 + Manrope dual type
+   ═══════════════════════════════════════════════════════════ */
+
+:root {
+  /* ── Colors ─────────────────────────────────────── */
+  --color-linen-warm:    #f4f2f0;   /* page bg, sidebar, hover */
+  --color-linen-mid:     #edeae7;   /* sidebar nav bg, dividers */
+  --color-pure-white:    #ffffff;   /* card surfaces, inputs */
+  --color-ink-black:     #000000;   /* primary text, headings */
+  --color-ink-muted:     rgba(0, 0, 0, 0.45); /* secondary text */
+  --color-ink-border:    rgba(0, 0, 0, 0.10); /* dividers, borders */
+
+  /* Warm accent — golden amber, sits naturally on linen */
+  --color-accent:        #C8854A;   /* warm amber — buttons, CTAs, highlights */
+  --color-accent-hover:  #B0713A;   /* darker amber for hover states */
+  --color-accent-muted:  #F5E6D6;   /* pale tint for chip bg, tag fills */
+
+  /* ── Typography — Font Families ─────────────────── */
+  --font-serif:    "Source Serif 4", serif;
+  --font-sans:     "Manrope", sans-serif;
+
+  /* ── Typography — Hero Display (Source Serif 4) ─── */
+  --type-hero-family:       var(--font-serif);
+  --type-hero-size:         64px;
+  --type-hero-weight:       500;
+  --type-hero-lh:           70.4px;
+  --type-hero-ls:           -4.48px;
+
+  /* ── Typography — Hero Display Alt (Manrope) ─────── */
+  --type-hero-alt-family:   var(--font-sans);
+  --type-hero-alt-size:     64px;
+  --type-hero-alt-weight:   500;
+  --type-hero-alt-lh:       70.4px;
+  --type-hero-alt-ls:       -3.84px;
+
+  /* ── Typography — Section Heading ───────────────── */
+  --type-section-family:    var(--font-serif);
+  --type-section-size:      48px;
+  --type-section-weight:    500;
+  --type-section-lh:        52.8px;
+  --type-section-ls:        -2.88px;
+
+  /* ── Typography — Card Heading ───────────────────── */
+  --type-card-family:       var(--font-serif);
+  --type-card-size:         28px;
+  --type-card-weight:       500;
+  --type-card-lh:           28px;
+  --type-card-ls:           -1.96px;
+
+  /* ── Typography — UI Label Large ─────────────────── */
+  --type-label-lg-family:   var(--font-sans);
+  --type-label-lg-size:     16px;
+  --type-label-lg-weight:   600;
+  --type-label-lg-lh:       22.4px;
+  --type-label-lg-ls:       -0.64px;
+
+  /* ── Typography — UI Label Medium ────────────────── */
+  --type-label-md-family:   var(--font-sans);
+  --type-label-md-size:     14px;
+  --type-label-md-weight:   600;
+  --type-label-md-lh:       14px;
+  --type-label-md-ls:       -0.56px;
+
+  /* ── Typography — UI Label Small ─────────────────── */
+  --type-label-sm-family:   var(--font-sans);
+  --type-label-sm-size:     12px;
+  --type-label-sm-weight:   600;
+  --type-label-sm-lh:       12px;
+  --type-label-sm-ls:       -0.48px;
+
+  /* ── Typography — UI Body Small ──────────────────── */
+  --type-body-sm-family:    var(--font-sans);
+  --type-body-sm-size:      12px;
+  --type-body-sm-weight:    500;
+  --type-body-sm-lh:        12px;
+  --type-body-sm-ls:        -0.48px;
+
+  /* ── Typography — Micro Label ────────────────────── */
+  --type-micro-family:      var(--font-sans);
+  --type-micro-size:        10px;
+  --type-micro-weight:      500;
+  --type-micro-lh:          10px;
+  --type-micro-ls:          -0.4px;
+
+  /* ── Spacing ─────────────────────────────────────── */
+  --space-xs:    2px;
+  --space-sm:    4px;
+  --space-md-sm: 8px;
+  --space-md:    10px;
+  --space-md-lg: 12px;
+  --space-lg:    16px;
+  --space-xl:    20px;
+  --space-2xl:   24px;
+  --space-3xl:   32px;
+  --space-4xl:   36px;
+  --space-5xl:   40px;
+  --space-6xl:   48px;
+  --space-hero:  80px;
+
+  /* ── Border Radius ───────────────────────────────── */
+  --radius-sm:   4px;
+  --radius-md:   8px;
+  --radius-lg:   11px;
+  --radius-xl:   12px;
+  --radius-2xl:  24px;
+  --radius-pill: 100px;
+
+  /* ── Shadows ─────────────────────────────────────── */
+  --shadow-input:  inset 0px 0px 0px 1px rgba(0, 0, 0, 0.20);
+  --shadow-card:   0px 0.6px 1.57px -1.5px rgba(0, 0, 0, 0.17),
+                   0px 2px 5px -2px rgba(0, 0, 0, 0.08),
+                   0px 4px 12px -3px rgba(0, 0, 0, 0.05);
+  --shadow-card-hover: 0px 2px 8px -1px rgba(0, 0, 0, 0.12),
+                       0px 6px 20px -4px rgba(0, 0, 0, 0.08);
+}
+
+/* ── Utility Typography Classes ──────────────────────────── */
+
+.type-hero {
+  font-family: var(--type-hero-family);
+  font-size: var(--type-hero-size);
+  font-weight: var(--type-hero-weight);
+  line-height: var(--type-hero-lh);
+  letter-spacing: var(--type-hero-ls);
+}
+
+.type-hero-alt {
+  font-family: var(--type-hero-alt-family);
+  font-size: var(--type-hero-alt-size);
+  font-weight: var(--type-hero-alt-weight);
+  line-height: var(--type-hero-alt-lh);
+  letter-spacing: var(--type-hero-alt-ls);
+}
+
+.type-section {
+  font-family: var(--type-section-family);
+  font-size: var(--type-section-size);
+  font-weight: var(--type-section-weight);
+  line-height: var(--type-section-lh);
+  letter-spacing: var(--type-section-ls);
+}
+
+.type-card-heading {
+  font-family: var(--type-card-family);
+  font-size: var(--type-card-size);
+  font-weight: var(--type-card-weight);
+  line-height: var(--type-card-lh);
+  letter-spacing: var(--type-card-ls);
+}
+
+.type-label-lg {
+  font-family: var(--type-label-lg-family);
+  font-size: var(--type-label-lg-size);
+  font-weight: var(--type-label-lg-weight);
+  line-height: var(--type-label-lg-lh);
+  letter-spacing: var(--type-label-lg-ls);
+}
+
+.type-label-md {
+  font-family: var(--type-label-md-family);
+  font-size: var(--type-label-md-size);
+  font-weight: var(--type-label-md-weight);
+  line-height: var(--type-label-md-lh);
+  letter-spacing: var(--type-label-md-ls);
+}
+
+.type-label-sm {
+  font-family: var(--type-label-sm-family);
+  font-size: var(--type-label-sm-size);
+  font-weight: var(--type-label-sm-weight);
+  line-height: var(--type-label-sm-lh);
+  letter-spacing: var(--type-label-sm-ls);
+}
+
+.type-body-sm {
+  font-family: var(--type-body-sm-family);
+  font-size: var(--type-body-sm-size);
+  font-weight: var(--type-body-sm-weight);
+  line-height: var(--type-body-sm-lh);
+  letter-spacing: var(--type-body-sm-ls);
+}
+
+.type-micro {
+  font-family: var(--type-micro-family);
+  font-size: var(--type-micro-size);
+  font-weight: var(--type-micro-weight);
+  line-height: var(--type-micro-lh);
+  letter-spacing: var(--type-micro-ls);
+}
+
+/* ── Pill chip / filter tag ──────────────────────────────── */
+.memoir-chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: var(--radius-pill);
+  background: var(--color-accent-muted);
+  color: var(--color-accent);
+  font-family: var(--font-sans);
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: -0.4px;
+  line-height: 1;
+}
+
+/* ── Memoir card surface ─────────────────────────────────── */
+.memoir-card {
+  background: var(--color-pure-white);
+  border-radius: var(--radius-2xl);
+  box-shadow: var(--shadow-card);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+.memoir-card:hover {
+  box-shadow: var(--shadow-card-hover);
+}
+
+/* ── Primary CTA button ──────────────────────────────────── */
+.memoir-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border-radius: var(--radius-pill);
+  background: var(--color-accent);
+  color: var(--color-pure-white);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.56px;
+  line-height: 1;
+  border: none;
+  cursor: pointer;
+  transition: background 0.18s ease;
+  text-decoration: none;
+}
+.memoir-btn-primary:hover {
+  background: var(--color-accent-hover);
+}
+
+/* ── Ghost / outline button ──────────────────────────────── */
+.memoir-btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 20px;
+  border-radius: var(--radius-pill);
+  background: transparent;
+  color: var(--color-ink-black);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: -0.56px;
+  line-height: 1;
+  border: 1.5px solid rgba(0, 0, 0, 0.20);
+  cursor: pointer;
+  transition: background 0.18s ease, border-color 0.18s ease;
+  text-decoration: none;
+}
+.memoir-btn-ghost:hover {
+  background: var(--color-linen-mid);
+  border-color: rgba(0, 0, 0, 0.30);
+}
+
+/* ── Memoir input ────────────────────────────────────────── */
+.memoir-input {
+  width: 100%;
+  background: var(--color-pure-white);
+  border: none;
+  box-shadow: var(--shadow-input);
+  border-radius: var(--radius-md);
+  padding: 10px 12px;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--color-ink-black);
+  letter-spacing: -0.56px;
+  outline: none;
+  transition: box-shadow 0.15s ease;
+}
+.memoir-input:focus {
+  box-shadow: inset 0px 0px 0px 1.5px var(--color-accent),
+              0 0 0 3px rgba(200, 133, 74, 0.15);
+}
+.memoir-input::placeholder {
+  color: var(--color-ink-muted);
+}

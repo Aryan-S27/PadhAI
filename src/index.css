@@ -1,0 +1,60 @@
+@import "./styles/theme.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Global base overrides ───────────────────────────────── */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-linen-warm);
+  color: var(--color-ink-black);
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: -0.48px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Remove default blue link colour ─────────────────────── */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* ── Smooth interactive transitions ─────────────────────── */
+button,
+a,
+input,
+select,
+textarea {
+  transition-property: background-color, border-color, box-shadow, color, opacity;
+  transition-duration: 150ms;
+  transition-timing-function: ease;
+}
+
+/* ── Focus-visible ring ──────────────────────────────────── */
+:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+/* ── Scrollbar — thin, linen-toned ──────────────────────── */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-linen-mid);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.15);
+  border-radius: var(--radius-pill);
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.28);
+}
