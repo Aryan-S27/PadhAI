@@ -38,9 +38,19 @@ Deno.serve(async (req: Request) => {
   if (corsResponse) return corsResponse;
 
   try {
-    // This endpoint is admin-only (service role)
+    // Decode JWT from authHeader to check if it's the service_role
+    let isServiceRole = false;
     const authHeader = req.headers.get("Authorization");
-    const isServiceRole = authHeader?.includes(Deno.env.get("SUPABASE_SERVICE_ROLE_KEY") ?? "NEVER");
+    const token = authHeader ? authHeader.replace("Bearer ", "").trim() : "";
+    if (token) {
+      const parts = token.split(".");
+      if (parts.length === 3) {
+        try {
+          const payload = JSON.parse(atob(parts[1]));
+          isServiceRole = payload.role === "service_role";
+        } catch (_) {}
+      }
+    }
 
     if (!isServiceRole) {
       return new Response(JSON.stringify({ error: "Admin only" }), {
@@ -57,7 +67,7 @@ Deno.serve(async (req: Request) => {
 
     const supabase = createClient(
       Deno.env.get("SUPABASE_URL") ?? "",
-      Deno.env.get("SUPABASE_SERVICE_ROLE_KEY") ?? "",
+      Deno.env.get("SUPABASE_SERVICE_ROLE_KEY") ?? token,
     );
 
     // 1. Fetch document record
