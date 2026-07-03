@@ -1,8 +1,7 @@
 -- ═══════════════════════════════════════════════════════
--- Migration 007: usage_logs — per-user daily rate limiting
--- Prevents API abuse without needing Redis.
+-- Migration 007: usage_logs + rate limiter (idempotent)
 -- ═══════════════════════════════════════════════════════
-create table public.usage_logs (
+create table if not exists public.usage_logs (
   id           uuid primary key default gen_random_uuid(),
   user_id      uuid references auth.users(id) on delete cascade,
   module       text not null,
@@ -11,15 +10,13 @@ create table public.usage_logs (
   unique (user_id, module, date)
 );
 
-create index on public.usage_logs (user_id, date);
+create index if not exists usage_logs_user_date_idx
+  on public.usage_logs (user_id, date);
 
--- ── Helper function called by Edge Functions ─────────────
--- Returns true if user is within limit, false if exceeded.
--- Also increments the counter atomically.
 create or replace function public.check_and_increment_usage(
   p_user_id  uuid,
   p_module   text,
-  p_limit    integer default 20   -- max calls per day per module
+  p_limit    integer default 20
 )
 returns boolean
 language plpgsql
@@ -38,13 +35,14 @@ begin
 end;
 $$;
 
--- ── RLS ──────────────────────────────────────────────────
 alter table public.usage_logs enable row level security;
 
+drop policy if exists "Users can read own usage" on public.usage_logs;
 create policy "Users can read own usage"
   on public.usage_logs for select
   using (auth.uid() = user_id);
 
+drop policy if exists "Service role can manage usage" on public.usage_logs;
 create policy "Service role can manage usage"
   on public.usage_logs for all
   using (auth.role() = 'service_role');

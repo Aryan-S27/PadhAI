@@ -1,25 +1,26 @@
 -- ═══════════════════════════════════════════════════════
--- Migration 003: subjects catalogue
--- Master list of MU subjects. Used for RAG filtering
--- and driving Scope / CrashMode context.
+-- Migration 003: subjects catalogue (idempotent)
 -- ═══════════════════════════════════════════════════════
-create table public.subjects (
+create table if not exists public.subjects (
   id           uuid primary key default gen_random_uuid(),
-  code         text unique not null,  -- e.g. 'MU-CS-SEM5-OS'
-  name         text not null,         -- 'Operating Systems'
-  short_name   text,                  -- 'OS'
-  branch       text not null,         -- 'CS', 'IT', 'EXTC'
+  code         text unique not null,
+  name         text not null,
+  short_name   text,
+  branch       text not null,
   year         smallint not null,
   semester     smallint not null,
   total_marks  smallint default 60,
-  modules      jsonb default '[]',    -- [{num,title,topics:[]}]
+  modules      jsonb default '[]',
   is_active    boolean default true,
   created_at   timestamptz default now()
 );
 
--- Public read — no login required to query subject list
+alter table public.subjects add column if not exists short_name text;
+alter table public.subjects add column if not exists is_active boolean default true;
+
 alter table public.subjects enable row level security;
 
+drop policy if exists "Public can read subjects" on public.subjects;
 create policy "Public can read subjects"
   on public.subjects for select
   using (true);

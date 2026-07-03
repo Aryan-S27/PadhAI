@@ -1,52 +1,50 @@
 -- ═══════════════════════════════════════════════════════
--- Migration 005: document_chunks + vector index + RPC
--- THE core RAG table.
--- Each row = one ~400-token chunk with a 768-dim embedding.
--- Requires: pgvector (migration 001) + documents (004)
+-- Migration 005: document_chunks + vector index + RPC (idempotent)
+-- Requires: pgvector (001) + documents (004)
 -- ═══════════════════════════════════════════════════════
-
--- ── Core table ───────────────────────────────────────────
-create table public.document_chunks (
+create table if not exists public.document_chunks (
   id             uuid primary key default gen_random_uuid(),
   document_id    uuid references public.documents(id) on delete cascade,
   subject_id     uuid references public.subjects(id) on delete set null,
-  subject_code   text not null,         -- denormalized: 'MU-CS-SEM5-OS'
-  chunk_index    integer not null,      -- order within the document
-  content        text not null,         -- raw text (~400 tokens)
-  metadata       jsonb default '{}',    -- { page, year_of_exam, question_num, marks, topic, doc_type }
-  embedding      vector(768),           -- text-embedding-004 output
+  subject_code   text not null,
+  chunk_index    integer not null,
+  content        text not null,
+  metadata       jsonb default '{}',
+  embedding      vector(768),
   created_at     timestamptz default now()
 );
 
--- ── Indexes ──────────────────────────────────────────────
--- Subject filter (used on every query before ANN search)
-create index on public.document_chunks (subject_code);
+create index if not exists document_chunks_subject_code_idx
+  on public.document_chunks (subject_code);
 
--- Composite: subject + doc type for Scope (past_paper filter)
-create index on public.document_chunks (subject_code, (metadata->>'doc_type'));
+-- IVFFlat index — only create if not already present
+do $$
+begin
+  if not exists (
+    select 1 from pg_indexes
+    where tablename = 'document_chunks'
+    and indexname = 'document_chunks_embedding_idx'
+  ) then
+    create index document_chunks_embedding_idx
+      on public.document_chunks
+      using ivfflat (embedding vector_cosine_ops)
+      with (lists = 100);
+  end if;
+end $$;
 
--- IVFFlat approximate nearest-neighbour index
--- lists = 100 is good for up to ~1M vectors; increase for larger corpora
-create index on public.document_chunks
-  using ivfflat (embedding vector_cosine_ops)
-  with (lists = 100);
-
--- ── RLS ──────────────────────────────────────────────────
 alter table public.document_chunks enable row level security;
 
--- All authenticated users can read chunks (RAG retrieval)
+drop policy if exists "Authenticated users can read chunks" on public.document_chunks;
 create policy "Authenticated users can read chunks"
   on public.document_chunks for select
   using (auth.role() = 'authenticated');
 
--- Only service_role can write chunks (ingestion pipeline)
+drop policy if exists "Service role can manage chunks" on public.document_chunks;
 create policy "Service role can manage chunks"
   on public.document_chunks for all
   using (auth.role() = 'service_role');
 
--- ── match_documents RPC ───────────────────────────────────
--- Called by every Edge Function to retrieve relevant context.
--- Performs: subject filter → cosine similarity → top-k
+-- match_documents RPC (replace existing if any)
 create or replace function public.match_documents(
   query_embedding    vector(768),
   subject_filter     text,
