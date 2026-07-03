@@ -1,39 +1,23 @@
 // src/lib/rag.js
-import { supabase } from "./supabase";
+// ⚠️  DEPRECATED — DO NOT USE
+//
+// Issues with the old implementation:
+//   1. Used gemini-2.0-flash (text generation) to create embeddings — WRONG.
+//      The correct model is text-embedding-004, which outputs float32[768].
+//   2. Called Google's API directly from the browser — API key exposed.
+//   3. The embedding output was text (prose), not a vector — pgvector couldn't use it.
+//
+// ✅  The fixed RAG pipeline now lives in:
+//     supabase/functions/_shared/rag.ts   (server-side retriever)
+//     supabase/functions/_shared/gemini.ts (embedText with text-embedding-004)
+//
+// Frontend just calls: import api from './api'
 
-export async function retrieveChunks(query, subject, marksValue) {
-    const chunkCount =
-        marksValue === 2 ? 2 : marksValue === 6 ? 4 : 6;
-
-    const { data: embedding } = await fetch(
-        "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=" +
-        import.meta.env.VITE_GEMINI_API_KEY,
-        {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-                "x-goog-api-key": import.meta.env.VITE_GEMINI_API_KEY,
-            },
-            body: JSON.stringify({
-                model: "gemini-2.0-flash",
-                messages: [
-                    {
-                        role: "user",
-                        content: `Embed this text for similarity search: ${query}`,
-                    },
-                ],
-            }),
-        }
-    ).then((r) => r.json());
-
-    const queryEmbedding = embedding?.candidates?.[0]?.content?.parts?.[0]?.text; // simplified
-
-    const { data, error } = await supabase.rpc("match_documents", {
-        query_embedding: queryEmbedding,
-        match_count: chunkCount,
-        filter: { subject },
-    });
-
-    if (error) throw error;
-    return data; // array of {content, similarity, ...}
+export function retrieveChunks() {
+  throw new Error(
+    "rag.js is deprecated. RAG now runs server-side in Supabase Edge Functions.\n" +
+    "Use api.js instead:\n" +
+    "  import api from './api'\n" +
+    "  api.score({ subject_code, question, marks, student_answer })"
+  );
 }
