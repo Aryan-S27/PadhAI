@@ -48,7 +48,7 @@ Deno.serve(async (req: Request) => {
         try {
           const payload = JSON.parse(atob(parts[1]));
           isServiceRole = payload.role === "service_role";
-        } catch (_) {}
+        } catch (_) { }
       }
     }
 

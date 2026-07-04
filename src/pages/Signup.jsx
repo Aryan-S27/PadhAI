@@ -6,8 +6,8 @@ export const Signup = () => {
   const [fullName, setFullName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [branch, setBranch] = useState("");
-  const [year, setYear] = useState("");
+  const [branch, setBranch] = useState("CS");
+  const [year, setYear] = useState(2);
   const [error, setError] = useState(null);
   const navigate = useNavigate();
   const { signUp } = useAuth();
@@ -145,27 +145,32 @@ export const Signup = () => {
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "12px", marginBottom: "24px" }}>
               <div>
                 <label htmlFor="signup-branch" style={labelStyle}>Branch</label>
-                <input
+                <select
                   id="signup-branch"
-                  type="text"
-                  placeholder="e.g. CS, IT"
                   value={branch}
                   onChange={(e) => setBranch(e.target.value)}
                   required
                   className="memoir-input"
-                />
+                >
+                  <option value="CS">Computer Engineering (CS)</option>
+                  <option value="AIDS">Artificial Intelligence & Data Science (AIDS)</option>
+                  <option value="IT">Information Technology (IT)</option>
+                </select>
               </div>
               <div>
                 <label htmlFor="signup-year" style={labelStyle}>Year</label>
-                <input
+                <select
                   id="signup-year"
-                  type="number"
-                  placeholder="e.g. 3"
                   value={year}
-                  onChange={(e) => setYear(e.target.value)}
+                  onChange={(e) => setYear(Number(e.target.value))}
                   required
                   className="memoir-input"
-                />
+                >
+                  <option value={1}>1st Year (Sem 1-2)</option>
+                  <option value={2}>2nd Year (Sem 3-4)</option>
+                  <option value={3}>3rd Year (Sem 5-6)</option>
+                  <option value={4}>4th Year (Sem 7-8)</option>
+                </select>
               </div>
             </div>
 

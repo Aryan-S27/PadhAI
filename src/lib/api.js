@@ -6,12 +6,64 @@
 //           src/lib/rag.js     (which used wrong embedding model)
 
 import { supabase } from "./supabase";
+import { embedTextLocal, generateChatLocal } from "./localLlm";
+import * as prompts from "./prompts";
+
+// ── Local RAG Helper ─────────────────────────────────────────────────────────
+async function retrieveChunksLocal(query, options) {
+  const {
+    subjectCode,
+    docTypeFilter = null,
+    matchCount = 6,
+    similarityThreshold = 0.25,
+  } = options;
+
+  try {
+    const queryEmbedding = await embedTextLocal(query);
+
+    const { data, error } = await supabase.rpc("match_documents", {
+      query_embedding: queryEmbedding,
+      subject_filter: subjectCode,
+      doc_type_filter: docTypeFilter,
+      match_count: matchCount,
+      similarity_threshold: similarityThreshold,
+    });
+
+    if (error) {
+      console.warn("Direct DB match_documents failed:", error.message);
+      return [];
+    }
+    return data || [];
+  } catch (err) {
+    console.warn("Local RAG retrieval failed/skipped:", err.message);
+    return [];
+  }
+}
+
+function formatChunksAsContext(chunks) {
+  if (!chunks?.length) return "No relevant documents found in knowledge base.";
+  return chunks
+    .map((chunk, i) => {
+      const meta = chunk.metadata || {};
+      const label = [
+        meta.doc_type ? `[${String(meta.doc_type).toUpperCase()}]` : "",
+        meta.year_of_exam ? `Year: ${meta.year_of_exam}` : "",
+        meta.question_num ? `Q${meta.question_num}` : "",
+        meta.marks ? `${meta.marks}m` : "",
+        meta.topic ? `Topic: ${meta.topic}` : "",
+      ]
+        .filter(Boolean)
+        .join(" | ");
+
+      return `--- Context ${i + 1} ${label} (similarity: ${chunk.similarity?.toFixed(2) || "0.00"}) ---\n${chunk.content}`;
+    })
+    .join("\n\n");
+}
 
 // ── Generic invoker ──────────────────────────────────────────────────────────
 // Wraps supabase.functions.invoke with auth token + error handling.
 
 async function invoke(functionName, payload) {
-  // Get the current session JWT to pass as Authorization header
   const {
     data: { session },
   } = await supabase.auth.getSession();
@@ -24,7 +76,6 @@ async function invoke(functionName, payload) {
   });
 
   if (error) {
-    // Supabase wraps Edge Function errors — unwrap the message
     const message = error.message || "Request failed";
     throw new Error(message);
   }
@@ -34,60 +85,186 @@ async function invoke(functionName, payload) {
 
 // ── Score ────────────────────────────────────────────────────────────────────
 // Grades a student answer like an MU examiner.
-//
-// @param {Object} payload
-// @param {string} payload.subject_code   e.g. "MU-CS-SEM5-OS"
-// @param {string} payload.question       The exam question
-// @param {number} payload.marks          Total marks (e.g. 12)
-// @param {string} payload.student_answer The student's written answer
-//
-// @returns {Object} { marks_awarded, marks_total, grade, feedback, ideal_structure, exam_tip }
 
-export const scoreAnswer = (payload) => invoke("score", payload);
+export const scoreAnswer = async (payload) => {
+  if (import.meta.env.VITE_USE_LOCAL_LLM === "true") {
+    const {
+      subject_code,
+      action,
+      question,
+      marks,
+      student_answer,
+    } = payload;
+
+    if (action === "grade_answer") {
+      const chunks = await retrieveChunksLocal(question, {
+        subjectCode: subject_code,
+        docTypeFilter: "past_paper",
+        matchCount: 5,
+        similarityThreshold: 0.20,
+      });
+      const context = formatChunksAsContext(chunks);
+      const userMsg = prompts.score.gradingUserPrompt(question, marks, student_answer, context);
+      const responseText = await generateChatLocal(prompts.score.gradingSystemPrompt, userMsg, true);
+      
+      try {
+        const jsonMatch = responseText.match(/\{[\s\S]*\}/);
+        return JSON.parse(jsonMatch?.[0] ?? responseText);
+      } catch {
+        return { raw: responseText };
+      }
+    }
+
+    if (action === "generate_mcq") {
+      const chunks = await retrieveChunksLocal("important concepts syllabus test multiple choice", {
+        subjectCode: subject_code,
+        matchCount: 4,
+        similarityThreshold: 0.18,
+      });
+      const context = formatChunksAsContext(chunks);
+      const userMsg = prompts.score.mcqUserPrompt(subject_code, context);
+      const responseText = await generateChatLocal(prompts.score.mcqSystemPrompt, userMsg, true);
+      
+      try {
+        const jsonMatch = responseText.match(/\[[\s\S]*\]/);
+        const parsed = JSON.parse(jsonMatch?.[0] ?? responseText);
+        return { questions: parsed };
+      } catch {
+        return { raw: responseText };
+      }
+    }
+
+    if (action === "generate_theory") {
+      const chunks = await retrieveChunksLocal("major exam questions detailed descriptive concepts", {
+        subjectCode: subject_code,
+        matchCount: 4,
+        similarityThreshold: 0.18,
+      });
+      const context = formatChunksAsContext(chunks);
+      const userMsg = prompts.score.theoryUserPrompt(subject_code, context);
+      const responseText = await generateChatLocal(prompts.score.theorySystemPrompt, userMsg, true);
+      
+      try {
+        const jsonMatch = responseText.match(/\[[\s\S]*\]/);
+        const parsed = JSON.parse(jsonMatch?.[0] ?? responseText);
+        return { questions: parsed };
+      } catch {
+        return { raw: responseText };
+      }
+    }
+  }
+
+  return invoke("score", payload);
+};
 
 // ── Scope ────────────────────────────────────────────────────────────────────
 // Ranks syllabus topics by past-paper frequency.
-//
-// @param {Object} payload
-// @param {string} payload.subject_code   e.g. "MU-CS-SEM5-OS"
-//
-// @returns {Object} { ranked_topics, guaranteed_topics, safe_to_skip, study_order }
 
-export const getScopeAnalysis = (payload) => invoke("scope", payload);
+export const getScopeAnalysis = async (payload) => {
+  if (import.meta.env.VITE_USE_LOCAL_LLM === "true") {
+    const { subject_code } = payload;
+
+    const { data: subject } = await supabase
+      .from("subjects")
+      .select("modules, name")
+      .eq("code", subject_code)
+      .single();
+
+    const modulesText = subject?.modules ? JSON.stringify(subject.modules, null, 2) : "Modules not available";
+
+    const chunks = await retrieveChunksLocal("question topics marks syllabus distribution exam", {
+      subjectCode: subject_code,
+      docTypeFilter: "past_paper",
+      matchCount: 6,
+      similarityThreshold: 0.18,
+    });
+    const context = formatChunksAsContext(chunks);
+    const userMsg = prompts.scope.userPrompt(subject_code, modulesText, context);
+    const responseText = await generateChatLocal(prompts.scope.systemPrompt, userMsg, true);
+    
+    try {
+      const jsonMatch = responseText.match(/\{[\s\S]*\}/);
+      return JSON.parse(jsonMatch?.[0] ?? responseText);
+    } catch {
+      return { raw: responseText };
+    }
+  }
+
+  return invoke("scope", payload);
+};
 
 // ── CrashMode ────────────────────────────────────────────────────────────────
 // Generates a day-by-day study plan.
-//
-// @param {Object} payload
-// @param {string}   payload.subject_code    e.g. "MU-CS-SEM5-OS"
-// @param {string}   payload.exam_date       ISO date "2025-11-20"
-// @param {number}   payload.hours_per_day   Available study hours per day
-// @param {string[]} payload.topics_done     Topics already covered (optional)
-// @param {string[]} payload.weak_topics     Topics needing extra time (optional)
-//
-// @returns {Object} { summary, plan: [{day, date, topics, goals, ...}], predicted_questions }
 
-export const getCrashPlan = (payload) => invoke("crash-mode", payload);
+export const getCrashPlan = async (payload) => {
+  if (import.meta.env.VITE_USE_LOCAL_LLM === "true") {
+    const { subject_code, exam_date, hours_per_day, topics_done = [], weak_topics = [] } = payload;
+
+    const today = new Date();
+    const examDay = new Date(exam_date);
+    const daysLeft = Math.max(0, Math.ceil((examDay.getTime() - today.getTime()) / 86400000));
+
+    const { data: subject } = await supabase
+      .from("subjects")
+      .select("modules, name")
+      .eq("code", subject_code)
+      .single();
+
+    const modulesText = subject?.modules ? JSON.stringify(subject.modules, null, 2) : "Modules not available";
+
+    const [syllabusChunks, paperChunks] = await Promise.all([
+      retrieveChunksLocal("syllabus modules topics study material", {
+        subjectCode: subject_code, docTypeFilter: "syllabus", matchCount: 4,
+      }),
+      retrieveChunksLocal("important questions exam topics marks", {
+        subjectCode: subject_code, docTypeFilter: "past_paper", matchCount: 4,
+      }),
+    ]);
+    const context = [
+      formatChunksAsContext(syllabusChunks),
+      formatChunksAsContext(paperChunks),
+    ].join("\n\n--- PAST PAPER CONTEXT ---\n\n");
+
+    const userMsg = prompts.crashMode.userPrompt(
+      subject_code, exam_date, daysLeft, hours_per_day, topics_done, weak_topics, modulesText, context
+    );
+    const responseText = await generateChatLocal(prompts.crashMode.systemPrompt, userMsg, true);
+    
+    try {
+      const jsonMatch = responseText.match(/\{[\s\S]*\}/);
+      return JSON.parse(jsonMatch?.[0] ?? responseText);
+    } catch {
+      return { raw: responseText };
+    }
+  }
+
+  return invoke("crash-mode", payload);
+};
 
 // ── Simplify ─────────────────────────────────────────────────────────────────
-// Explains a concept with Indian analogies + exam structure.
-//
-// @param {Object} payload
-// @param {string} payload.subject_code   e.g. "MU-CS-SEM5-OS"
-// @param {string} payload.topic          e.g. "Banker's Algorithm"
-// @param {string} payload.level          "beginner" | "exam-ready" (default: "exam-ready")
-//
-// @returns {Object} { explanation: string (markdown) }
+// Explains a concept with analogies + exam structure.
 
-export const simplifyConcept = (payload) => invoke("simplify", payload);
+export const simplifyConcept = async (payload) => {
+  if (import.meta.env.VITE_USE_LOCAL_LLM === "true") {
+    const { subject_code, topic, level = "exam-ready" } = payload;
+
+    const chunks = await retrieveChunksLocal(topic, {
+      subjectCode: subject_code,
+      matchCount: 5,
+      similarityThreshold: 0.20,
+    });
+    const context = formatChunksAsContext(chunks);
+    const userMsg = prompts.simplify.userPrompt(topic, level, context);
+    const explanation = await generateChatLocal(prompts.simplify.systemPrompt, userMsg, false);
+    
+    return { explanation, chunks_count: chunks.length };
+  }
+
+  return invoke("simplify", payload);
+};
 
 // ── Subjects ─────────────────────────────────────────────────────────────────
-// Fetch available subjects from DB (no Edge Function needed — direct DB query).
-//
-// @param {string} branch   e.g. "CS"
-// @param {number} semester e.g. 5
-//
-// @returns {Array} subjects[]
+// Fetch available subjects from DB (direct DB query).
 
 export async function getSubjects(branch, semester) {
   let query = supabase.from("subjects").select("*").eq("is_active", true);
@@ -101,11 +278,6 @@ export async function getSubjects(branch, semester) {
 
 // ── Session history ───────────────────────────────────────────────────────────
 // Fetch the current user's past AI sessions.
-//
-// @param {string} module  Optional: filter by 'crash_mode'|'scope'|'simplify'|'score'
-// @param {number} limit   Max rows to fetch (default 20)
-//
-// @returns {Array} sessions[]
 
 export async function getSessionHistory(module = null, limit = 20) {
   let query = supabase
@@ -123,8 +295,6 @@ export async function getSessionHistory(module = null, limit = 20) {
 
 // ── Usage ────────────────────────────────────────────────────────────────────
 // Get today's usage counts for the current user.
-//
-// @returns {Object} { crash_mode: 2, scope: 1, simplify: 5, score: 3 }
 
 export async function getTodayUsage() {
   const today = new Date().toISOString().split("T")[0];
@@ -143,8 +313,6 @@ export async function getTodayUsage() {
 }
 
 // ── Default export (grouped object) ─────────────────────────────────────────
-// Allows: import api from '../lib/api'
-// Usage:  api.score({ ... })  api.scope({ ... })  etc.
 
 const api = {
   score: scoreAnswer,

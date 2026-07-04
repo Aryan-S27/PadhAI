@@ -57,13 +57,13 @@ export const Dashboard = () => (
       <ModuleCard
         tag="CrashMode"
         title="Crash Mode"
-        description="Get a precise hour-by-hour study plan based on your exam date."
+        description="Rank topics and modules by past-paper exam weightage to prioritize your study."
         to="/crashmode"
       />
       <ModuleCard
         tag="Scope"
         title="Scope"
-        description="Know exactly which topics are high priority for your exam."
+        description="Create a personalized day-by-day preparation schedule based on your exam date."
         to="/scope"
       />
       <ModuleCard

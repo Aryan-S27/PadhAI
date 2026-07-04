@@ -35,29 +35,35 @@ export async function retrieveChunks(
     similarityThreshold = 0.30,
   } = options;
 
-  // 1. Embed the query with text-embedding-004
-  const queryEmbedding = await embedText(query);
+  try {
+    // 1. Embed the query with text-embedding-004
+    const queryEmbedding = await embedText(query);
 
-  // 2. Build Supabase client with service role (needed for reading chunks)
-  const supabase = createClient(
-    Deno.env.get("SUPABASE_URL") ?? "",
-    Deno.env.get("SUPABASE_SERVICE_ROLE_KEY") ?? "",
-  );
+    // 2. Build Supabase client with service role (needed for reading chunks)
+    const supabase = createClient(
+      Deno.env.get("SUPABASE_URL") ?? "",
+      Deno.env.get("SUPABASE_SERVICE_ROLE_KEY") ?? "",
+    );
 
-  // 3. Call the match_documents RPC (defined in migration 005)
-  const { data, error } = await supabase.rpc("match_documents", {
-    query_embedding: queryEmbedding,
-    subject_filter: subjectCode,
-    doc_type_filter: docTypeFilter,
-    match_count: matchCount,
-    similarity_threshold: similarityThreshold,
-  });
+    // 3. Call the match_documents RPC (defined in migration 005)
+    const { data, error } = await supabase.rpc("match_documents", {
+      query_embedding: queryEmbedding,
+      subject_filter: subjectCode,
+      doc_type_filter: docTypeFilter,
+      match_count: matchCount,
+      similarity_threshold: similarityThreshold,
+    });
 
-  if (error) {
-    throw new Error(`RAG retrieval failed: ${error.message}`);
+    if (error) {
+      console.warn(`RAG match_documents RPC failed: ${error.message}. Proceeding with empty context.`);
+      return [];
+    }
+
+    return (data as RagChunk[]) ?? [];
+  } catch (err) {
+    console.warn(`RAG retrieval skipped due to error: ${err.message || err}. Proceeding with empty context.`);
+    return [];
   }
-
-  return (data as RagChunk[]) ?? [];
 }
 
 /**

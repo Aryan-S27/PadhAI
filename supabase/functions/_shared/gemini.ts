@@ -9,15 +9,16 @@ const API_KEY = Deno.env.get("GEMINI_API_KEY") ?? "";
 // Uses text-embedding-004: produces float32[768] for pgvector storage.
 
 export async function embedText(text: string): Promise<number[]> {
-  const url = `${GEMINI_API_BASE}/v1beta/models/text-embedding-004:embedContent?key=${API_KEY}`;
+  const url = `${GEMINI_API_BASE}/v1beta/models/gemini-embedding-2:embedContent?key=${API_KEY}`;
 
   const response = await fetch(url, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
-      model: "models/text-embedding-004",
+      model: "models/gemini-embedding-2",
       content: { parts: [{ text }] },
       taskType: "RETRIEVAL_QUERY",  // optimises embedding for similarity search
+      outputDimensionality: 768,
     }),
   });
 
@@ -37,7 +38,7 @@ export async function embedText(text: string): Promise<number[]> {
 }
 
 // ── Text generation ───────────────────────────────────────────────────────────
-// Uses gemini-2.0-flash for fast, cost-effective generation.
+// Uses gemini-3.5-flash for fast, cost-effective generation.
 
 export interface GeminiMessage {
   role: "user" | "model";
@@ -49,7 +50,7 @@ export async function generateText(
   messages: GeminiMessage[],
   temperature = 0.4,
 ): Promise<string> {
-  const url = `${GEMINI_API_BASE}/v1beta/models/gemini-2.0-flash:generateContent?key=${API_KEY}`;
+  const url = `${GEMINI_API_BASE}/v1beta/models/gemini-3.5-flash:generateContent?key=${API_KEY}`;
 
   const response = await fetch(url, {
     method: "POST",
