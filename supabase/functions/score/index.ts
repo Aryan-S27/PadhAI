@@ -152,6 +152,56 @@ Generate the questions. Return only the valid JSON array.`;
         headers: { ...corsHeaders, "Content-Type": "application/json" },
       });
 
+    } else if (action === "solve") {
+      const { question, marks } = body;
+      if (!question || !marks) {
+        return new Response(JSON.stringify({ error: "Missing parameters: question, marks" }), {
+          status: 400, headers: { ...corsHeaders, "Content-Type": "application/json" },
+        });
+      }
+
+      // RAG: retrieve syllabus/past paper topics to base questions on
+      const chunks = await retrieveChunks(question, {
+        subjectCode: subject_code,
+        matchCount: 8,
+        similarityThreshold: 0.15,
+      });
+      const context = formatChunksAsContext(chunks);
+
+      const systemPrompt = `You are an expert Mumbai University professor. Your task is to write a highly detailed, examiner-grade model answer for the given question of ${marks} marks.
+The answer must strictly follow the Mumbai University engineering guidelines:
+- Use clear headings, bullet points, and step-by-step logic.
+- If appropriate, describe block diagrams, state transition tables, or standard code layouts.
+- Include all important technical keywords and correct definitions.
+- Include mathematical equations or formulas where necessary.
+- Provide a complete, MU-acceptable solution. Do not omit any details.`;
+
+      const userPrompt = `RETRIEVED KNOWLEDGE BASE CONTEXT:
+${context}
+
+---
+QUESTION: ${question}
+MARKS: ${marks}
+
+Generate the comprehensive model answer:`;
+
+      const rawResponse = await generateText(systemPrompt, [
+        { role: "user", parts: [{ text: userPrompt }] },
+      ], 0.2); // low temp for accuracy
+
+      await supabase.from("sessions").insert({
+        user_id: user.id,
+        module: "score",
+        subject_code,
+        input: { action, question, marks },
+        output: JSON.stringify({ answer: rawResponse }),
+        duration_ms: Date.now() - startTime,
+      });
+
+      return new Response(JSON.stringify({ answer: rawResponse }), {
+        headers: { ...corsHeaders, "Content-Type": "application/json" },
+      });
+
     } else {
       // ── Default Action: Grade Written Answer ──────────────────────────────
       const { question, marks, student_answer } = body;

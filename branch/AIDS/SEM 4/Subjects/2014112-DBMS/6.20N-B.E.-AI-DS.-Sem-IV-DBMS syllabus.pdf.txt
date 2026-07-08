@@ -1,0 +1,340 @@
+
+
+ 
+ 
+ 
+Course 
+Code 
+ 
+Course Name 
+Teaching Scheme 
+(Contact Hours) 
+Credits Assigned 
+ 
+Theory Pract. Tut. Theory Pract. Tut. Total 
+2014112 
+Database 
+Management 
+System 
+3 2 - 3 1 - 4 
+ 
+ 
+ 
+Course Code 
+ 
+ 
+Course Name 
+Theory Term 
+work 
+Pract / 
+Oral 
+Total 
+Internal 
+Assessment 
+End 
+Sem 
+Exam 
+Exam 
+Duration 
+(in Hrs) 
+Test 
+1 
+Test 
+2 
+Avg. 
+2014112 
+Database 
+Management 
+System 
+20 20 40 60 2 -- -- 100 
+Rationale: 
+Today’s data-driven  world,  Database  Management  Systems  (DBMS)  are  essential  for  efficiently  storing, 
+managing, and analyzing data. This course equips students with foundational concepts and practical skills to 
+design and implement robust data-driven solutions across diverse domains. 
+Sr. No. Course Objectives: 
+1 To Understand the fundamentals of a database systems 
+2 Develop entity relationship data model /EER and its mapping to relational model 
+3 Learn relational algebra and Formulate SQL queries. 
+4 Apply normalization techniques to normalize the database 
+5 Understand concept of transaction, concurrency control and recovery techniques 
+6 Explore and understand recent databases and their application 
+ 
+Sr 
+No 
+Course Outcomes BL 
+CO1 
+Understand concepts of DBMS and design ER/EER diagram for real world 
+application. 
+L2, L3 
+CO2 
+Apply mapping rules to construct relational model from data model and 
+formulate relational algebra queries. 
+L3 
+CO3 Apply SQL queries for database operations. L3 
+CO4 Analyze and apply normalization techniques to relational database design. L3, L4 
+CO5 
+Understand transaction, concurrency and recovery techniques to analyze 
+conflicts in multiple transactions. 
+L2 
+CO6 Understand recent databases. L2 
+ 
+DETAILED SYLLABUS: 
+Sr. 
+No. 
+ 
+Name of Module 
+ 
+Detailed Content 
+ 
+Hours 
+CO 
+Mapping 
+0 Prerequisite 
+Basic knowledge of Data structure, 
+Fundamentals of computer system 
+  
+
+ 
+ 
+ 
+I 
+ 
+ 
+Introduction to 
+Database and 
+Data Modeling 
+Introduction: Definitions    and    application, 
+Characteristics of databases, DBMS 
+architecture, ACID Properties 
+The  Entity-Relationship  (ER)  Model:  Entity 
+types:  Weak  and  strong  entity  sets, Entity  sets, 
+Types    of    Attributes,    Keys,    Relationship 
+constraints:  Cardinality  and  Participation, 
+Extended Entity-Relationship (EER) Model: 
+ 
+ 
+ 
+08 
+ 
+ 
+ 
+CO1 
+ 
+  Generalization, Specialization and Aggregation 
+Self-learning Topics: Design an ER model for 
+any real time case study. 
+  
+ 
+ 
+ 
+ 
+ 
+II 
+ 
+ 
+ 
+ 
+Relational 
+Model and 
+Relational 
+Algebra 
+Introduction  to  the  Relational  Model,  relational 
+schema and concept of keys. Mapping the ER and 
+EER  Model  to  the  Relational  Model,  Relational
+ Algebra- operators 
+(Selection(σ),Projection(π),Union(∪),Differe
+nce 
+(−),CartesianProduct(×),Join(픚), 
+Intersection   (∩),Rename   (ρ)), 
+Relational Algebra Queries 
+ 
+Self-learning Topics: Practice writing queries 
+to    perform    common    database    tasks    (e.g., 
+selecting data, joining tables 
+ 
+ 
+ 
+ 
+ 
+05 
+ 
+ 
+ 
+ 
+ 
+CO2 
+ 
+ 
+ 
+ 
+ 
+ 
+III 
+ 
+ 
+ 
+ 
+Structured 
+Query 
+Language 
+(SQL) 
+Overview  of  SQL,  Data  Definition  Commands, 
+Integrity  constraints:  key  constraints,  Domain 
+Constraints, Referential integrity, check 
+constraints, Data Manipulation commands, Data 
+Control commands, Transaction Control 
+Commands.     aggregate     function-group     by, 
+having,  order  by,  joins,  Nested  and  complex 
+queries, Views in SQL, Set and string operations, 
+Triggers, Introduction to Pl/SQL Block Structure 
+ 
+ 
+ 
+ 
+ 
+ 
+10 
+ 
+ 
+ 
+ 
+ 
+ 
+CO3 
+  
+Self-learning Topics: LeetCode (SQL practice 
+problems), HackerRank (SQL challenges) 
+  
+ 
+ 
+IV 
+ 
+ 
+Database 
+Normalization 
+Pitfalls  in  relational  database  designs,  Concept 
+of  normalization,  Function  Dependencies,  FD 
+closure, First Normal Form, 2NF, 3NF, BCNF, 
+4NF. 
+Self-learning  Topics: Consider  any  real  time 
+application and normalization upto 3NF/BCNF 
+ 
+ 
+5 
+ 
+ 
+CO4 
+ 
+ 
+ 
+ 
+V 
+ 
+ 
+Transaction 
+Management 
+and 
+Concurrency 
+Control 
+ 
+Transaction concept, Transaction states, 
+Concurrent  Executions,  Serializability-Conflict 
+and View,  Concurrency  Control:  Lock-based, 
+Timestamp-based  protocols,  Recovery  System: 
+log-based  recovery,  Introduction  to  Deadlock 
+handling 
+ 
+ 
+ 
+ 
+7 
+ 
+ 
+ 
+ 
+CO5 
+  
+Self-learning Topics: SQL challenges related to 
+transactions and concurrency 
+  
+
+ 
+ 
+ 
+ 
+ 
+VI 
+ 
+ 
+ 
+ 
+Introduction to 
+Modern 
+databases 
+Recent  trends  in  the  industry,  Introduction  of 
+Cloud   Database,   Introduction   of   Distributed 
+Database, Introduction to NOSQL Database and 
+Object-Oriented Databases 
+ 
+Self-learning   Topics: Learn   about   emerging 
+database technologies. Explore different NoSQL 
+types.  Learn  how  object-oriented  programming 
+concepts like objects and inheritance are applied 
+to database management systems. 
+ 
+ 
+ 
+ 
+ 
+4 
+ 
+ 
+ 
+ 
+ 
+CO6 
+Text Books: 
+1. Elmasri and Navathe, Fundamentals of Database Systems, 7
+th
+Edition, Pearson 
+Education 
+2. Korth, Slberchatz, Sudarshan, Database System Concepts, 7
+th
+Edition, McGraw Hill 
+3. Raghu Ramkrishnan and Johannes Gehrke, Database Management Systems, TMH 
+4. RajkumarBuyya, Christian Vecchiola, S ThamaraiSelvi, “Mastering Cloud 
+Computing”, Tata McGraw-Hill Education
+
+Reference Books: 
+1. Peter Rob and Carlos Coronel, Database Systems Design, Implementation and 
+Management, Thomson Learning, 5
+th
+Edition. 
+2. Dr. P.S. Deshpande, SQL and PL/SQL for Oracle 10g, Black Book, Dreamtech Press. 
+3. G. K. Gupta, Database Management Systems, McGraw Hill, 2012 
+ 
+Online References: 
+Sr. 
+No. 
+Website Name 
+1. 
+NPTEL Lecture Series:  Database Management system By Prof. Partha Pratim 
+Das, Prof. Samiran Chattopadhyay  |  IIT Kharagpur 
+2. 
+https://www.classcentral.com/course/swayam-database-management-system-9914 
+3. 
+https://www.mooc-list.com/tags/dbms 
+4. 
+W3Schools: SQL tutorials 
+Internal Assessment (IA) for 40 marks: 
+IA will consist of Two Compulsory Internal Assessment Tests. Approximately 40% to 50% of syllabus 
+content must be covered in First IA Test and remaining 40% to 50% of syllabus content must be 
+covered in Second IA Test. 
+End Semester Internal Examination for 40 marks: 
+Question paper format: 
+● Question Paper will comprise of a total of six questions each carrying 20 marksQ.1 will 
+be compulsory and should cover maximum contents of the syllabus 
+● Remaining questions will be mixed in nature (part (a) and part (b) of each question must 
+be from different modules. For example, if Q.2 has part (a) from Module 3 then part (b) 
+must be from any other Module randomly selected from all the modules) 
+● A total of Three questions needs to be answered.

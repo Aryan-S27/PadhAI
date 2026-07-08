@@ -9,6 +9,7 @@ import { CrashMode } from "./pages/CrashMode.jsx";
 import { Scope } from "../pages/Scope.jsx";
 import { Simplify } from "../pages/Simplify.jsx";
 import { Score } from "../pages/Score.jsx";
+import { Notes } from "./pages/Notes.jsx";
 import { AuthProvider } from "./context/AuthContext.jsx";
 
 // Routes where the global Navbar shows (public / auth pages)
@@ -31,6 +32,7 @@ const AppRoutes = () => {
         <Route path="/scope" element={<Scope />} />
         <Route path="/simplify" element={<Simplify />} />
         <Route path="/score" element={<Score />} />
+        <Route path="/notes" element={<Notes />} />
       </Routes>
     </>
   );

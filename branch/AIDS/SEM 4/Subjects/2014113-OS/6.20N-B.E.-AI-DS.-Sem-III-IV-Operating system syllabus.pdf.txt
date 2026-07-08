@@ -1,0 +1,338 @@
+
+
+ 
+ 
+Course 
+Code 
+ 
+Cours
+e 
+Name 
+Teaching 
+Scheme 
+(Contact Hours) 
+Credits Assigned 
+Theory Practical Tutorial Theory 
+Practical 
+/Oral 
+Tutorial Total 
+2014113 
+Operating 
+System 
+03 -- -- 03 -- -- 03 
+ 
+ 
+Cours
+e 
+Code 
+ 
+Cours
+e 
+Name 
+Examination Scheme 
+Theory Marks 
+ 
+Term 
+Wor
+k 
+ 
+Pract. 
+/Oral 
+ 
+ 
+Total 
+Internal 
+assessmen
+t 
+End 
+Sem. 
+Exa
+m 
+Test1 Test 2 Total 
+2014113 
+Operating 
+System 
+20 20 40 60 -- -- 100 
+ 
+ 
+Course Objectives: 
+Sr. No. Course Objectives 
+The course aims: 
+1 To understand the basic concepts of Operating System, its functions and services. 
+2 To introduce the concept of a process and its management like transition, scheduling, etc. 
+3 To understand basic concepts related to Inter-process Communication (IPC) like mutual 
+exclusion, deadlock, etc. and role of an Operating System in IPC. 
+4 To understand the concepts and implementation of memory management policies and virtual 
+memory. 
+5 To understand functions of Operating System for storage management and device management. 
+6 To study the need and fundamentals of special-purpose operating system with the advent of 
+new emerging technologies. 
+ 
+Course Outcomes: 
+Sr. 
+No. 
+Course Outcomes 
+1 Define the basic concepts of Operating System, its operations and services. 
+2 
+Explain the process management policies and describe the scheduling of processes by the 
+Operating System. 
+3 
+Apply synchronization primitives to address process coordination and demonstrate the 
+occurrence of deadlock conditions. 
+4 
+Analyze memory allocation and management functions of Operating System. 
+5 
+Evaluate the effectiveness of the services provided by the Operating System for File and I/O 
+Management, considering their impact on overall system performance. 
+6 
+Design a framework to compare and optimize the functions of various special-purpose Operating 
+Systems for specific application requirements. 
+ 
+DETAILED SYLLABUS: 
+ 
+Sr. 
+No. 
+Module Detailed Content Hours 
+CO 
+Mapping 
+
+ 
+ 
+ 
+ 
+I 
+ 
+ 
+ 
+Fundamentals of 
+Operating System 
+Introduction  of  Operating  Systems: System 
+Boot,     Objectives     of     Operating     System 
+Functions   of   Operating   System,   Operating 
+System  Structure  and  Operations,  Operating 
+System Services, Multiprogramming, 
+Multitasking, Multithreading, Types of 
+Operating System, Types of System Calls. 
+ 
+ 
+ 
+ 
+03 
+ 
+ 
+ 
+ 
+CO1 
+ 
+  Self-learning    Topics: Study    of    various 
+Operating    System    Architecture    like    IoT, 
+Android. 
+  
+ 
+ 
+ 
+ 
+ 
+II 
+ 
+ 
+ 
+ 
+Process 
+Management 
+Basic   Concepts   of   Process:   Process State 
+Transition  Model,  Operations,  Process  Control 
+Block, Context   Switching;   Introduction   to 
+Threads,  Types  of  Threads,  Thread  Models, 
+Basic   Concepts   of   Scheduling,   Types   of 
+Schedulers,   Type   of   scheduling   algorithms: 
+Preemptive  and  non  preemptive  (FCFS,  SJF, 
+Priority and Round Robin) 
+Self-learning   Topics: Real-time   Scheduling 
+algorithms and applications. 
+ 
+ 
+ 
+ 
+ 
+06 
+ 
+ 
+ 
+ 
+ 
+CO2 
+ 
+ 
+ 
+ 
+ 
+ 
+III 
+ 
+ 
+ 
+ 
+Process 
+Synchronization 
+and Deadlock 
+Management 
+Basic Concepts of Inter-process 
+Communication   and   Synchronization,   Race 
+Condition, Critical Section Problem ,Peterson’s 
+Solution,  Process  Synchronization,  Hardware 
+and Semaphores, Producer Consumer Problem. 
+Deadlocks     Management:     System     Model, 
+Deadlock Characterization, Deadlock 
+Prevention,    Deadlock    Avoidance:    Bankers 
+algorithm, Deadlock Detection and Recovery. 
+Self-learning Topics: Study a real time case 
+study  for  Deadlock  detection  and  recovery. 
+Overview of security mechanism in OS. 
+ 
+ 
+ 
+ 
+ 
+ 
+10 
+ 
+ 
+ 
+ 
+ 
+ 
+CO3 
+ 
+ 
+ 
+ 
+IV 
+ 
+ 
+ 
+Memory 
+Management 
+Basic   Concepts   of   Memory   Management: 
+Swapping, Memory     Allocation     strategy, 
+Paging, Structure of Page Table, Segmentation, 
+TLB. 
+Basic  Concepts  of  Virtual  Memory,  Demand 
+Paging,   Copy-on   Write,   Page   Replacement 
+Algorithms, Thrashing. 
+Self-learning Topics: Memory Management of 
+IoT, Android Operating System. 
+ 
+ 
+ 
+ 
+09 
+ 
+ 
+ 
+ 
+CO4 
+ 
+ 
+ 
+ 
+ 
+V 
+ 
+ 
+ 
+ 
+File and IO 
+Management 
+File   Management:   Basic   Concepts   of   File 
+System,    File    Access    Methods,    Directory 
+Structure, File-System implementation, 
+Allocation    Methods,    Overview    of    Mass- 
+Storage Structure, I/O devices, Organization of 
+the   I/O   Function,   Disk   Organization,   I/O 
+Management   and   Disk   Scheduling:   FCFS, 
+SSTF, SCAN, C-SCAN, LOOK, C-LOOK. 
+Self-learning  Topics: File  System  for  Linux 
+and   Windows,   Features   of   I/O   facility   for 
+different OS. 
+ 
+ 
+ 
+ 
+ 
+07 
+ 
+ 
+ 
+ 
+ 
+CO5 
+
+ 
+ 
+ 
+VI 
+ 
+ 
+Special-purpose 
+Operating Systems 
+Open-source and Proprietary Operating System, 
+Fundamentals of Distributed Operating System, 
+Network  Operating  System,  Architecture  and 
+functions: Cloud Operating System, Real-Time 
+Operating System, Mobile Operating System. 
+Self-learning  Topics: Case  Study  on  any  one 
+Special-purpose Operating Systems. 
+ 
+ 
+ 
+04 
+ 
+ 
+ 
+CO6 
+
+Text Books: 
+1. A. Silberschatz, P. Galvin, G. Gagne, Operating System Concepts, 10
+th
+ ed., Wiley, 2018. 
+2. W. Stallings, Operating Systems: Internal and Design Principles, 9
+th
+ ed., Pearson, 2018. 
+3. A. Tanenbaum, Modern Operating Systems, Pearson, 4
+th
+ ed., 2015. 
+Reference Books: 
+1. Achyut Godbole and Atul Kahate, Operating Systems, McGraw Hill Education, 3rdEdition 
+2. N. Chauhan, Principles of Operating Systems, 1
+st
+ ed., Oxford University Press, 2014. 
+3. A. Tanenbaum and A. Woodhull, Operating System Design and Implementation, 3
+rd
+ ed., Pearson. 
+4. R. Arpaci-Dusseau and A. Arpaci-Dusseau, Operating Systems: Three Easy Pieces, 
+CreateSpace Independent Publishing Platform, 1
+st
+ ed., 2018. 
+ 
+Online References: 
+1. https://www.nptel.ac.in 
+2. https://swayam.gov.in 
+3. https://www.coursera.org/ 
+ 
+Assessment: 
+Internal Assessment (IA) for 40 marks: 
+IA will consist of Two Compulsory Internal Assessment Tests. Approximately 40% to 50% of syllabus 
+content must be covered in First IA Test and remaining 40% to 50% of syllabus content must be covered 
+in Second IA Test. 
+ 
+ 
+ 
+End Semester Internal Examination for 40 marks: 
+Question paper format: 
+● Question Paper will comprise of a total of six questions each carrying 20 marksQ.1 will be 
+compulsory and should cover maximum contents of the syllabus 
+● Remaining questions will be mixed in nature (part (a) and part (b) of each question must be from 
+different modules. For example, if Q.2 has part (a) from Module 3 then part (b) must be from any 
+other Module randomly selected from all the modules) 
+● A total of Three questions needs to be answered.

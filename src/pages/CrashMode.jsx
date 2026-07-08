@@ -73,6 +73,39 @@ export const CrashMode = () => {
         weak_topics,
       });
       setPlanData(result);
+
+      // Save schedule to localStorage for dashboard integration
+      const subjectName = subjects.find(s => s.code === selectedSubjectCode)?.name || selectedSubjectCode;
+      const schedulePlan = {
+        subjectCode: selectedSubjectCode,
+        subjectName,
+        examDate,
+        summary: result.summary,
+        strategy: result.strategy,
+        days_left: result.days_left,
+        total_hours: result.total_hours,
+        revision_days: result.revision_days || [],
+        topics_to_skip: result.topics_to_skip || [],
+        predicted_questions: result.predicted_questions || [],
+        plan: result.plan?.map(day => ({
+          day: day.day,
+          date: day.date,
+          hours: day.hours,
+          topics: day.topics || [],
+          session_split: day.session_split || "",
+          goals: day.goals || "",
+          tip: day.tip || ""
+        })) || []
+      };
+      
+      localStorage.setItem(`padhai_schedule_${selectedSubjectCode}`, JSON.stringify(schedulePlan));
+      
+      // Update list of active schedules
+      const activeSchedules = JSON.parse(localStorage.getItem("padhai_active_schedules") || "[]");
+      if (!activeSchedules.includes(selectedSubjectCode)) {
+        activeSchedules.push(selectedSubjectCode);
+        localStorage.setItem("padhai_active_schedules", JSON.stringify(activeSchedules));
+      }
     } catch (err) {
       console.error(err);
       setError(err.message || "An error occurred while generating study schedule.");

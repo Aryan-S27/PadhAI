@@ -8,6 +8,7 @@
 import { supabase } from "./supabase";
 import { embedTextLocal, generateChatLocal } from "./localLlm";
 import * as prompts from "./prompts";
+import { questionBank } from "./questions";
 
 // ── Local RAG Helper ─────────────────────────────────────────────────────────
 async function retrieveChunksLocal(query, options) {
@@ -94,9 +95,40 @@ export const scoreAnswer = async (payload) => {
       question,
       marks,
       student_answer,
+      type
     } = payload;
 
-    if (action === "grade_answer") {
+    const resolvedAction = action === "generate" ? `generate_${type}` : action;
+
+    if (resolvedAction === "solve") {
+      const chunks = await retrieveChunksLocal(question, {
+        subjectCode: subject_code,
+        matchCount: 5,
+        similarityThreshold: 0.20,
+      });
+      const context = formatChunksAsContext(chunks);
+      const systemPrompt = `You are an expert Mumbai University professor. Your task is to write a highly detailed, examiner-grade model answer for the given question of ${marks} marks.
+The answer must strictly follow the Mumbai University engineering guidelines:
+- Use clear headings, bullet points, and step-by-step logic.
+- If appropriate, describe block diagrams, state transition tables, or standard code layouts.
+- Include all important technical keywords and correct definitions.
+- Include mathematical equations or formulas where necessary.
+- Provide a complete, MU-acceptable solution. Do not omit any details.`;
+
+      const userMsg = `RETRIEVED KNOWLEDGE BASE CONTEXT:
+${context}
+
+---
+QUESTION: ${question}
+MARKS: ${marks}
+
+Generate the comprehensive model answer:`;
+
+      const responseText = await generateChatLocal(systemPrompt, userMsg, false);
+      return { answer: responseText };
+    }
+
+    if (resolvedAction === "grade_answer") {
       const chunks = await retrieveChunksLocal(question, {
         subjectCode: subject_code,
         docTypeFilter: "past_paper",
@@ -106,7 +138,7 @@ export const scoreAnswer = async (payload) => {
       const context = formatChunksAsContext(chunks);
       const userMsg = prompts.score.gradingUserPrompt(question, marks, student_answer, context);
       const responseText = await generateChatLocal(prompts.score.gradingSystemPrompt, userMsg, true);
-      
+
       try {
         const jsonMatch = responseText.match(/\{[\s\S]*\}/);
         return JSON.parse(jsonMatch?.[0] ?? responseText);
@@ -115,18 +147,45 @@ export const scoreAnswer = async (payload) => {
       }
     }
 
-    if (action === "generate_mcq") {
-      const chunks = await retrieveChunksLocal("important concepts syllabus test multiple choice", {
-        subjectCode: subject_code,
-        matchCount: 4,
-        similarityThreshold: 0.18,
-      });
-      const context = formatChunksAsContext(chunks);
+    if (resolvedAction === "generate_mcq") {
+      // 1. Try to fetch from Supabase public.question_bank table
+      try {
+        const { data, error } = await supabase
+          .from("question_bank")
+          .select("*")
+          .eq("subject_code", subject_code)
+          .eq("type", "mcq");
+
+        if (!error && data && data.length > 0) {
+          const questions = data.slice(0, 5);
+          return { questions };
+        }
+      } catch (dbErr) {
+        console.warn("DB question_bank fetch failed, using local/LLM fallback:", dbErr.message);
+      }
+
+      // 2. Try local pre-seeded question bank fallback
+      const localQs = questionBank[subject_code]?.mcq || [];
+      if (localQs.length > 0) {
+        return { questions: localQs.slice(0, 5) };
+      }
+
+      // 3. Fallback to generating via local LLM
+      const { data: subject } = await supabase
+        .from("subjects")
+        .select("name, modules")
+        .eq("code", subject_code)
+        .single();
+
+      const context = subject?.modules
+        ? JSON.stringify(subject.modules, null, 2)
+        : "Syllabus modules not available";
+
       const userMsg = prompts.score.mcqUserPrompt(subject_code, context);
       const responseText = await generateChatLocal(prompts.score.mcqSystemPrompt, userMsg, true);
-      
+
       try {
-        const jsonMatch = responseText.match(/\[[\s\S]*\]/);
+        const jsonMatch = responseText.match(/\{[\s\S]*\}/) || responseText.match(/\[[\s\S]*\]/);
         const parsed = JSON.parse(jsonMatch?.[0] ?? responseText);
         return { questions: parsed };
       } catch {
@@ -134,18 +193,45 @@ export const scoreAnswer = async (payload) => {
       }
     }
 
-    if (action === "generate_theory") {
-      const chunks = await retrieveChunksLocal("major exam questions detailed descriptive concepts", {
-        subjectCode: subject_code,
-        matchCount: 4,
-        similarityThreshold: 0.18,
-      });
-      const context = formatChunksAsContext(chunks);
+    if (resolvedAction === "generate_theory") {
+      // 1. Try to fetch from Supabase public.question_bank table
+      try {
+        const { data, error } = await supabase
+          .from("question_bank")
+          .select("*")
+          .eq("subject_code", subject_code)
+          .eq("type", "theory");
+
+        if (!error && data && data.length > 0) {
+          const questions = data.slice(0, 3);
+          return { questions };
+        }
+      } catch (dbErr) {
+        console.warn("DB question_bank fetch failed, using local/LLM fallback:", dbErr.message);
+      }
+
+      // 2. Try local pre-seeded question bank fallback
+      const localQs = questionBank[subject_code]?.theory || [];
+      if (localQs.length > 0) {
+        return { questions: localQs.slice(0, 3) };
+      }
+
+      // 3. Fallback to generating via local LLM
+      const { data: subject } = await supabase
+        .from("subjects")
+        .select("name, modules")
+        .eq("code", subject_code)
+        .single();
+
+      const context = subject?.modules
+        ? JSON.stringify(subject.modules, null, 2)
+        : "Syllabus modules not available";
+
       const userMsg = prompts.score.theoryUserPrompt(subject_code, context);
       const responseText = await generateChatLocal(prompts.score.theorySystemPrompt, userMsg, true);
-      
+
       try {
-        const jsonMatch = responseText.match(/\[[\s\S]*\]/);
+        const jsonMatch = responseText.match(/\{[\s\S]*\}/) || responseText.match(/\[[\s\S]*\]/);
         const parsed = JSON.parse(jsonMatch?.[0] ?? responseText);
         return { questions: parsed };
       } catch {
@@ -181,7 +267,7 @@ export const getScopeAnalysis = async (payload) => {
     const context = formatChunksAsContext(chunks);
     const userMsg = prompts.scope.userPrompt(subject_code, modulesText, context);
     const responseText = await generateChatLocal(prompts.scope.systemPrompt, userMsg, true);
-    
+
     try {
       const jsonMatch = responseText.match(/\{[\s\S]*\}/);
       return JSON.parse(jsonMatch?.[0] ?? responseText);
@@ -229,7 +315,7 @@ export const getCrashPlan = async (payload) => {
       subject_code, exam_date, daysLeft, hours_per_day, topics_done, weak_topics, modulesText, context
     );
     const responseText = await generateChatLocal(prompts.crashMode.systemPrompt, userMsg, true);
-    
+
     try {
       const jsonMatch = responseText.match(/\{[\s\S]*\}/);
       return JSON.parse(jsonMatch?.[0] ?? responseText);
@@ -256,7 +342,7 @@ export const simplifyConcept = async (payload) => {
     const context = formatChunksAsContext(chunks);
     const userMsg = prompts.simplify.userPrompt(topic, level, context);
     const explanation = await generateChatLocal(prompts.simplify.systemPrompt, userMsg, false);
-    
+
     return { explanation, chunks_count: chunks.length };
   }
 
@@ -312,6 +398,69 @@ export async function getTodayUsage() {
   }, {});
 }
 
+// ── Student Attempts ─────────────────────────────────────────────────────────
+
+export async function getStudentAttempts(userId) {
+  const { data, error } = await supabase
+    .from("student_attempts")
+    .select("*")
+    .eq("user_id", userId);
+
+  if (error) throw error;
+  return data || [];
+}
+
+export async function saveAttempt(userId, questionId, studentAnswer, gradingResult) {
+  // 1. Double check if profile exists to prevent foreign key violation
+  const { data: profile, error: profErr } = await supabase
+    .from("profiles")
+    .select("id")
+    .eq("id", userId)
+    .maybeSingle();
+
+  if (!profile && !profErr) {
+    try {
+      const { data: { user } } = await supabase.auth.getUser();
+      await supabase.from("profiles").insert({
+        id: userId,
+        name: user?.user_metadata?.name || user?.email?.split("@")[0] || "Student",
+        branch: user?.user_metadata?.branch || "AIDS",
+        year: user?.user_metadata?.year || 1,
+      });
+    } catch (profileInsertErr) {
+      console.warn("Failed to insert self-healing profile row:", profileInsertErr);
+    }
+  }
+
+  // 2. Save the attempt
+  const { data, error } = await supabase
+    .from("student_attempts")
+    .upsert(
+      {
+        user_id: userId,
+        question_id: questionId,
+        student_answer: studentAnswer,
+        grading_result: gradingResult,
+      },
+      { onConflict: "user_id,question_id" }
+    )
+    .select();
+
+  if (error) throw error;
+  return data?.[0] || null;
+}
+
+export async function deleteAttempt(userId, questionId) {
+  const { error } = await supabase
+    .from("student_attempts")
+    .delete()
+    .eq("user_id", userId)
+    .eq("question_id", questionId);
+
+  if (error) throw error;
+  return true;
+}
+
 // ── Default export (grouped object) ─────────────────────────────────────────
 
 const api = {
@@ -322,6 +471,9 @@ const api = {
   getSubjects,
   getSessionHistory,
   getTodayUsage,
+  getStudentAttempts,
+  saveAttempt,
+  deleteAttempt,
 };
 
 export default api;

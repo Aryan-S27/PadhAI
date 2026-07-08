@@ -1,0 +1,3793 @@
+
+
+ 
+ 
+ 
+                                                                                                                            AC:  29/6/2021           
+ 
+ 
+                                                                                                                      Item No. : 6.12       
+ 
+UNIVERSITY OF MUMBAI 
+ 
+ 
+ 
+Bachelor of Engineering 
+in 
+Information Technology  
+Third Year with Effect from AY 2021-22 
+ 
+ (REV- 2019 ‘C’ Scheme) from Academic Year 2019 – 20 
+Under 
+FACULTY OF SCIENCE & TECHNOLOGY 
+ 
+(As per AICTE guidelines with effect from the academic year 
+2019–2020) 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Date : 29/6/2021 
+ 
+ 
+Dr. S. K. Ukarande                      Dr Anuradha Muzumdar 
+Associate Dean                       Dean 
+Faculty of Science and Technology                     Faculty of Science and Technology                     
+University of Mumbai                     University of Mumbai 
+ 
+ 
+Sr. No.  
+Heading  Particulars  
+1  
+Title of the Course  
+Third Year Bachelor of Information Technology    
+2  Eligibility for Admission  
+ 
+After Passing Second Year  Engineering as per the 
+Ordinance 0.6243 
+3  Passing  Marks  
+40%  
+4  
+Ordinances /  
+Regulations ( if any)  
+Ordinance 0.6243 
+5  No. of Years / Semesters  
+8 semesters  
+6  Level   
+Under Graduation    
+ 
+7  Pattern   
+Semester   
+ 
+8  Status   
+Revised   
+ 
+9  
+To be implemented from 
+Academic Year  
+With effect from Academic Year:  2021-2022 
+  
+  
+  
+  
+                          
+  
+                        
+                          
+                          
+                          
+                          
+AC: 29/6/2021 
+  
+                     
+Item No.  6.12 
+  
+  
+UNIVERSITY OF MUMBAI 
+  
+  
+ 
+  
+  
+Syllabus for Approval 
+  
+
+ 
+ 
+ 
+Preamble 
+ 
+ 
+To meet the challenge of ensuring excellence in engineering education, the issue of quality needs to be addressed, 
+debated  and  taken  forward  in  a  systematic  manner.  Accreditation  is  the  principal  means  of  quality  assurance  in 
+higher education. The major emphasis of accreditation process is to measure the outcomes of the program that is 
+being accredited. In line with this Faculty of Science and Technology (in particular Engineering)of University of 
+Mumbai  has  taken  a  lead  in  incorporating  philosophy  of  outcome  based  education  in  the  process  of  curriculum 
+development. 
+Faculty resolved that course objectives and course outcomes are to be clearly defined for each course, so that all 
+faculty  members  in  affiliated  institutes  understand  the  depth  and  approach  of  course  to  be  taught,  which  will 
+enhance learner’s learning process. Choice based Credit and grading system enables a much-required shift in focus 
+from teacher-centric to learner-centric education since the workload estimated is based on the investment of time 
+in learning and not in teaching. It also focuses on continuous evaluation which will enhance the quality of education. 
+Credit assignment for courses is based on 15 weeks teaching learning process, however content of courses is to be 
+taught in 13 weeks and remaining 2 weeks to be utilized for revision, guest lectures, coverage of content beyond 
+syllabus etc. 
+There  was  a  concern  that  the  earlier  revised  curriculum  more  focused  on  providing  information  and  knowledge 
+across  various  domains  of  the  said  program,  which  led  to  heavily  loading  of  students  in  terms  of  direct  contact 
+hours. In this regard, faculty of science and technology resolved that to minimize the burden of contact hours, total 
+credits of entire program will be of 170, wherein focus is not only on providing knowledge but also on building 
+skills, attitude and self learning. Therefore in the present curriculum skill based laboratories and mini projects are 
+made mandatory across all disciplines of engineering in second and third year of programs, which will definitely 
+facilitate self learning of students. The overall credits and approach of curriculum proposed in the present revision 
+is in line with AICTE model curriculum. 
+The  present  curriculum  will  be  implemented  for  Second  Year  of  Engineering  from  the  academic  year  2020-21. 
+Subsequently this will be carried forward for Third Year and Final Year Engineering in the academic years 2021-
+22, 2022-23, respectively. 
+ 
+ 
+ 
+ 
+ 
+ 
+Dr. S. K. Ukarande                 Dr. Anuradha Muzumdar 
+Associate Dean                                                                                  Dean 
+Faculty of Science and Technology                          Faculty of Science and Technology 
+University of Mumbai                University of Mumbai 
+ 
+  
+
+ 
+ 
+ 
+Incorporation and Implementation of Online Contents from 
+NPTEL/ Swayam Platform 
+ 
+ 
+ 
+The curriculum revision is mainly focused on knowledge component, skill based activities and project based 
+activities. Self learning opportunities are provided to learners. In the revision process this time in particular 
+Revised syllabus of ‘C ‘ scheme wherever  possible  additional  resource links  of  platforms  such  as  NPTEL, 
+Swayam are appropriately provided. In an earlier revision of curriculum in the year 2012 and 2016 in Revised 
+scheme ‘A' and ‘B' respectively, efforts were made to use online contents more appropriately  as  additional 
+learning materials to enhance learning of students.  
+In the current revision based on the recommendation of AICTE model curriculum overall credits are reduced 
+to  171,  to  provide  opportunity  of  self  learning  to  learner.  Learners are  now  getting  sufficient  time  for  self 
+learning either through online courses or additional projects for enhancing their knowledge and skill sets. 
+The Principals/ HoD’s/ Faculties of all the institute are required to motivate and encourage learners to use 
+additional online resources available on platforms such as NPTEL/ Swayam. Learners can be advised to take 
+up online courses, on successful completion they are required to submit certification for the same. This will 
+definitely help learners to facilitate their enhanced learning based on their interest.  
+ 
+ 
+ 
+ 
+ 
+Dr. S. K. Ukarande       Dr Anuradha Muzumdar 
+Associate Dean       Dean 
+Faculty of Science and Technology                 Faculty of Science and Technology 
+University of Mumbai      University of Mumbai 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+Preface By Board of Studies Team  
+ 
+It is our honor and a privilege to present the Rev-2019 ‘C’ scheme syllabus of Bachelor of Engineering 
+in Information Technology (effective from year 2019-20) with inclusion of cutting edge technology. 
+Information Technology is comparatively a young branch among other engineering disciplines in the 
+University of Mumbai. It is evident from the placement statistics of various colleges affiliated to the 
+University of Mumbai that IT branch has taken the lead in the placement.  
+ 
+The branch also provides multi-faceted scope like better placement and promotion of entrepreneurship 
+culture among students, and increased Industry Institute Interactions. Industries views are considered 
+as stakeholders will design of the syllabus of Information Technology. As per Industries views only 16 
+% graduates are directly employable. One of the reasons is a syllabus which is not in line with the latest 
+technologies. Our team of faculties has tried to include all the latest technologies in the syllabus. Also 
+first  time  we  are  giving  skill-based  labs  and  Mini-project  to  students  from  third  semester  onwards 
+which will help students to work on latest IT technologies. Also the first time we are giving the choice 
+of elective from fifth semester such that students will be master in one of the IT domain. The syllabus 
+is peer reviewed by experts from reputed industries and as per their suggestions it covers future trends 
+in IT technology and research opportunities available due to these trends. 
+ 
+We would  like  to  thank  senior  faculties  of  IT  department  of  all  colleges  affiliated  to  University of 
+Mumbai for significant contribution in framing the syllabus. Also on behalf of all faculties we thank 
+all the industry experts for their valuable feedback and suggestions. We sincerely hope that the revised 
+syllabus will help all graduate engineers to face the future challenges in the field of information and 
+technology 
+ 
+ 
+Program Specific Outcome for graduate Program in Information Technology 
+ 
+1. Apply Core Information Technology knowledge to develop stable and secure IT system. 
+2. Design, IT infrastructures for an enterprise using concepts of best practices in information 
+    Technology and security domain. 
+3. Ability to work in multidisciplinary projects and make it IT enabled. 
+4. Ability to adapt latest trends and technologies like Analytics, Blockchain, Cloud, Data science. 
+ 
+ 
+ 
+ 
+Board of Studies in Information Technology - Team 
+Dr. Deven Shah (Chairman) 
+Dr. Lata Ragha (Member) 
+Dr. Vaishali D. Khairnar (Member) 
+Dr. Sharvari Govilkar (Member) 
+Dr. Sunil B. Wankhade (Member) 
+Dr. Anil Kale (Member) 
+Dr. Vaibhav Narwade (Member) 
+Dr. GV Choudhary (Member) 
+ 
+ 
+ 
+Ad-hoc Board Information Technology 
+University of Mumbai 
+ 
+ 
+ 
+
+ 
+ 
+Program Structure for Third Year Information Technology  
+Semester V & VI 
+UNIVERSITY OF MUMBAI 
+(With Effect from 2021-2022) 
+ 
+Semester VI 
+ 
+Course 
+Code 
+ 
+Course Name 
+Teaching Scheme 
+(Contact Hours) 
+ 
+Credits Assigned 
+Theory 
+Pract. 
+Tut. 
+Theory Pract. Total 
+ITC601 Data Mining & 
+Business Intelligence 
+3 -- 3 -- 3 
+ITC602 Web X.0 3 -- 3 
+ 
+3 
+ITC603 Wireless Technology 3 -- 3 -- 3 
+ITC604 AI and DS – 1 3 -- 3 -- 3 
+ITDO601
+X 
+Department Optional 
+Course – 2 
+3 -- 3 -- 3 
+ITL601 BI Lab -- 2 -- 1 1 
+ITL602 Web Lab -- 2 -- 1 1 
+ITL603 Sensor Lab -- 2 -- 1 1 
+ITL604 MAD & PWA Lab -- 2 -- 1 1 
+ITL605 
+DS using Python Skill based 
+Lab 
+-- 2 -- 1 1 
+ITM601 Mini Project – 2 B Based on 
+ML 
+-- 
+4
+$ 
+-- 2 2 
+Total 
+15 14 15 07 22 
+ 
+ 
+ 
+Course 
+Code 
+ 
+ 
+ 
+Course Name 
+Examination Scheme 
+Theory 
+Term 
+Work 
+Prac 
+/oral 
+Total 
+ 
+Internal Assessment 
+End 
+Sem 
+Exam 
+Exam. 
+Duration 
+(in Hrs) 
+   
+Test1 Test2 Avg 
+     
+ITC601 
+Data Mining & 
+Business Intelligence 
+20 20 20 80 3 -- -- 100 
+ITC602 Web X.0 20 20 20 80 3 -- -- 100 
+ITC603 Wireless Technology 20 20 20 80 3 -- -- 100 
+ITC604 AI and DS – 1 20 20 20 80 3 -- -- 100 
+ITDO601
+X 
+Department Optional 
+Course – 2 
+20 20 20 80 3 -- -- 100 
+ITL601 BI Lab -- -- -- -- -- 25 25 50 
+ITL602 Web Lab -- -- -- -- -- 25 25 50 
+ITL603 Sensor Lab -- -- -- -- -- 25 25 50 
+ITL604 MAD & PWA Lab 
+-- -- -- -- -- 25 25 50 
+ITL605 
+DS using Python Lab 
+(SBL) 
+-- -- -- -- -- 25 25 50 
+
+ 
+ 
+ITM601 Mini Project – 2 B Based on 
+ML 
+-- -- -- -- -- 25 25 50 
+Total -- -- 100 400 -- 150 150 800 
+ 
+$ indicates work load of Learner (Not Faculty), for Mini-Project. Students can form groups with minimum 
+2(Two) and not more than 4(Four).  Faculty Load: 1hour per week per four groups.   
+ 
+ 
+ITDO601X Department Optional Course – 2 
+ITDO6011 Software Architecture 
+ITDO6012 Image Processing 
+ITDO6013 Green IT 
+ITDO6014 Ethical Hacking and Forensic 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+Course 
+Code 
+ 
+Course Name 
+Teaching Scheme 
+(Contact Hours) 
+Credits Assigned 
+Theory Practical Tutorial Theory Practical/
+Oral 
+Tutorial Total 
+   ITC601 Data Mining & 
+Business Intelligence 
+03 -- -- 03 -- -- 03 
+  
+ 
+Course 
+Code 
+Course Name 
+Examination Scheme 
+Theory 
+Term 
+Work 
+Pract / 
+Oral 
+Total 
+Internal Assessment 
+End 
+Sem 
+Exam 
+Exam 
+Duration 
+(in Hrs) 
+Test1 Test 2 Avg.      
+ 
+ITC601 
+Data Mining & 
+Business Intelligence  
+20 20 20 80 3 -- -- 100 
+ 
+    Course Objectives: 
+ 
+Course Outcomes:  
+ 
+Sr. 
+No. 
+Course Outcomes Cognitive levels 
+of attainment as 
+per Bloom’s 
+Taxonomy 
+On successful completion, of course, learner/student will be able to: 
+1 
+Demonstrate an understanding of the importance of data warehousing and data mining 
+and the principles of business intelligence.   
+L1 
+2 
+Organize and prepare the data needed for data mining using pre preprocessing 
+techniques. 
+L1,L2,L3 
+3 
+Perform exploratory analysis of the data to be used for mining. L1,L2,L3,L4 
+4 
+Implement the appropriate data mining methods like classification, clustering or 
+Frequent Pattern mining on large data sets. 
+L1,L2,L3,L4,L5 
+5 
+Define and apply metrics to measure the performance of various data mining L1,L2,L3 
+Sr. 
+No. 
+Course Objectives 
+The course aims: 
+1 To  introduce  the  concept  of  data  warehouse  data  Mining  as  an  important  tool  for  enterprise  data 
+management and as a cutting-edge technology for building competitive advantage. 
+2 To enable students to effectively identify sources of data and process it for data mining. 
+3 To make students well versed in all data mining algorithms, methods of evaluation. 
+4 To impart knowledge of tools used for data mining 
+5 To  provide  knowledge  on  how  to  gather  and  analyze  large  sets  of  data  to  gain  useful  business 
+understanding.  
+6 To  impart  skills  that  can  enable  students  to  approach  business  problems  analytically          identifying 
+opportunities to derive business value from data. 
+
+ 
+ 
+algorithms. 
+ 
+6 
+Apply BI to solve practical problems: Analyze the problem domain, use the data 
+collected in enterprise apply the appropriate data mining technique, interpret and 
+visualize the results and provide decision support. 
+L1,L2,L3 
+ 
+ 
+Prerequisite: Database Management System 
+ 
+DETAILED SYLLABUS:  
+Sr. 
+No. 
+Module Detailed Content Hours CO 
+Mapping 
+0 Prerequisite Basic Knowledge of databases 
+01 - 
+I Data Warehouse 
+(DWH) 
+Fundamentals with 
+Introduction to 
+Data Mining 
+DWH characteristics, Dimensional modeling: 
+Star, Snowflakes, OLAP operation, OLTP vs 
+OLAP 
+Data Mining as a step in KDD, Kind of patterns 
+to be mined, Technologies used, Data Mining 
+applications. 
+ 
+Self-learning Topics:  Data Marts, Major issues 
+in Data Mining. 
+04 
+CO1 
+II Data     Exploration 
+and Data 
+Preprocessing 
+ 
+Types   of   Attributes,   Statistical   Description   of 
+Data, Measuring Data Similarity and 
+Dissimilarity. 
+Why    Preprocessing?    Data    Cleaning,    Data 
+Integration,   Data   Reduction:   Attribute   Subset 
+Selection, Histograms, Clustering, Sampling, Data 
+Cube  aggregation,  Data  transformation  and  Data 
+Discretization: Normalization, Binning, 
+Histogram Analysis 
+ 
+Self-learning Topics Data Visualization, Concept 
+hierarchy generation 
+06 
+CO2, 
+CO3 
+III Classification Basic    Concepts;    Classification    methods:    1. 
+Decision   Tree   Induction:   Attribute   Selection 
+Measures, Tree pruning. 2. Bayesian 
+Classification: Naïve Bayes Classifier. Prediction: 
+Structure of regression models; 
+Simple   linear   regression,   Accuracy   and   Error 
+measures,  Precision,  Recall,  Holdout,  Random 
+Sampling, Cross Validation, Bootstrap, 
+Introduction   of   Ensemble   methods,   Bagging, 
+Boosting, AdaBoost and Random forest. 
+ 
+Self-learning  Topics: Multiple  linear  regression, 
+logistic    regression,    Random    forest,    nearest 
+neighbour classifier, SVM  
+08 
+CO4, 
+CO5 
+IV Clustering and 
+Outlier Detection 
+Cluster  Analysis:   Basic  Concepts;  Partitioning 
+Methods:   K-Means,   K   Medoids;   Hierarchical 
+Methods:    Agglomerative,    Divisive,    BIRCH; 
+Density-Based Methods: DBSCAN. 
+What  are  outliers?  Types,  Challenges;  Outlier 
+Detection Methods: Supervised, Semi Supervised, 
+08 
+CO4 
+
+ 
+ 
+Unsupervised, Proximity based, Clustering Based. 
+ 
+Self-learning Topics Hierarchical methods : 
+Chameleon, Density based methods: OPTICS, 
+Grid based methods: STING, CLIQUE 
+V Frequent Pattern 
+Mining 
+Basic    Concepts:    Market    Basket    Analysis, 
+Frequent Itemset, Closed Itemset, and Association 
+Rules;  Frequent  Itemset.    Mining  Methods: The 
+Apriori   Algorithm:     Finding Frequent  Itemset 
+Using Candidate Generation, Generating 
+Association Rules from Frequent 
+Itemset, Improving the  Efficiency  of Apriori,  A 
+pattern   growth   approach for   mining   Frequent 
+Itemset,  Mining  Frequent  Itemset  using vertical 
+data formats;   
+Introduction to Advance Pattern Mining:  Mining 
+Multilevel Association Rules and 
+Multidimensional Association Rules. 
+ 
+Self-learning Topics: Association Mining to 
+Correlation Analysis, lift, Introduction 
+to Constraint-Based Association Mining  
+08 
+CO4, 
+CO5 
+VI Business 
+Intelligence 
+What  is  BI?  Business  intelligence  architectures; 
+Definition of decision support system; 
+Development  of  a  business  intelligence  system 
+using  Data Mining for business  Applications like 
+Fraud Detection, Recommendation System 
+ 
+Self-learning     Topics: Clickstream    Mining, 
+Market Segmentation, Retail industry, 
+Telecommunications industry, Banking & finance 
+CRM, Epidemic prediction, Fake News Detection, 
+Cyberbullying, Sentiment Analysis etc. 
+04 
+CO6 
+ 
+Text Books: 
+ 
+1. Han, Kamber, "Data Mining Concepts and Techniques", Morgan Kaufmann 3nd Edition. 
+2. P. N. Tan, M. Steinbach, Vipin Kumar, “Introduction to Data Mining”, Pearson Education. 
+3. Paulraj Ponniah “Data Warehousing Fundamentals: A Comprehensive Guide for IT Professionals” Wiley 
+Publications   
+4. Business Intelligence: Data Mining and Optimization for Decision Making by Carlo Vercellis, Wiley India 
+Publications. 
+5.  G. Shmueli, N.R. Patel, P.C. Bruce, “Data Mining for Business Intelligence: Concepts, Techniques, and 
+Applications in Microsoft Office Excel with XLMiner”, 2nd Edition, Wiley India. 
+ 
+References: 
+ 
+1. Michael Berry and Gordon Linoff “Data Mining Techniques”, 2nd Edition Wiley Publications. 
+2. Michael Berry and Gordon Linoff “Mastering Data Mining- Art & science of CRM”, Wiley Student 
+Edition. 
+3. Vikram Pudi & Radha Krishna, “Data Mining”, Oxford Higher Education. 
+4.  Data Mining https://onlinecourses.nptel.ac.in/noc21_cs06/preview 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+Assessment: 
+Internal Assessment (IA) for 20 marks:  
+ IA will consist of Two Compulsory Internal Assessment Tests. Approximately 40% to 50% 
+of syllabus content must be covered in First IA Test and remaining 40% to 50% of syllabus 
+content must be covered in Second IA Test 
+ Question paper format 
+ Question Paper will comprise of a total of six questions each carrying 20 marksQ.1 will be 
+compulsory and should cover maximum contents of the syllabus 
+ Remaining questions will be mixed in nature (part (a) and part (b) of each question must be 
+from different modules. For example, if Q.2 has part (a) from Module 3 then part (b) must be 
+from any other Module randomly selected from all the modules) 
+ A total of four questions need to be answered 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+Course 
+Code 
+ 
+Course Name 
+Teaching Scheme 
+(Contact Hours) 
+Credits Assigned 
+Theory Practical Tutorial Theory Practical/
+Oral 
+Tutorial Total 
+   ITC602 Web X.0 03 -- -- 03 -- -- 03 
+  
+ 
+Course 
+Code 
+Course Name 
+Examination Scheme 
+Theory 
+Term 
+Work 
+Pract / 
+Oral 
+Total 
+Internal Assessment 
+End 
+Sem 
+Exam 
+Exam 
+Duration 
+(in Hrs) 
+Test1 Test 2 Avg.      
+   ITC602 Web X.0 
+20 20 20 80 3 -- -- 100 
+ 
+Course Objectives: 
+ 
+ 
+Course Outcomes:  
+ 
+Sr. No. Course Outcomes Cognitive 
+levels of 
+attainment as 
+per Bloom’s 
+Taxonomy 
+On successful completion, of course, learner/student will be able to: 
+1 
+Understand the basic concepts related to web analytics and semantic web. L1, L2 
+2 
+Understand how TypeScript can help you eliminate bugs in your code and enable 
+you to scale your code. 
+L1, L2 
+3 
+Understand AngularJS framework and build dynamic, responsive single-page 
+web applications. 
+L2, L3 
+4 
+Apply MongoDB for frontend and backend connectivity using REST API. L1, L2, L3 
+5 
+Apply Flask web development framework to build web applications with less 
+code. 
+L1, L2, L3 
+Sr. No. Course Objectives 
+The course aims: 
+1 To understand the digital evolution of web technology.  
+2 To learn Type Script and understand how to use it in web application.  
+3 To empower the use of AngularJS to create web applications that depend on the Model-View-
+Controller Architecture. 
+4 To gain expertise in a leading document-oriented NoSQL database, designed for speed, scalability, 
+and developer agility using MongoDB.  
+5 To build web applications quickly and with less code using Flask framework.  
+6 To gain knowledge of Rich Internet Application Technologies.  
+
+ 
+ 
+6 
+Develop Rich Internet Application using proper choice of Framework. L1, L2, L3, L4 
+ 
+Prerequisite: Object Oriented Programming, Python Programming, HTML and CSS. 
+ 
+DETAILED SYLLABUS:   
+ 
+Sr. 
+No. 
+Module Detailed Content Hours CO 
+Mapping 
+0 Prerequisite HTML/HTML5  (Tags,   Attributes  and  their  properties), 
+CSS/CSS3  (Types  and  Properties),  Basics  of  Java  Script, 
+Python Programming  
+02 
+-- 
+I Introduction to 
+WebX.0 
+Evolution of WebX.0; Web Analytics 2.0: Introduction to 
+Web  Analytics,  Web  Analytics  2.0,  Clickstream  Analysis, 
+Strategy  to  choose  your  web  analytics  tool,  Measuring  the 
+success   of   a   website; Web3.0   and   Semantic   Web: 
+Characteristics of Semantic Web, Components of Semantic 
+Web, Semantic Web Stack, N-Triples and Turtle, Ontology, 
+RDF and SPARQL 
+ 
+Self-learning  Topics:  Semantic  Web  Vs AI,  SPARQL  Vs 
+SQL. 
+04 
+CO1 
+II Type Script Overview,  TypeScript  Internal  Architecture,  TypeScript 
+Environment   Setup,   TypeScript   Types,   variables   and 
+operators, Decision    Making    and    loops,    TypeScript 
+Functions,  TypeScript  Classes  and  Objects,  TypeScript 
+Modules 
+ 
+Self-learning Topics: Javascript Vs TypeScript 
+06 
+CO2 
+III Introduction to 
+AngularJS 
+Overview  of  AngularJS,  Need  of  AngularJS  in  real  web 
+sites,  AngularJS modules,  AngularJS  built-in  directives, 
+AngularJS    custom    directives,    AngularJS    expressions, 
+Angular  JS  Data  Binding,  AngularJS  filters,  AngularJS 
+controllers,    AngularJS    scope,    AngularJS    dependency 
+injection,  Angular  JS  Services,  Form  Validation,  Routing 
+using   ng-Route,   ng-Repeat,   ng-style,   ng-view,   Built-in 
+Helper Functions, Using Angular JS with Typescript 
+ 
+Self-learning Topics: MVC model, DOM model, Javascript 
+functions and Error Handling 
+08 
+CO3 
+IV MongoDB and 
+Building REST 
+API using 
+MongoDB  
+MongoDB:   Understanding   MongoDB,   MongoDB   Data 
+Types,  Administering  User  Accounts,  Configuring  Access 
+Control,    Adding    the    MongoDB    Driver    to    Node.js, 
+Connecting  to  MongoDB  from  Node.js, Accessing  and 
+Manipulating Databases, Manipulating MongoDB 
+Documents   from   Node.js,   Accessing   MongoDB   from 
+Node.js,   Using   Mongoose   for   Structured   Schema   and 
+Validation. 
+REST API: Examining the rules of REST APIs, Evaluating 
+API  patterns,  Handling  typical  CRUD  functions  (create, 
+read,  update,  delete),  Using  Express  and  Mongoose  to 
+interact with MongoDB, Testing API endpoints 
+ 
+Self-learning Topics: MongoDB vs SQL DB 
+08 
+CO4 
+V Flask Introduction, Flask Environment Setup, App Routing, URL 
+Building,  Flask  HTTP  Methods,  Flask  Request  Object, 
+Flask cookies, File Uploading in Flask 
+06 
+CO5 
+
+ 
+ 
+ 
+Self-learning Topics: Flask Vs Django 
+VI Rich Internet 
+Application 
+AJAX: Introduction and Working 
+Developing  RIA  using  AJAX  Techniques:  CSS,  HTML, 
+DOM,  XML  HTTP  Request,  JavaScript,  PHP,  AJAX  as 
+REST Client  
+Introduction to Open Source Frameworks and CMS for 
+RIA: Django, Drupal, Joomla  
+ 
+Self-learning  Topics:  Applications  of  AJAX  in  Blogs, 
+Wikis and RSS Feeds 
+05 
+CO6 
+ 
+Text Books: 
+ 
+1. Boris  Cherny,  “Programming  TypeScript- Making  Your  Javascript  Application  Scale”,  O’Reilly 
+Media Inc. 
+2. Adam Bretz and Colin J. Ihrig, “Full Stack JavaScript Development with MEAN”, SitePoint Pty. Ltd. 
+3. Simon Holmes Clive Harber, “Getting MEAN with Mongo, Express, Angular, and Node”, Manning 
+Publications. 
+4. Miguel Grinberg, “Flask Web Development: Developing Web Applications with Python”, O’Reilly. 
+5. Dr. Deven Shah, “Advanced Internet Programming”, StarEdu Solutions. 
+ 
+References: 
+ 
+1. Yakov Fain and Anton Moiseev, “TypeScript Quickly”, Manning Publications. 
+2. Steve Fenton, “Pro TypeScript: Application -  Scale Javascript Development”, Apress  
+3. Brad Dayley, Brendan Dayley, Caleb Dayley, “Node.js, MongoDB and Angular Web Development: 
+The definitive guide to using the MEAN stack to build web applications”, 2nd Edition, Addison-
+Wesley Professional 
+ 
+Online References: 
+Sr. No. Website Links 
+1. 
+https://www.nptel.ac.in 
+2. 
+https://swayam.gov.in 
+3. 
+https://www.coursera.org 
+4. 
+https://udemy.com 
+ 
+Assessment: 
+Internal Assessment (IA) for 20 marks:  
+ IA will consist of Two Compulsory Internal Assessment Tests. Approximately 40% to 50% of 
+syllabus content must be covered in First IA Test and remaining 40% to 50% of syllabus content 
+must be covered in Second IA Test 
+ Question paper format 
+ Question Paper will comprise of a total of six questions each carrying 20 marksQ.1 will be 
+compulsory and should cover maximum contents of the syllabus 
+ Remaining questions will be mixed in nature (part (a) and part (b) of each question must be 
+from different modules. For example, if Q.2 has part (a) from Module 3 then part (b) must be 
+from any other Module randomly selected from all the modules) 
+ A total of four questions need to be answered 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+Course 
+Code 
+ 
+Course Name 
+Teaching Scheme 
+(Contact Hours) 
+Credits Assigned 
+Theory Practical Tutorial Theory Practical/
+Oral 
+Tutorial Total 
+ITC603 Wireless Technology  03 -- -- 03 -- -- 03 
+  
+ 
+Course 
+Code 
+Course Name 
+Examination Scheme 
+Theory 
+Term 
+Work 
+Pract / 
+Oral 
+Total 
+Internal Assessment 
+End 
+Sem 
+Exam 
+Exam 
+Duration 
+(in Hrs) 
+Test1 Test 2 Avg.      
+ITC603 Wireless Technology  
+20 20 20 80 3 -- -- 100 
+ 
+Course Objectives:   
+ 
+Course Outcomes:  
+ 
+Sr. 
+No. 
+Course Outcomes Cognitive levels of 
+attainment as per 
+Bloom’s Taxonomy 
+On successful completion, of course, learner/student will be able to: 
+1 
+Describe the basic concepts of Wireless Network and Wireless 
+Generations. 
+L1,L2 
+2 
+Demonstrate and Evaluate the various Wide Area Wireless Technologies. L1,L2,L3, L4, L5 
+3 
+Analyze the prevalent IEEE standards used for implementation of WLAN 
+and WMAN   Technologies 
+L1,L2,L3,L4 
+4 
+Appraise the importance of WPAN, WSN and Ad-hoc Networks. L1,L2,L3,L4,L5 
+5 
+Analyze various Wireless Network Security Standards. L1,L2,L3,L4 
+6 
+Review the design considerations for deploying the Wireless Network 
+Infrastructure. 
+L1,L2 
+ 
+Sr. No. Course Objectives 
+The course aims: 
+1 Discuss the Fundamentals of Wireless Communication. 
+2 Comprehend the Fundamental Principles of Wide Area Wireless Networking Technologies   and 
+their Applications.  
+3 Explain Wireless Metropolitan and Local Area Networks. 
+4  Describe Wireless Personal Area Networks and Ad hoc Networks 
+5 Learn and Analyze Wireless Network Security Standards.  
+6 Study the Design Considerations for Wireless Networks.  
+
+ 
+ 
+Prerequisite:  Principle of Communication, Computer Network and Network Design, Computer Network 
+Security. 
+ 
+DETAILED SYLLABUS:   
+ 
+Sr. 
+No. 
+Module Detailed Content Hours CO 
+Mapping 
+0 
+Prerequisite Digital Modulation Techniques – ASK, FSK, BPSK, 
+QPSK;   Electromagnetic   Spectrum;   Multiplexing 
+Techniques – FDM, TDM, OFDM; OSI and TCP/IP 
+Model; Need for Security, Types of Security Threats 
+and Attacks. 
+02 
+-- 
+I 
+Fundamentals of 
+Wireless 
+Communication 
+Introduction     to Wireless Communication - 
+Advantages, Disadvantages      and Applications; 
+Multiple Access Techniques - FDMA,   TDMA, 
+CDMA,  OFDMA;  Spread  Spectrum  Techniques – 
+DSSS,  FHSS; Evolution  of  wireless  generations –  
+1G to 5G  (Based  on technological  differences  and 
+advancements); 5G – Key requirements and drivers 
+of 5G systems, Use cases, Massive MIMO. 
+ 
+Self-learning  Topics:  Modulation  Techniques - 
+QAM, MSK, GMSK 
+07 
+CO1 
+II 
+Wide Area 
+Wireless Networks 
+Principle  of Cellular Communication – Frequency 
+Reuse concept, cluster size and system capacity, co-
+channel  interference  and  signal  quality;  GSM – 
+System Architecture, GSM Radio Subsystem, Frame 
+Structure;  GPRS and EDGE – System Architecture; 
+UMTS – Network  Architecture;  CDMA  2000 – 
+Network Architecture; LTE – Network Architecture; 
+Overview of LoRa & LoRaWAN. 
+Self-learning Topics:-  IS-95  
+    09  
+CO2 
+ III 
+Wireless 
+Metropolitan and 
+Local Area 
+Networks 
+IEEE 802.16 (WiMax) – Mesh mode, Physical and 
+MAC layer; IEEE 802.11(Wi-Fi) – Architecture, 
+Protocol Stack, Enhancements and Applications. 
+ 
+Self-learning Topics:- WLL(Wireless Local Loop). 
+06 
+CO3 
+IV 
+Wireless Personal 
+Area Networks and 
+Ad hoc Networks 
+IEEE 802.15.1  (Bluetooth) – Piconet,  Scatter  net, 
+Protocol  Stack; IEEE 802.15.4  (ZigBee) – LR-
+WPAN    Device    Architecture,    Protocol    Stack; 
+Wireless Sensor Network  – Design Considerations, 
+Issues     and     Challenges,     WSN     Architecture, 
+Applications;  Introduction  of  Ad  hoc  Networks –  
+MANET and VANET – Characteristics, 
+Applications,   Advantages   and   Limitations; Over 
+view  of  E-VANET(  Electrical  Vehicular  AdHoc 
+Networks). 
+ 
+Self-learning Topics:- HR–WPAN (UWB) 
+08 
+CO4 
+ V 
+Wireless Network 
+Security 
+ 
+Security in GSM; UMTS Security; Bluetooth 
+Security; WEP; WPA2. 
+ 
+Self-learning Topics :-  Study of Wireless Security 
+Tools. 
+04 
+CO5 
+
+ 
+ 
+VI 
+Wireless Network 
+Design 
+Considerations 
+Cisco    Unified    Wireless    Network;    Designing 
+Wireless Networks with  Lightweight  Access Points 
+and Wireless LAN Controllers. 
+Self-learning   Topics:-  Cisco Unified Wireless 
+Network Mobility Services. 
+03 
+CO6 
+ 
+Text Books: 
+ 
+1. Wireless Communications, T.L. Singal, McGraw Hill Education. 
+2. Wireless Communications and Networking, Vijay Garg, Morgan Kaufmann Publishers. 
+3. Wireless  Mobile  Internet  Security,  2nd  Edition,  Man Young  Rhee,  A  John  Wiley &  Sons,    Ltd., 
+Publication. 
+4. 5G Outlook–Innovations and Applications,Ramjee Prasad,River Publishers Series in Communications. 
+5.   Designing for Cisco Internetwork Solutions, 2nd Edition, CCDA, Diane Teare, Cisco Press. 
+ 
+Reference Books: 
+ 
+1. Cellular Communications: A Comprehensive and Practical Guide, Nishith Tripathi, Jeffery H Reed, Wiley. 
+2. Wireless Communications- Principles & Practice,Theodore S. Rappaport, Prentice Hall Series. 
+3. Wireless Communications and Networks", William Stallings, Pearson / Prentice Hall. 
+4. Adhoc & Sensor Networks Theory and Applications, Carlos de Morais Cordeiro,Dharma Prakash Agrawal, 
+World Scientific,2nd Edition. 
+5. Wireless Networks, Nicopolitidia, M S Obaidat, GI Papadimitriou, Wiley India (Student Edition, 2010). 
+ 
+Online References: 
+Sr. No. Website/Reference link 
+1. www.swayam.gov.in 
+2. www.coursera.org 
+3. https://doi.org/10.1007/978-3-642-17878-8_63 
+4. https://doi.org/10.1007/978-3-642-54525-2_44 
+5. https://lora-alliance.org/resource_hub/what-is-lorawan/ 
+6. https://doi.org/10.1007/s42835-021-00687-8 
+ 
+Assessment: 
+Internal Assessment (IA) for 20 marks:  
+ IA will consist of Two Compulsory Internal Assessment Tests. Approximately 40% to 50% of 
+syllabus content must be covered in First IA Test and remaining 40% to 50% of syllabus content 
+must be covered in Second IA Test 
+ Question paper format 
+ Question Paper will comprise of a total of six questions each carrying 20 marksQ.1 will be 
+compulsory and should cover maximum contents of the syllabus 
+ Remaining questions will be mixed in nature (part (a) and part (b) of each question must be 
+from different modules. For example, if Q.2 has part (a) from Module 3 then part (b) must be 
+from any other Module randomly selected from all the modules) 
+ A total of four questions need to be answered 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+Course 
+Code 
+ 
+Course Name 
+Teaching Scheme 
+(Contact Hours) 
+Credits Assigned 
+Theory Practical Tutorial Theory Practical/
+Oral 
+Tutorial Total 
+ITC604 AI and DS - 1 03 -- -- 03 -- -- 03 
+  
+ 
+Course 
+Code 
+Course Name 
+Examination Scheme 
+Theory 
+Term 
+Work 
+Pract / 
+Oral 
+Total 
+Internal Assessment 
+End 
+Sem 
+Exam 
+Exam 
+Duration 
+(in Hrs) 
+Test1 Test 2 Avg.      
+ITC604 AI and DS - 1 
+20 20 20 80 3 -- -- 100 
+ 
+Course Objectives:   
+Course Outcomes:  
+Sr. 
+No. 
+Course Outcomes Cognitive levels of 
+attainment as per 
+Bloom’s Taxonomy 
+On successful completion, of course, learner/student will be able to: 
+1 Develop a basic understanding of the building blocks of AI as presented in terms 
+of intelligent agents. 
+L1 
+2 Apply an appropriate problem-solving method and knowledge-representation 
+scheme. 
+L1,L2,L3 
+3 Develop an ability to analyze and formalize the problem (as a state space, graph, 
+etc.). They will be able to evaluate and select the appropriate search method. 
+L1,L2,L3,L4 
+4 Apply problem solving concepts with data science and will be able to tackle them 
+from a statistical perspective. 
+L1,L2,L3 
+Sr. No. Course Objectives 
+The course aims: 
+1 To introduce the students’ with different issues involved in trying to define and simulate 
+intelligence.  
+2 To familiarize the students’ with specific, well known Artificial Intelligence methods, 
+algorithms and knowledge representation schemes.  
+3 To introduce students’ different techniques which will help them build simple intelligent 
+systems based on AI/IA concepts.  
+4 To introduce students to data science and problem solving with data science and statistics.  
+5 To enable students to choose appropriately from a wider range of exploratory and inferential 
+methods for analyzing data, and interpret the results contextually.  
+6 To enable students to apply types of machine learning methods for real world problems.  
+
+ 
+ 
+5 Choose and apply appropriately from a wider range of exploratory and inferential 
+methods for analyzing data and will be able to evaluate and interpret the results 
+contextually. 
+L1,L2,L3 
+6 Understand and apply types of machine learning methods for real world 
+problems. 
+L1,L2, L3 
+ 
+Prerequisite: 
+1. Engineering Mathematics III (ITC301) 
+2. Data Structures and Analysis (ITC302) 
+3. Engineering Mathematics IV (ITC401) 
+DETAILED SYLLABUS:   
+ 
+Sr. No. Module Detailed Content Hours CO 
+Mapping 
+0 Prerequisite 
+Nil -- 
+-- 
+I Introduction to AI Introduction: Introduction to AI, AI techniques, 
+Problem Formulation. Intelligent Agents: Structure 
+of Intelligent agents, Types of Agents, Agent 
+Environments PEAS representation for an Agent. 
+  
+Self-Learning Topics : Identify application areas of 
+AI 
+04 
+CO1 
+II Search Techniques Uninformed Search Techniques: Uniform cost search, 
+Depth Limited     Search,     Iterative     Deepening, 
+Bidirectional   search.   Informed   Search   Methods: 
+Heuristic   functions,   Best   First   Search,   A*,   Hill 
+Climbing, Simulated Annealing. Constraint 
+Satisfaction   Problem   Solving:   Crypto-Arithmetic 
+Problem,  Water  Jug,  Graph  Coloring.  Adversarial 
+Search: Game Playing, Min-Max Search, Alpha Beta 
+Pruning. Comparing Different Techniques. 
+ 
+Self-Learning Topics : IDA*, SMA* 
+09 
+ 
+CO2 
+III Knowledge 
+Representation 
+using First Order 
+Logic 
+Knowledge  and  Reasoning: A Knowledge  Based 
+Agent, WUMPUS WORLD Environment, 
+Propositional   Logic,   First   Order   Predicate   Logic, 
+Forward    and    Backward    Chaining,    Resolution. 
+Planning  as  an  application  of  a  knowledge  based 
+agent.     Concepts     of     Partial     Order     planning, 
+Hierarchical Planning and Conditional Planning. 
+ 
+Self-Learning   Topics: Representing   real   world 
+problems as planning problems. 
+06 
+ 
+CO3 
+IV Introduction to DS Introduction  and  Evolution  of  Data  Science,  Data 
+Science  Vs.  Business  Analytics  Vs.  Big  Data,  Data 
+Analytics, Lifecycle, Roles in Data Science Projects.  
+ 
+Self-Learning Topics   : Applications   and   Case 
+Studies of Data Science in various Industries 
+04 
+CO4 
+V Exploratory Data 
+Analysis 
+Introduction to exploratory data analysis, Typical data 
+formats.  Types  of  EDA,  Graphical/Non  graphical 
+Methods, Univariate/multivariate methods 
+Correlation   and   covariance,   Degree   of   freedom 
+08 
+ 
+CO5 
+
+ 
+ 
+Statistical     Methods     for     Evaluation     including 
+ANOVA.  
+ 
+Self-Learning Topics: Implementation of graphical 
+EDA methods. 
+VI Introduction to ML Introduction to Machine Learning, Types of Machine 
+Learning:  Supervised (Logistic  Regression,  Decision 
+Tree, Support Vector Machine) and Unsupervised (K 
+Means Clustering, Hierarchical Clustering, 
+Association   Rules)   Issues   in   Machine   learning, 
+Application of Machine Learning Steps in developing 
+a Machine Learning Application. 
+ 
+Self-Learning Topics  : Real  world  case  studies  on 
+machine learning  
+08 
+CO6 
+ 
+Text Books: 
+ 
+1. Stuart Russell and Peter Norvig, Artificial Intelligence: A Modern Approach, 2
+nd
+ Edition, Pearson 
+Education. 
+2. Elaine Rich, Kevin Knight, Shivshankar B Nair, Artificial Intelligence, McGraw Hill, 3
+rd
+ Edition. 
+3. Howard J. Seltman, Experimental Design and Analysis, Carnegie Mellon University, 2012/1. 
+4. Ethem Alpaydın, “Introduction to Machine Learning”, MIT Press 
+ 
+References: 
+ 
+1. Deepak Khemani, A First Course in Artificial Intelligence, McGraw Hill Publication 
+2. George Lugar, AI-Structures and Strategies for Complex Problem Solving., 4/e, 2002, Pearson Education. 
+3. Data Science & Big Data Analytics, 1st Edition, 2015, EMC Education Services, Wiley. ISBN: 978-
+1118876138 
+4. Tom M.Mitchell “Machine Learning” McGraw Hill 
+5. Richard I. Levin, David S. Rubin “Statistics for Management” Pearson 
+6. Vivek Belhekar, “Statistics for Psychology using R” SAGE  
+Online References: 
+ 
+Sr. No. Website/Reference link 
+1. https://nptel.ac.in/noc/courses/noc19/SEM2/noc19-cs83/ 
+2. https://nptel.ac.in/courses/106/105/106105077/ 
+3. https://www.coursera.org/specializations/jhu-data-science 
+4. https://www.coursera.org/learn/machine-learning 
+5. https://www.udemy.com/course/statistics-for-data-science-and-business-analysis/ 
+ 
+Assessment: 
+Internal Assessment (IA) for 20 marks:  
+ IA will consist of Two Compulsory Internal Assessment Tests. Approximately 40% to 50% of 
+syllabus content must be covered in First IA Test and remaining 40% to 50% of syllabus content 
+must be covered in Second IA Test 
+ Question paper format 
+ Question Paper will comprise of a total of six questions each carrying 20 marksQ.1 will be 
+compulsory and should cover maximum contents of the syllabus 
+
+ 
+ 
+ Remaining questions will be mixed in nature (part (a) and part (b) of each question must be 
+from different modules. For example, if Q.2 has part (a) from Module 3 then part (b) must be 
+from any other Module randomly selected from all the modules) 
+ A total of four questions need to be answered 
+Course 
+Code 
+Course Name 
+Teaching Scheme 
+(Contact Hours) 
+Credits Assigned 
+Theory Practical Theory Practical Total 
+ITL601 
+Business 
+Intelligence 
+Lab 
+-- 02 -- 01 01 
+ 
+Course 
+Code 
+Course Name 
+Examination Scheme 
+Theory 
+Term 
+Work 
+Pract 
+/ Oral 
+Total 
+Internal Assessment 
+End 
+Sem 
+Exam 
+Exam 
+Duration 
+(in Hrs) 
+Test1 
+Test 
+2 
+Avg. 
+     
+ITL601 
+Business 
+Intelligence Lab 
+-- -- -- -- -- 25 25 50 
+ 
+Lab Objectives:   
+ 
+Sr. No. Lab Objectives 
+The Lab experiments aims: 
+1 
+To introduce the concept of data Mining as an important tool for enterprise data management and 
+as a cutting-edge technology for building competitive advantage 
+2 
+To enable students to effectively identify sources of data and process it for data mining 
+3 
+To make students well versed in all data mining algorithms, methods, and tools.  
+4 
+To learn how to gather and analyze large sets of data to gain useful business understanding.  
+5 
+To impart skills that can enable students to approach business problems analytically by    
+identifying opportunities to derive business value from data.  
+6 
+To identify and compare the performance of business. 
+ 
+Lab Outcomes:  
+Sr. 
+No. 
+Lab Outcomes Cognitive 
+levels of 
+attainment as 
+per Bloom’s 
+Taxonomy 
+On successful completion, of course, learner/student will be able to: 
+1 Identify sources of Data for mining and perform data exploration L2 
+2 
+Organize  and  prepare the  data  needed  for  data  mining  algorithms  in  terms  of 
+attributes and class inputs, training, validating, and testing files 
+L2 
+3 
+Implement the appropriate data mining methods like classification, clustering or 
+association mining on large data sets using open-source tools like WEKA 
+L3 
+
+ 
+ 
+4 
+Implement  various  data  mining  algorithms  from  scratch  using  languages  like 
+Python/ Java etc. 
+L3 
+5 
+Evaluate and compare performance of some available BI packages L3, L4 
+6 
+Apply BI to solve practical problems: Analyze the problem domain, use the data 
+collected in enterprise apply the appropriate data mining technique, interpret and 
+visualize the results and provide decision support 
+L3, L4 
+ 
+Prerequisite: Object oriented Concept, Java programming language, Python. 
+ 
+Hardware & Software Requirements: 
+ 
+Hardware Requirements Software Requirements 
+PC i3 processor and above Open source data mining and BI tools like 
+WEKA, Rapid Miner, Pentaho   
+ 
+DETAILED SYLLABUS: 
+ 
+Sr. 
+No. 
+Module Detailed Content Hours LO 
+Mapping 
+0 Prerequisite 
+-- 
+---- -- 
+I I Tutorial on  
+a) Design Star and Snowflake Schema 
+02 
+LO 1 
+ 
+II II Implement using tools or languages like 
+JAVA/ python/R 
+a) Data Exploration 
+b) Data preprocessing 
+04 
+LO 2 
+III III Implement and evaluate using languages like 
+JAVA/ python/R 
+a) Classification Algorithms 
+b) Clustering Algorithms 
+c) Frequent Pattern Mining Algorithms 
+06 
+LO4 
+IV IV Perform and evaluate using any open-source 
+tools  
+a) Classification Algorithms 
+b) Clustering Algorithms 
+c) Frequent Pattern Mining Algorithms 
+04 
+LO3 
+V V Detailed case study of any one BI tool such as  
+Pentaho, Tableau and QlikView 
+04 
+LO5 
+VI VI Business Intelligence Mini Project: Each 
+group assigned one new case study for this  
+A BI report must be prepared outlining the 
+following steps: 
+a) Problem definition, identifying which data 
+mining task is needed 
+b) Identify and use a standard data mining 
+dataset available for the problem. Some 
+links for data mining datasets are: WEKA, 
+Kaggle, KDD cup, Data Mining Cup, UCI 
+Machine Learning Repository etc. 
+c) Implement appropriate data mining 
+algorithm  
+d) Interpret and visualize the results  
+06 
+LO6 
+
+ 
+ 
+e) Provide clearly the BI decision that is to 
+be taken as a result of mining  
+ 
+Text Books: 
+  
+1. Han, Kamber, "Data Mining Concepts and Techniques", Morgan Kaufmann 3nd Edition. 
+2.  G. Shmueli, N.R. Patel, P.C. Bruce, “Data Mining for Business Intelligence: Concepts, Techniques, and   
+     Applications in Microsoft Office Excel with XLMiner”, 1st Edition, Wiley India. 
+3. Paulraj Ponniah “Data Warehousing Fundamentals: A Comprehensive Guide for IT Professionals” Wiley  
+    Publications  
+ 
+References: 
+ 
+1. P. N. Tan, M. Steinbach, Vipin Kumar, “Introduction to Data Mining”, Pearson Education 
+2. WEKA, RapidMiner Pentaho resources from the Web. 
+3. https://www.kaggle.com/learn/overview  
+4. Python for Data Science https://onlinecourses.nptel.ac.in/noc21_cs33/preview  
+ 
+Term Work:  Term Work shall consist of at least 10 racticals based on the above list. Also Term work 
+Journal must include at least 2 assignments.   
+ 
+Term Work Marks: 25 Marks (Total marks) = 10 Marks (Experiment) + 10 Marks (Mini Project) + 5 Marks 
+(Attendance) 
+ 
+Oral Exam: An Oral exam will be held based on the above syllabus.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Course 
+Code 
+Course Name 
+Teaching Scheme 
+(Contact Hours) 
+Credits Assigned 
+Theory Practical Theory Practical Total 
+ITL602 
+Web Lab 
+-- 02 -- 01 01 
+ 
+Course 
+Code 
+Course Name 
+Examination Scheme 
+Theory 
+Term 
+Work 
+Pract 
+/ Oral 
+Total 
+Internal Assessment 
+End 
+Sem 
+Exam 
+Exam 
+Duration 
+(in Hrs) 
+Test1 Test 2 Avg. 
+     
+ITL602 
+Web Lab 
+-- -- -- -- -- 25 25 50 
+ 
+Lab Objectives:   
+ 
+Sr. No. Lab Objectives 
+The Lab experiments aims: 
+1 Open Source Tools for Web Analytics and Semantic Web.  
+2 Programming in TypeScript for designing Web Applications.  
+3  AngularJS Framework for Single Page Web Applications.  
+4 AJAX for Rich Internet Applications.  
+5 REST API and MongoDB for Frontend and Backend Connectivity.  
+6 Flask Framework for building web applications.  
+ 
+Lab Outcomes:  
+ 
+Sr. No. Lab Outcomes Cognitive 
+Levels of 
+Attainment as 
+per Bloom’s 
+Taxanomy 
+On successful completion, of course, learner/student will be able to: 
+1 
+Understand  open  source  tools  for  web  analytics  and  semantic  web  apps 
+development and deployment. 
+L1, L2 
+2 
+Understand the basic concepts of TypeScript for designing web applications. L1, L2, L3 
+3 
+Implement Single Page Applications using AngularJS Framework. L1, L2, L3 
+
+ 
+ 
+4 
+Develop Rich Internet Applications using AJAX. L1, L2, L3 
+5 
+Create REST Web services using MongoDB. L1, L2, L3, L4 
+6 
+Design web applications using Flask. L1, L2, L3, L4 
+ 
+Prerequisite: HTML/HTML5, CSS/CSS3, JavaScript, Python 
+ 
+ 
+ 
+Hardware & Software requirements: 
+ 
+Hardware Specifications Software Specifications 
+PC with following Configuration  
+1. Intel Core i3/i5/i7 
+2. 4 GB RAM  
+3. 500 GB Hard disk 
+Angular IDE, Visual Studio Code, Notepad++,  
+Python Editors, MySQL, XAMPP, MongoDB, 
+JDK 
+ 
+DETAILED SYLLABUS: 
+Sr. 
+No. 
+Module Detailed Content Hours LO 
+Mapping 
+I Web Analytics  & 
+Semantic Web  
+Study Any 1 tool in each 
+1. Study  web  analytics  using  open  source 
+tools like Matomo, Open Web Analytics, 
+AWStats, Countly, Plausible.  
+2. Study Semantic Web Open Source Tools 
+like Apache TinkerPop, RDFLib, Apache 
+Jena, Protégé, Sesame.  
+ 
+02 
+LO1 
+II TypeScript Perform Any 3 from the following 
+1. Small  code  snippets  for  programs  like 
+Hello World, Calculator using 
+TypeScript. 
+2. Inheritance example using TypeScript 
+3. Access Modifiers example using 
+TypeScript 
+4. Building     a     Simple     Website     with 
+TypeScript 
+04 
+LO2 
+III AngularJS Perform Any 2 from the following 
+1. Create  a  simple  HTML  “Hello  World” 
+Project  using  AngularJS  Framework  and 
+apply     ng-controller,     ng-model     and 
+expressions. 
+2. Events   and   Validations   in   AngularJS. 
+(Create functions and add events, adding 
+HTML  validators,  using  $valid  property 
+of Angular, etc.) 
+3. Create  an  application  for  like  Students 
+Record using AngularJS 
+ 
+06 
+LO3 
+IV Rich Internet 
+Application using 
+AJAX 
+Perform Any 3 from the following 
+1. Write a JavaScript program for a AJAX. 
+2. Write  a  program  to  use  AJAX  for  user 
+validation using and to show the result on 
+the same page below the submit button. 
+06 
+LO4 
+
+ 
+ 
+3. Design and develop small web application 
+using AJAX, HTML and JSP. 
+ 
+V MongoDB and 
+Building REST API 
+using MongoDB 
+Perform Any 1 from the following 
+1. Build a RESTful API using MongoDB. 
+2. Build a TypeScript REST API using 
+MongoDB. 
+ 
+04 
+LO5 
+VI Flask Perform Any 3 from the following 
+1. Design Feedback Form using Flask. 
+2. Design Weather App using Flask. 
+3. Design Portfolio Website using Flask. 
+4. Create a complete Machine learning web 
+application using React and Flask. 
+ 
+04 
+LO6 
+ 
+Text Books: 
+ 
+1. John  Hebeler,  Matthew  Fisher,  Ryan  Blace,  Andrew  Perez-Lopez, “Semantic Web Programming”, 
+Wiley Publishing, Inc, 1
+st
+ Edition, 2009. 
+2. Boris  Cherny,  “Programming  TypeScript- Making  Your  Javascript  Application  Scale”, O’Reilly 
+Media Inc., 2019 Edition. 
+3. Adam Bretz and Colin J. Ihrig, “Full Stack JavaScript Development with MEAN”, SitePoint Pty. Ltd., 
+2015 Edition. 
+4. Simon Holmes Clive Harber, “Getting MEAN with Mongo, Express, Angular, and Node”, Manning 
+Publications, 2019 Edition. 
+5. Dr. Deven Shah, “Advanced Internet Programming”, StarEdu Solutions, 2019 Edition. 
+6. Miguel Grinberg, “Flask Web Development: Developing Web Applications with Python”, O’Reilly, 
+2018 Edition. 
+ 
+References: 
+ 
+1. John  Davies,  Rudi  Studer  and  Paul  Warren, “Semantic Web Technologies Trends and Research in 
+Ontology-based Systems”, Wiley, 2006 Edition. 
+2. Yakov Fain and Anton Moiseev, “TypeScript Quickly”, Manning Publications, 2020 Edition. 
+3. Steve Fenton, “Pro TypeScript: Application -  Scale Javascript Development”, Apress, 2014 Edition. 
+4. Brad Dayley, Brendan Dayley, Caleb Dayley, “Node.js, MongoDB and Angular Web Development: 
+The definitive guide to using the MEAN stack to build web applications”, 2nd Edition, Addison-
+Wesley Professional, 2018 Edition. 
+ 
+Term Work:   
+Term Work shall consist of at least 10 to 12 practical’s based on the above list. Also Term Work Journal must 
+include at least 2 assignments.   
+Term Work Marks:  
+25 Marks (Total marks) = 15 Marks (Experiment) + 5 Marks (Assignments) + 5 Marks (Attendance)  
+Oral Exam: An Oral exam will be held based on the above syllabus.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Course 
+Code 
+Course Name 
+Teaching Scheme 
+(Contact Hours) 
+Credits Assigned 
+Theory Practical Theory Practical Total 
+ITL603 
+Sensor Lab 
+-- 02 -- 01 01 
+ 
+Course 
+Code 
+Course Name 
+Examination Scheme 
+Theory 
+Term 
+Work 
+Pract 
+/ Oral 
+Total 
+Internal Assessment 
+End 
+Sem 
+Exam 
+Exam 
+Duration 
+(in Hrs) 
+Test1 Test 2 Avg. 
+     
+ITL603 
+Sensor Lab 
+-- -- -- -- -- 25 25 50 
+ 
+Lab Objectives:   
+ 
+Sr. No. Lab Objectives 
+The Lab experiments aims: 
+1 Learn various communication technologies, Microcontroller boards and sensors.  
+2 Design the problem solution as per the requirement analysis done using sensors and technologies.  
+3 Study the basic concepts of programming/sensors/ emulators.  
+4 Design and implement the mini project intended solution for project based earning.  
+5 Build, test and report the mini project successfully. 
+6 Improve the team building, communication and management skills of the students.  
+ 
+Lab Outcomes:  
+Sr. No. Lab Outcomes Cognitive Levels of 
+Attainment as per 
+Bloom’s Taxanomy 
+On successful completion, of course, learner/student will be able to: 
+1 
+Differentiate between various wireless communication technologies based on 
+the range of communication, cost, propagation delay, power and throughput.  
+L1,L2 
+
+ 
+ 
+2 
+Conduct   a   literature   survey   of   sensors   used   in   real   world   wireless 
+applications.  
+L1,L2 
+3 
+Demonstrate the simulation of WSN using the Network Simulators (Contiki/ 
+Tinker CAD/ Cup carbon etc).  
+L1,L2,L3 
+4 
+Demonstrate   and   build   the   project   successfully   by   hardware/sensor 
+requirements, coding, emulating and testing 
+L1,L2,L3 
+5 
+Report  and  present the  findings  of  the  study  conducted  in  the  preferred 
+domain.  
+L1,L2,L3 
+6 
+Demonstrate  the  ability  to  work  in  teams  and  manage  the  conduct  of  the 
+research study.  
+L1,L2,L3 
+Prerequisite: Computer Networks, Microprocessor Lab. 
+ 
+Hardware & Software requirements: 
+ 
+Hardware Specifications: Software Specifications: 
+1.Laptop/ PC with minimum 2GB  RAM and 500 GB Hard 
+disk drive. 
+2. Sensors –DHT11/22, PIR, MQ2/MQ3, HC-SR04, 
+Moisture sensor , Arduino Uno/Mega board, RPi Board  
+3. Wireless Radio Modules- Zigbee RF module, Bluetooth 
+Module (HC-05), Mobile Phone with Bluetooth antenna 
+4. Others-Breadboard, wires, power supplies, USB cables, 
+buzzers, LEDs, LCDs. 
+1. Windows or Linux Desktop OS 
+Arduino IDE 
+2.XCTU configuration and test utility 
+software 
+3. CupCarbon IOT simulator 
+4. Tinkercad Simulation Software  
+5. Contiki/Cooja 
+6. Internet connection 
+ 
+Guidelines  
+A. 
+Students should perform the following experiments:
+ 
+ 
+DETAILED SYLLABUS:
+ 
+ 
+Sr. No. Module Detailed Content Hours LO 
+Mapping 
+0 Prerequisite Introduction to 8086, 8051 and Python 
+programming 
+02 
+-- 
+I Review of  Wireless 
+Communication 
+Technologies 
+Study of various wireless communication 
+technologies like IEEE 802.15.1, IEEE 802.15.4 
+and   IEEE 802.11. 
+ 
+Mini Project: Allocation of the groups 
+02 
+LO1 
+II Sensors and their 
+Interfacing 
+Study of various types of sensors and display 
+devices (eg. DHT-11/22, HC-SR04, MFRC 522,  
+PIR Sensor) and demonstration of their interfacing 
+using Arduino/ Raspberry pi. 
+ 
+Mini Project: Topic selection 
+02 
+LO2 
+III Wireless 
+Communication tools 
+Installation and testing the simulation tools (eg. 
+TinkerCad/Cupcarbon/ContikiCooja). 
+ 
+Mini Project: Topic validation and finalizing 
+software and Hardware requirement. 
+ 
+02 
+LO3 
+IV Implementation of 
+Wireless Technologies 
+Study of interfacing of Arduino/ Raspberry pi with 
+Wireless Technologies (eg. HC-05, XBee S2C by 
+02 
+LO4 
+
+ 
+ 
+Digi, ESP controller). 
+ 
+Mini Project: Hardware procurement 
+V Remote Access  Study of interface using Mobile/Web to publish or 
+remotely access the data on the Internet. 
+Mini Project: Study of remote access technologies 
+with respect to the selected project. 
+02 
+LO4 
+VI Mini Project Implementation of the Mini Project: 
+1. Design, configure, testing the Mini Project. 
+2. Report submission as per the guidelines. 
+14 
+LO4,LO5
+,LO6 
+B.
+ 
+Mini project 
+ 
+1. Students should carry out hardware based mini-project in a group of three/four students with a subject In 
+charge/ mini project mentor associated with each group. 
+2. The  group  should  meet  with  the  concerned  faculty  during laboratory  hours  and  the  progress  of  work 
+discussed must be documented. 
+3. Each group should perform a detailed literature survey and formulate a problem statement. 
+4. Each  group  will  identify  the  hardware  and  software  requirement  for  their  defined  mini  project problem 
+statement. 
+5. Design, configure and test their own circuit board. 
+5. Interface using Mobile/Web to publish or remotely access the data on the Internet. 
+6. A detailed report is to be prepared as per guidelines. 
+7. Each group may present their work in various project competitions and paper presentations 
+ 
+C. Documentation of the Mini Project 
+ 
+The Mini Project Report can be made on following lines: 
+1. Abstract 
+2. Contents 
+3. List of figures and tables 
+4. Chapter-1 (Introduction,  Literature survey,  Problem definition, Objectives,  Proposed Solution, Wireless 
+Technology used) 
+5. Chapter-2 (System design/Block diagram, Flow chart, Circuit/Interfacing diagram, Hardware and Software 
+requirements, cost estimation) 
+6. Chapter-3 (Implementation snapshots/figures with explanation, code, future directions) 
+7. Chapter-4 (Conclusion) 
+8. References     
+ 
+Text Books: 
+1. Fundamentals of Sensor Network Programming: Applications and Technology, S.  
+Sitharama Iyengar, Nandan Parameshwaran, Vir V. Phoha, N. Balakrishnan, Chuka D. Okoye, Wiley 
+Publications. 
+2. ContikiCooja User Guide. 
+3. Building Wireless Sensor Networks, Robert Faludi, O’Reilly Publications. 
+ 
+
+ 
+ 
+Reference Books: 
+1. Internet of Things (A Hands-on-Approach) , Vijay Madisetti , ArshdeepBahga. 
+2. A comparative review of wireless sensor network mote technologies, IEEE paper 2009. 
+3. Wireless Sensor Networks-Technology, Protocols and Applications, KazemSohraby, Daniel  
+Minoli and TaiebZnati, Wiley Publications. 
+4. Adhoc& Sensor Networks Theory and Applications, Carlos de MoraisCordeiro,Dharma Prakash Agrawal, 
+World Scientific,2nd Edition. 
+Online References:
+ 
+Sr. 
+No. 
+Website/Reference link 
+1. 
+https://www.digi.com/resources/documentation/digidocs/90001526/tasks/t_download_and_install_xct
+u.htm 
+2. 
+https://www.arduino.cc/en/software 
+ 
+3. 
+http://cupcarbon.com/ 
+ 
+ 
+Term Work: 
+Term Work shall consist of   Mini Project on above guidelines/syllabus. Also Term work must include at 
+least 2 assignments and mini project report. 
+Term Work Marks: 25 Marks (Total marks) =15 Marks (Mini Project) + 5 Marks (Assignments) + 5 Marks 
+(Attendance) 
+Oral Exam: An Oral exam will be held based on the Mini Project and Presentation. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Course 
+Code 
+Course Name 
+Teaching Scheme 
+(Contact Hours) 
+Credits Assigned 
+Theory Practical Theory Practical Total 
+ITL604 
+MAD & PWA 
+Lab 
+-- 02 -- 01 01 
+ 
+Course 
+Code 
+Course Name 
+Examination Scheme 
+Theory 
+Term 
+Work 
+Pract 
+/ Oral 
+Total 
+Internal Assessment 
+End 
+Sem 
+Exam 
+Exam 
+Duration 
+(in Hrs) 
+Test1 Test 2 Avg. 
+     
+ITL604 
+MAD & PWA 
+Lab 
+-- -- -- -- -- 25 25 50 
+ 
+ 
+Lab Objectives:   
+Sr. No. Lab Objectives 
+The Lab experiments aims: 
+1 
+Learn the  basics of the Flutter framework. 
+2 
+ Develop the App UI by incorporating widgets, layouts, gestures and animation 
+3 
+Create a production ready Flutter App by including files and firebase backend service. 
+4 
+Learn the Essential technologies, and Concepts of PWAs to get started as quickly and efficiently as 
+possible 
+5 
+Develop responsive web applications by combining AJAX development techniques with the jQuery 
+JavaScript library. 
+6 
+Understand how service workers operate and also learn to Test and Deploy PWA. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Lab Outcomes: 
+ 
+Sr. No. Lab Outcomes Cognitive levels of 
+attainment as per 
+Bloom’s 
+Taxonomy 
+On Completion of the course the learner/student should be able to: 
+1 
+Understand cross platform mobile application development using Flutter 
+framework 
+L1, L2 
+2 
+Design and Develop interactive Flutter App by using widgets, layouts, gestures 
+and animation 
+L3 
+3 
+Analyze and Build production ready Flutter App by incorporating backend 
+services and deploying on Android / iOS  
+L3, L4 
+4 
+Understand various PWA frameworks and their requirements 
+L1, L2 
+5 
+Design and Develop a responsive User Interface by applying PWA Design 
+techniques 
+L3 
+6 
+Develop and Analyse PWA Features and deploy it over app hosting solutions 
+L3, L4 
+Prerequisite: HTML/HTML5, CSS3, Javascript 
+ 
+Hardware & Software Requirements: 
+ Hardware 
+Requirement:  
+  
+PC i3 processor and 
+above 
+Software requirement:  
+ 
+JDK 8 and above, Android studio, Flutter SDK, AngularJs, 
+React, Vue, PWA Builder, Google Chrome Browser, Github 
+account. 
+Internet Connection 
+ 
+DETAILED SYLLABUS: 
+ 
+Sr. 
+No. 
+Module Detailed Content Hours LO 
+Mapping 
+
+ 
+ 
+I Basics of Flutter 
+Programming 
+Introduction of Flutter, Understanding Widget 
+Lifecycle Events,Dart Basics, Widget Tree and 
+Element Tree, Basics of Flutter installation, 
+Flutter Hello World App. 
+02 
+LO1 
+II Developing Flutter 
+UI:Widgets, 
+Layouts, Gestures, 
+Animation 
+USING COMMON WIDGETS: SafeArea, 
+Appbar, Column, Row, Container, Buttons, 
+Text ,  Richtext,Form ,Images and Icon. 
+BUILDING LAYOUTS : high level view of  
+layouts, Creating the layout, Types of layout 
+widgets 
+APPLYING GESTURES: Setting Up 
+GestureDetector, Implementing the Draggable 
+and Dragtarget Widgets,Using the 
+GestureDetector for Moving and Scaling 
+ADDING ANIMATION TO AN APP :Using 
+Animated Container,Using Animated 
+CrossFade,Using Animated Opacity,Using 
+Animation Controller, Using Staggered 
+Animation 
+CREATING AN APP’S NAVIGATION:    
+Using the Navigator,Using the Named 
+Navigator Route,Using the Bottom 
+NavigationBar,Using the TabBar and 
+TabBarView 
+06 
+LO2 
+III Creating 
+Production Ready 
+Apps 
+Working with files : Including libraries in 
+your Flutter app, Including a file with your app, 
+Reading/Writing to files, Using JSON. 
+Using Firebase with Flutter: Adding the 
+Firebase and Firestore Backend,Configuring 
+the Firebase Project,Adding a Cloud Firestore 
+Database and Implementing Security 
+Testing and Deploying of  Flutter 
+Application: Widget testing, Deploying Flutter 
+Apps on Android / iOS 
+04 
+LO3 
+IV  
+Introduction to 
+Progressive Web 
+App 
+Introduction to 
+Progressive Web App 
+● Why Progressive Web App 
+● Characteristics of PWA 
+● PWAs and Hybrid Apps vs. Mobile 
+Apps 
+● PWA Requirements: HTTPS, Service 
+Workers, and Web App Manifest 
+● PWA framework tools 
+● Use cases 
+02 
+LO4 
+
+ 
+ 
+V Creating 
+Responsive UI  
+Creating Responsive UI 
+using JQuery Mobile / 
+Material UI / Angular UI 
+/ React UI 
+● Understanding the concept of 
+responsive web design 
+● Comparing responsive, fluid, and 
+adaptive web 
+● keys to great Progressive Web App UX 
+● Responsive Design – The Technicalities 
+● Flexible grid-based layout 
+● Flexible images and video 
+● Smart use of CSS splitting the website 
+behavior (media queries) 
+06 LO5 
+VI Web App Manifest 
+& Service Workers 
+Web App Manifest: 
+Understand the basic 
+format and workings of the 
+Web App Manifest file. 
+● Using an App Manifest to Make your App 
+Installable 
+● Understanding App Manifest Properties 
+● Simulating the Web App on an Emulator 
+● Installing the Web App - Prerequisites 
+● Understanding manifest.json 
+Service Workers: Making 
+PWAs work offline with 
+Service workers 
+● Introduction to Service Workers 
+● Service Workers Lifecycle (Registration, 
+Installation and Activation)  
+● Implement Service Workers Features 
+(Events) 
+● Handling cached content  
+● Enabling offline functionality 
+● Serving push notifications 
+● Loading cached content for new users 
+● Background synchronization 
+● Using IndexedDB in the Service Worker 
+● Geo-fencing 
+Deploy a PWA to GitHub Pages as a free 
+SSL enabled static app hosting solution. 
+● Initialising the PWA as a Git repo 
+● Testing with Lighthouse 
+● Deploying via GitHub Pages 
+06 LO6 
+Text Books: 
+1. Beginning Flutter a Hands-on Guide to App Development, Marco L. Napoli, Wiley, 2020. 
+2. Beginning App Development with Flutter: Create Cross-Platform Mobile Apps, By Rap Payne, 2019  
+3. Progressive Web Application Development by Example: Develop fast, reliable, and engaging user 
+experiences for the web, Packt Publishing Limited ,2018 
+4. Building Progressive Web Apps,O’Reilly 2017 
+
+ 
+ 
+5. Progressive  Web  Apps  with  Angular:  Create  Responsive,  Fast  and  Reliable  PWAs  Using  Angular, 
+Apress; 1st ed. edition (28 May 2019) 
+References: 
+1. Flutter in Action by Eric Windmill, MANING, 2019  
+2. Google Flutter Mobile Development Quick Start Guide.Packt,2019 
+3. Learning Progressive Web Apps: Building Modern Web Apps Using Service Workers ,Addison-
+Wesley Professional, 2020 
+ 
+Online References: 
+Sr. No. 
+Website/Reference link 
+1. 
+https://flutter.dev/docs/reference/tutorials 
+2. https://www.tutorialspoint.com/flutter/index.htm 
+3. https://www.javatpoint.com/flutter 
+4. 
+https://www.tutorialspoint.com/jquery_mobile/jqm_panel_responsive.htm 
+5. 
+https://www.w3schools.com/css/css_rwd_intro.asp 
+6 
+https://developers.google.com/web/updates/2015/12/getting-started-pwa 
+7 
+https://www.w3schools.com/react/ 
+8 
+https://angular.io/docs 
+9 
+https://flaviocopes.com/service-workers/ 
+10 
+https://blog.logrocket.com/how-to-build-a-progressive-web-app-pwa-with-node-js/ 
+ 
+  
+List of Experiments. 
+1. To install and configure Flutter Environment. 
+2. To design Flutter UI by including common widgets. 
+3. To create an interactive Form using form widget 
+4. To design a layout of Flutter App using layout widgets 
+5. To include icons, images, charts in Flutter app 
+6. To apply navigation, routing and gestures in Flutter App 
+7. To Connect Flutter UI with fireBase database 
+8. To test and deploy production ready Flutter App on Android platform 
+9. To  create  a  responsive  User  Interface  using  jQuery  Mobile/  Material  UI/  Angular  UI/  React  UI  for 
+Ecommerce application. 
+10. To write meta data of your Ecommerce PWA in a Web app manifest file to enable “add to homescreen 
+feature”. 
+11. To code and register a service worker, and complete the install and activation process for a new service 
+worker for the E-commerce PWA. 
+12. To implement Service worker events like fetch, sync and push for E-commerce PWA. 
+13. To study and implement deployment of Ecommerce PWA to GitHub Pages. 
+14. To use google Lighthouse PWA Analysis Tool to test the PWA functioning. 
+15. To deploy an Ecommerce PWA using SSL enabled static hosting solution. 
+Assignment 1: MAD (Any one)  
+1. To Study basics of Dart language and design basic Flutter App 
+2. To include Files and JSON data in App 
+3. To build interactive App by including Flutter Gestures and Animations 
+Assignment 2: PWA (Any one) 
+
+ 
+ 
+1. To study the requirement for progressive web application for Ecommerce using the concept of 
+service worker, Webapp Manifest and framework tools 
+2. To Design a wireframe for simple PWA for E-commerce website 
+3. Case study for successful real life implementation of PWA. 
+Term Work:   
+Term Work shall consist of at least 10 to 12 practical’s based on the above list. Also Term Work Journal must 
+include at least 2 assignments as mentioned in above syllabus.   
+Term Work Marks: 25 Marks (Total marks) = 15 Marks (Experiment) + 5 Marks (Assignments) + 5 Marks 
+(Attendance)  
+Practical & Oral Exam: An Practical & Oral exam will be held based on the above syllabus.  
+ 
+ 
+ 
+ 
+Course 
+Code 
+Course Name 
+Teaching Scheme 
+(Contact Hours) 
+Credits Assigned 
+Theory Practical Theory Practical Total 
+ 
+ITL605 
+DS using 
+Python Lab 
+-- 02 -- 01 01 
+ 
+Course 
+Code 
+Course Name 
+Examination Scheme 
+Theory 
+Term 
+Work 
+Pract 
+/ Oral 
+Total 
+Internal Assessment 
+End 
+Sem 
+Exam 
+Exam 
+Duration 
+(in Hrs) 
+Test1 Test 2 Avg. 
+     
+ 
+ITL605 
+DS using Python 
+Lab 
+-- -- -- -- -- 25 25 50 
+ 
+Lab Objectives:   
+ 
+Sr. No. Lab Objectives 
+The Lab experiments aims: 
+1 To know the fundamental concepts of data science and analytics 
+2 To learn data collection, preprocessing and visualization techniques for data science 
+3 To Understand and practice analytical methods for solving real life problems based on Statistical 
+analysis 
+4 To learn various machine learning techniques to solve complex real-world problems 
+5 To learn streaming and batch data processing using Apache Spark 
+6 To map the elements of data science to perceive information 
+ 
+Lab Outcomes:  
+ 
+Sr. 
+No. 
+Lab Outcomes 
+Cognitive levels of 
+attainment as per 
+Bloom’s 
+Taxonomy 
+
+ 
+ 
+On successful completion, of course, learner/student will be able to: 
+1 Understand the concept of Data science process and associated terminologies 
+to solve real-world problems 
+L1 
+2 Analyze the data using different statistical techniques and visualize the 
+outcome using different types of plots. 
+L1, L2, L3, L4 
+3 Analyze and apply the supervised machine learning techniques like 
+Classification, Regression or Support Vector Machine on data for building the 
+models of data and solve the problems. 
+L1,L2, L3, L4 
+4 
+Apply the different unsupervised machine learning algorithms like Clustering, 
+Decision Trees, Random Forests or Association to solve the problems. 
+L1, L2,L3 
+5 
+Design and Build an application that performs exploratory data analysis using 
+Apache Spark 
+L1,L2,L3,L4,L5,L6 
+6 
+Design and develop a data science application that can have data acquisition, 
+processing, visualization and statistical analysis methods with supported 
+machine learning technique to solve the real-world problem 
+L1,L2,L3,L4,L5,L6 
+ 
+Prerequisite: Basics of Python programming and Database management system. 
+ 
+DETAILED SYLLABUS: 
+ 
+Sr. 
+No. 
+Module Detailed Content Hours LO 
+Mappin
+g 
+I Introduction to 
+Data Science and 
+Data Processing 
+using Pandas 
+i. Introduction, Benefits and uses of data science 
+ii. Data Science tasks 
+iii. Introduction to Pandas 
+iv. Data preparation: Data cleansing, Data 
+transformation, Combine/Merge /Join data, Data 
+loading & preprocessing with pandas 
+v. Data aggregation  
+vi. Querying data in Pandas 
+vii. Statistics with Pandas Data Frames  
+viii. Working with categorical and text data 
+ix. Data Indexing and Selection 
+x. Handling Missing Data 
+04 
+LO1 
+II Data Visualization 
+and Statistics 
+i. Visualization with Matplotlib and Seaborn 
+ii. Plotting  Line  Plots,  Bar  Plots,  Histograms  Density 
+Plots, Paths, 3Dplot, Stream plot, Logarithmic plots, 
+Pie chart, Scatter Plots and Image visualization using 
+Matplotlib 
+iii. Plotting  scatter  plot,  box  plot,  Violin  plot,  swarm 
+plot, Heatmap, Bar Plot using seaborn 
+iv. Introduction to scikit-learn and SciPy 
+v. Statistics using python: Linear algebra, Eigen value, 
+Eigen     Vector,     Determinant,     Singular     Value 
+Decomposition,   Integration,   Correlation, Central 
+Tendency, Variability, Hypothesis testing, Anova, z-
+test, t-test and chi-square test. 
+ 
+04 
+LO2 
+III Machine Learning i. What is Machine Learning? 
+ii. Applications of Machine Learning;  
+iii. Introduction to Supervised Learning 
+iv. Overview of Regression 
+v. Support Vector Machine  
+vi.  Classification algorithms 
+05 
+LO3 
+
+ 
+ 
+IV Unsupervised 
+Learning 
+i. Introduction to Unsupervised Learning 
+ii. Overview of Clustering 
+iii. Decision Trees 
+iv. Random Forests  
+v. Association 
+05 
+LO4 
+V Data analytics 
+using Apache 
+Spark 
+i. Introduction to Apache Spark 
+ii. Architecture of Apache Spark 
+iii. Modes and components 
+iv. Basics of PySpark 
+04 
+LO5 
+VI Case Studies i. Understanding the different data science phases used 
+in selected case study 
+ii. Implementation of Machine learning algorithm for 
+selected case study 
+04 
+LO1, 
+LO6 
+ 
+Text Books: 
+1. Jake VanderPlas, “Python Data Science Handbook”, O’Reilly publication 
+2. Frank Kane, “Hands-On Data Science and Python Machine Learning”, packt publication 
+3. M.T. Savaliya, R.K. Maurya, G.M.Magar, “Programming with Python”, 2
+nd
+ Edition, Sybgen   
+    Learning. 
+ 
+References: 
+1. Armando Fandango, “Python Data Analysis”, Second Edition, Packt publication. 
+2. Alberto Boschetti, Luca Massaron, “Python Data Science Essentials Second Edition”, Packt Publishing 
+3. Davy Cielen, Arno D. B. Meysman, Mohamed Ali, “Introducing Data Science”, Manning Publications. 
+ 
+ 
+ 
+Online References: 
+Sr. No. 
+Website/Reference link 
+1. https://www.w3schools.com/python/pandas/default.asp 
+2. https://matplotlib.org/stable/gallery/index.html 
+3. 
+. https://seaborn.pydata.org/examples/index.html 
+4. 
+. https://docs.scipy.org/doc/scipy/reference/linalg.html#module-scipy.linalg 
+5. https://scikit-learn.org/stable/auto_examples/index.html 
+6 https://www.tutorialspoint.com/scipy/scipy_integrate.htm\ 
+7 
+https://machinelearningmastery.com/statistical-hypothesis-tests-in-python-cheat-
+sheet/ 
+8 https://data-flair.training/blogs/data-science-project-ideas/ 
+ 
+Suggested List of Experiments  
+For the following Experiments, use any available data set or download it from Kaggle/UCI or other repositories 
+and use Python to solve each problem. 
+1. Data preparation using NumPy and Pandas 
+a. Derive an index field and add it to the data set. 
+b. Find out the missing values. 
+c. Obtain a listing of all records that are outliers according to the any field. Print out a 
+listing of the 10 largest values for that field. 
+d.  Do the following for the any field. 
+i. Standardize the variable. 
+ii. Identify how many outliers there are and identify the most extreme outlier. 
+
+ 
+ 
+2. Data Visualization / Exploratory Data Analysis for the selected data set using Matplotlib and Seaborn 
+a. Create a bar graph, contingency table using any 2 variables. 
+b. Create normalized histogram. 
+c. Describe what this graphs and tables indicates? 
+3. Data Modeling 
+a. Partition the data set, for example 75% of the records are included in the training data set and 
+25% are included in the test data set. Use a bar graph to confirm your proportions. 
+b. Identify the total number of records in the training data set.  
+c. Validate your partition by performing a two‐sample Z‐test. 
+     4. Implementation of Statistical Hypothesis Test using Scipy and Sci-kit learn [Any one] 
+ 
+1. Normality Tests 
+1. Shapiro-Wilk Test 
+2. D’Agostino’s K^2 Test 
+3. Anderson-Darling Test 
+2. Correlation Tests 
+1. Pearson’s Correlation Coefficient 
+2. Spearman’s Rank Correlation 
+3. Kendall’s Rank Correlation 
+4. Chi-Squared Test 
+3. Stationary Tests 
+1. Augmented Dickey-Fuller 
+2. Kwiatkowski-Phillips-Schmidt-Shin 
+4. Parametric Statistical Hypothesis Tests 
+1. Student’s t-test 
+2. Paired Student’s t-test 
+3. Analysis of Variance Test (ANOVA) 
+4. Repeated Measures ANOVA Test 
+5. Nonparametric Statistical Hypothesis Tests 
+1. Mann-Whitney U Test 
+2. Wilcoxon Signed-Rank Test 
+3. Kruskal-Wallis H Test 
+4. Friedman Test 
+ 
+     5. Regression Analysis 
+a. Perform Logistic Regression to find out relation between variables. 
+b. Apply regression Model techniques to predict the data on above dataset 
+ 
+     6. Classification modelling 
+a. Choose classifier for classification problem. 
+b. Evaluate the performance of classifier. 
+     7. Clustering 
+a. Clustering algorithms for unsupervised classification. 
+b. Plot the cluster data. 
+     8. Using any machine learning techniques using available data set to develop a recommendation  
+         system. 
+ 
+     9. Exploratory data analysis using Apache Spark and Pandas 
+     10. Batch and Streamed Data Analysis using Spark 
+     11. Implementation of Mini project based on following case study using Data science and Machine learning 
+[Any one] 
+
+ 
+ 
+ 
+ 
+List of Case Studies 
+Fake News Detection Road Lane Line Detection Sentiment Analysis 
+Detecting Parkinson’s Disease Brain  Tumor  Detection  with 
+Data Science 
+Leaf Disease Detection 
+Speech Emotion Recognition Gender   Detection   and   Age 
+prediction 
+Diabetic Retinopathy 
+Uber Data Analysis Driver Drowsiness detection Chatbot Project 
+Credit Card Fraud Detection Movie/ Web Show 
+Recommendation System 
+Customer Segmentation 
+Cancer Classification Traffic Signs Recognition Exploratory  Data  Analysis  for 
+Housing price prediction 
+Coronavirus visualizations Visualizing climate change Predictive policing 
+Uber’s pickup analysis Earth    Surface    Temperature 
+Visualization 
+Web  traffic  forecasting  using 
+time series 
+Pokemon Data Exploration 
+ 
+Impact  of  Climate  Change  on 
+Global Food Supply 
+Used Car Price Estimator 
+Skin Cancer Image Detection World University Rankings and so on .... 
+ 
+Assignments: 
+ 
+1) Recent trends in Data science 
+2) Comparative analysis between Batch and Streamed data processing tools like Map-reduce, Apache spark, 
+Apache Flink, Apache Samza, Apache Kafka and Apache Storm. 
+ 
+Term Work:  
+ 
+• Term work shall consist of at least 10 experiments and a case study.  
+• Journal must include 2 assignments.  
+• The final certification and acceptance of term work indicates that performance in laboratory work is 
+satisfactory and minimum passing marks may be given in term work.  
+• The distribution of marks for term work shall be as follows:  
+• Laboratory work (Experiments) ............ (15) Marks.  
+• Mini project (Implementation) ............ . (05) Marks.  
+• Attendance.....................................  (05) Marks  
+   TOTAL:........................................(25) Marks. 
+Oral examination will be based on Laboratory work, mini project and above syllabus. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Course Code 
+ 
+Course 
+Name 
+Teaching Scheme  
+(Contact Hours) 
+Credits Assigned 
+Theory Practical Tutorial Theory Practical Tutorial Total 
+ITM601 Mini Project 
+– 2 B Web 
+Based on 
+ML 
+-- 04 -- -- 02 -- 02 
+ 
+ 
+Course 
+Code 
+ 
+Course 
+Name 
+Examination Scheme 
+Theory Marks 
+Term Work Pract. /Oral Total 
+Internal assessment End 
+Sem. 
+Exam 
+Test1 Test 2 Avg.  
+ITM601 Mini Project 
+– 2 B Based 
+on ML 
+-- -- -- -- 25 25 50 
+ 
+Course Objectives  
+5. To acquaint with the process of identifying the needs and converting it into the problem. 
+6. To familiarize the process of solving the problem in a group. 
+7. To  acquaint  with  the  process  of  applying  basic  engineering  fundamentals to  attempt  solutions  to  the 
+problems. 
+8. To inculcate the process of self-learning and research. 
+Course Outcome: Learner will be able to...  
+10. Identify problems based on societal /research needs.  
+11. Apply Knowledge and skill to solve societal problems in a group.  
+12. Develop interpersonal skills to work as member of a group or leader.  
+13. Draw the proper inferences from available results through theoretical/ experimental/simulations. 
+14. Analyse the impact of solutions in societal and environmental context for sustainable development. 
+15. Use standard norms of engineering practices  
+16. Excel in written and oral communication. 
+17. Demonstrate capabilities of self-learning in a group, which leads to life long learning.  
+18. Demonstrate project management principles during project work. 
+ 
+
+ 
+ 
+Guidelines for Mini Project  
+ Students shall form a group of 3 to 4 students, while forming a group shall not be allowed less than 
+three or more than four students, as it is a group activity. 
+ Students  should  do  survey  and  identify  needs,  which  shall  be  converted  into  problem  statement  for 
+mini project in consultation with faculty supervisor/head of department/internal committee of faculties. 
+ Students  hall  submit  implementation  plan  in  the  form  of  Gantt/PERT/CPM  chart,  which  will  cover 
+weekly activity of mini project. 
+ A  log  book  to  be  prepared  by  each  group,  wherein  group  can  record  weekly  work  progress, 
+guide/supervisor can verify and record notes/comments.   
+ Faculty supervisor may give inputs to students during mini project activity;however, focus shall be on 
+self-learning.   
+ Students  in  a  group  shall  understand  problem  effectively,  propose  multiple  solution  and  select  best 
+possible solution in consultation with guide/ supervisor. 
+ Students shall convert the best solution into working model using various components of their domain 
+areas and demonstrate. 
+ The solution to be validated with proper justification and report to be compiled in standard format of 
+University of Mumbai.  
+ With  the  focus  on  the  self-learning,  innovation,  addressing  societal  problems  and  entrepreneurship 
+quality development within the students through the Mini Projects, it is preferable that a single project 
+of appropriate level and quality to be carried out in two semesters by all the groups of the students. i.e. 
+Mini Project 1 in semester III and IV. Similarly, Mini Project 2 in semesters V and VI.  
+ However, based on the individual students or group capability, with the mentor’s recommendations, if 
+the proposed Mini Project adhering to the qualitative aspects mentioned above gets completed in odd 
+semester, then that group can be allowed to work on the extension of the Mini Project with suitable 
+improvements/modifications  or  a completely  new  project  idea  in  even  semester.  This  policy  can  be 
+adopted on case by case basis. 
+Guidelines for Assessment of Mini Project: 
+Term Work 
+ The review/ progress monitoring committee shall be constituted by head of departments of each 
+institute. The progress of mini project to be evaluated on continuous basis, minimum two reviews 
+in each semester. 
+ In  continuous  assessment  focus  shall  also  be  on  each  individual  student,  assessment  based  on 
+individual’s contribution in group activity, their understanding and response to questions. 
+ Distribution of Term work marks for both semesters shall be as below; 
+o Marks awarded by guide/supervisor based on log book : 10 
+o Marks awarded by review committee  : 10 
+o Quality of Project report  : 05 
+   
+Review/progress  monitoring committee  may consider following points for assessment  based  on either 
+one year or half year project as mentioned in general guidelines. 
+ One-year project: 
+ In first semester entire theoretical solution shall be ready, including components/system selection 
+and cost analysis. Two reviews will be conducted based on presentation given by students group. 
+ First shall be for finalisation of problem   
+ Second shall be on finalisation of proposed solution of problem. 
+ In second semester expected work shall be procurement of component’s/systems, building of 
+working  prototype,  testing  and  validation  of  results  based  on  work  completed  in  an  earlier 
+semester. 
+ First review is based on readiness of building working prototype to be conducted. 
+ Second  review  shall  be  based  on  poster  presentation  cum  demonstration  of  working 
+model in last month of the said semester.  
+
+ 
+ 
+ 
+Half-year project: 
+ In this case in one semester students’ group shall complete project in all aspects including, 
+o Identification of need/problem 
+o Proposed final solution 
+o Procurement of components/systems 
+o Building prototype and testing 
+ Two reviews will be conducted for continuous assessment, 
+ First shall be for finalisation of problem and proposed solution 
+ Second shall be for implementation and testing of solution. 
+ 
+Assessment criteria of Mini Project. 
+ 
+Mini Project shall be assessed based on following criteria; 
+14. Quality of survey/ need identification  
+15. Clarity of Problem definition based on need. 
+16. Innovativeness in solutions  
+17. Feasibility of proposed problem solutions and selection of best solution 
+18. Cost effectiveness  
+19. Societal impact 
+20. Innovativeness   
+21. Cost effectiveness and Societal impact 
+22. Full functioning of working model as per stated requirements 
+23. Effective use of skill sets 
+24. Effective use of standard engineering norms 
+25. Contribution of an individual’s as member or leader 
+26. Clarity in written and oral communication 
+ 
+ In one year, project, first semester evaluation may be based on first six criteria’s and remaining 
+may be used for second semester evaluation of performance of students in mini project. 
+ In  case  of half  year  project all criteria’s in generic may be considered for evaluation of 
+performance of students in mini project.    
+Guidelines for Assessment of Mini Project Practical/Oral Examination: 
+ Report should be prepared as per the guidelines issued by the University of Mumbai.  
+ Mini  Project  shall  be  assessed  through  a  presentation  and  demonstration  of  working  model  by  the 
+student  project  group  to  a  panel  of  Internal  and  External  Examiners  preferably  from  industry  or 
+research organisations having experience of more than five years approved by head of Institution. 
+ Students shall be motivated to publish a paper based on the work in Conferences/students competitions. 
+ 
+Mini Project shall be assessed based on following points; 
+9. Quality of problem and Clarity 
+10. Innovativeness in solutions  
+11. Cost effectiveness and Societal impact 
+12. Full functioning of working model as per stated requirements 
+13. Effective use of skill sets 
+14. Effective use of standard engineering norms 
+15. Contribution of an individual’s as member or leader 
+16. Clarity in written and oral communication 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Course Code Course Name Teaching Scheme  
+(Contact Hours) 
+ Credits Assigned 
+Theory Practical Theory Practical Total 
+ITDO6011 Software 
+Architecture 
+03 -- 03 -- 03 
+ 
+Course 
+Code 
+Course 
+Name 
+Examination Scheme 
+Theory Marks 
+Term 
+Work 
+Practical Oral Total 
+Internal assessment 
+End 
+Sem. 
+Exam 
+Test
+1 
+Test 2 
+Avg. of 2 
+Tests 
+ITDO601
+1 
+Software 
+Architecture 
+20 20 20 80 -- -- -- 100 
+ 
+Course Objectives:   
+ 
+ 
+Course Outcomes:  
+Sr. 
+No. 
+Course Outcomes Cognitive levels 
+of attainment as 
+per Bloom’s 
+Taxonomy 
+Sr. No. Course Objectives 
+The course aims: 
+1 To  understand  the  importance  of  architecture  in  building  effective,  efficient,  competitive 
+software products.  
+2 To understand the need, design approaches for software architecture to bridge the dynamic 
+requirements and implementation 
+3 To  learn  the design  principles  and  to  apply  for  large  scale  systems  including  distributed, 
+network and heterogeneous systems 
+4 To understand principal design decisions governing the system.  
+5 To understand different notations used for capturing design decisions.  
+6 To understand different functional and non-functional properties of complex software systems.  
+ 
+
+ 
+ 
+On successful completion, of course, learner/student will be able to: 
+1 
+Understand the need of software architecture for sustainable dynamic systems. L1 
+2 
+Have a sound knowledge on design principles and to apply for large scale systems. L2 
+3 
+Apply functional and non-functional requirements L1,L2,L3 
+4 
+Design architectures for distributed, network and heterogeneous systems L1,L2,L3 
+5 
+Have good knowledge on service oriented and model driven architectures and the 
+aspect-oriented architecture. 
+L1,L2, L3 
+6 
+Have a working knowledge to develop appropriate architectures through various 
+case studies. 
+L1,L2, L3 
+ 
+Prerequisite: Software Engineering, Any Programming Language  
+ 
+ 
+ 
+DETAILED SYLLABUS:  
+ 
+Sr. No. Module Detailed Content Hours CO 
+Mapping 
+0 Prerequisite Software Engineering Concepts, Knowledge of Any 
+programming Language 
+02 
+CO1 
+I Basic Concepts 
+and 
+Architectures 
+Design 
+Terminology, Models, Processes, Stakeholders, Design 
+Process, Architectural Conceptions, Styles and 
+architectural Patterns, Architectural conceptions in 
+absences of experience, connectors, 4+1 view model of 
+Architecture 
+ 
+Self  Learning Topics : Technical Paper 
+“What_is_included_in_software_architectur” 
+07 
+CO1 
+II Architectural 
+Modeling and 
+Analysis  
+Modeling Concepts, Ambiguity, Accuracy and Precisions, 
+Complex Modeling, Evaluating Modeling Techniques, 
+Specific Modeling Techniques, Analysis Goals, Scope of 
+Analysis, Formality of Architectural Models, Types of 
+Analysis, Level of Automation, System Stakeholders, 
+Analysis Techniques 
+ 
+Self  Learning Topics: Technical Paper “Specification of 
+Requirements and Software Architecture for the 
+Customisation of Enterprise Software” 
+09 
+CO1, CO2 
+III Implementation, 
+Deployment and 
+Mobility 
+Implementation Concepts, Existing Frameworks, Overview 
+of Deployment and Mobility Challenges, Software 
+Architecture and Deployment, Software Architecture and 
+Mobility 
+ 
+Self Learning Topics: Technical Paper”Application of 
+Distributed System in Neuroscience: A Case Study of BCI 
+Framework” 
+06 
+CO1, CO2 
+IV Applied 
+Architectures 
+and  Styles 
+Distributed and Network Architectures, Architectures for 
+Network Based Applications, Decentralized Architectures, 
+Service oriented Architectures and Web Services. 
+ 
+Self Learning Topics:Technical Paper “Analysing the 
+Behaviour of Distributed Software Architectures: a Case 
+Study” 
+06 
+CO1, 
+CO2, 
+CO3 
+
+ 
+ 
+V Designing for 
+Non-Functional 
+Properties 
+Efficiency, Complexity, Scalability and Heterogeneity, 
+Adaptability, Dependability  
+ 
+Self  Learning Topics: Technical Paper “Threat-
+Modeling-in-Agile-Software-Development” 
+04 
+CO1,CO2,
+CO4, 
+CO6 
+VI Domain- 
+Specific 
+Software 
+Engineering 
+Domain-Specific Software Engineering, Domain- Specific 
+Architecture, Software Architects Roles  
+ 
+Self  Learning Topics: Research Paper “A Case Study of 
+the Variability Consequences of the CQRS” 
+05 
+CO1,CO2,
+CO3 
+ 
+ 
+ 
+ 
+ 
+Text Books: 
+ 
+1.    Software  Architecture,  Foundations,  Theory,  and  Practise,  Richard  Taylor,  Nenad  Medvidovic,  Eric  M 
+Dashofy, Wiley Student Edition. 
+2. The Art of Software Architecture: Design Methods and Techniques, Stephen T.Albin, Wiley India Private 
+Limited. 
+3. Software Architecture in Practice by Len Bass, Paul Clements, Rick Kazman, Pearson 
+ 
+References: 
+ 
+1. DevOps A Software Architect’s Perspective, Len Bass, Ingo Weber, Liming Zhu, Addison Wesley 
+2. Essentials of Software Architecture, Ion Gorton, Second Edition, Springer-verlag, 2011 
+ 
+Online Resources:  
+ 
+1. ArchStudio Software 
+2. https://www.coursera.org/learn/software-architecture 
+3. https://www.coursera.org/specializations/software-design-architecture 
+4. https://resources.sei.cmu.edu/library/asset-view.cfm?assetid=509483 
+5. http://infolab.stanford.edu/~backrub/google.html 
+6. https://web.njit.edu/~alexg/courses/cs345/OLD/F15/solutions/f3345f15.pdf 
+Assessment: 
+Internal Assessment (IA) for 20 marks:  
+ IA will consist of Two Compulsory Internal Assessment Tests. Approximately 40% to 50% of 
+syllabus content must be covered in First IA Test and remaining 40% to 50% of syllabus content 
+must be covered in Second IA Test 
+ Question paper format 
+ Question Paper will comprise of a total of six questions each carrying 20 marksQ.1 will be 
+compulsory and should cover maximum contents of the syllabus 
+ Remaining questions will be mixed in nature (part (a) and part (b) of each question must be 
+from different modules. For example, if Q.2 has part (a) from Module 3 then part (b) must be 
+from any other Module randomly selected from all the modules) 
+ A total of four questions need to be answered 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Course Code Course Name Teaching Scheme  
+(Contact Hours) 
+ Credits Assigned 
+Theory Practical Theory Practical Total 
+ITDO6012 Image 
+Processing 
+03 -- 03 -- 03 
+ 
+Course 
+Code 
+Course 
+Name 
+Examination Scheme 
+Theory Marks 
+Term 
+Work 
+Practical Oral 
+Total 
+Internal assessment End 
+Sem. 
+Exam 
+ 
+Test1 Test 2 Avg.  
+ITDO6012 Image 
+Processing  
+20 20 20 80 -- -- -- 100 
+ 
+Course Objectives:   
+ 
+Course Outcomes:  
+Sr. No. Course Objectives 
+The course aims: 
+1 Define image and its formation and debate about the roles of image processing in today's world 
+and also introduce students to the major research domains in the field of image processing.  
+2 Describe  point,  mask  and  histogram  processing  units  of  image  enhancements  that  can  be 
+applied on a given image for improving the quality of digital image required for an application.  
+3 Explain  the  forward  and  reverse  discrete  image  transforms  and  discuss  the  selection  of  the 
+image transform used for enhancement, compression, or representation and description.  
+4 Make students  understand  the  impacts  and  effects  of  image  compression  techniques  over  a 
+given bandwidth to learn how effectively storage and retrieval can be achieved using lossy and 
+lossless compression methods.  
+5 Describe and demonstrate the proper procedure for segmenting images, and demonstrate how 
+the image object can be described using image representation techniques.  
+6 Illustrate how to shape and reshape a given object in an image using morphological techniques 
+over binary and gray scale images.  
+
+ 
+ 
+Sr. No. Course Outcomes Cognitive 
+levels of 
+attainment as 
+per Bloom’s 
+Taxonomy 
+On successful completion, of course, learner/student will be able to: 
+1 Define image and explain formation of image and recall its types and calculate 
+image parameters by reading images using a programming language. 
+L1 
+2 Apply  and  differentiate  point,  mask  and  histogram  processing  techniques 
+suitable for enhancing images required for an application. 
+L1,L2,L3 
+3 
+List  and  calculate  discrete image  transform  coefficients  and  use  it  for 
+enhancement, compression and representation. 
+L1,L2, L3 
+4 
+Compute  compression  ratio  and  fidelity  criteria  to  evaluate  and  compare 
+method efficiency and classify compression techniques into lossless and lossy 
+methods. 
+L1,L2,L3, L4 
+5 
+Apply  the  segmentation  techniques  to  highlight  and  select  the  region  of 
+interest  and  determine  and  describe  using  chain  code,  shape  number  and 
+moments for representing objects in an image. 
+L1,L2,L3 
+6 
+Choose  structuring  elements and  apply  morphological  operations  to  find  a 
+suitable shape for an object in the image. 
+L1,L2,L3 
+Prerequisite: Digital Signal Processing. 
+ 
+DETAILED SYLLABUS: 
+ 
+Sr. No. Module Detailed Content Hours CO 
+Mapping 
+0 Prerequisite Digital Signal Processing, Matrix Multiplication. 
+01 
+ 
+I Introduction to 
+Image Processing 
+Image   Fundamentals: Image   Definition,   Steps   and 
+Components   of   Image   Processing,   Image   Sensing   and 
+Acquisition, Image Sampling and Quantization. 
+Relationship  Between  Pixels: Adjacency,  Connectivity 
+and Distance. 
+ 
+Self-Learning  Topics: Different  Image  File  Formats  and 
+Types of noise in image. 
+04 
+CO1 
+II Image 
+Enhancement 
+Point Processing Techniques: Image Negative, Bit Plane 
+Slicing, Gray Level Slicing, Contrast Stretching, Clipping, 
+Thresholding, Dynamic Range Compression. 
+Mask Processing Techniques: Filtering in Spatial 
+Domain, Average Filter, Weighted Average Filter, Order 
+Statistic Filter: Min, Max, Median Filter. 
+Histogram Processing: Histogram Equalization and 
+Specification. 
+ 
+Self-Learning Topics: Application of Image Enhancement 
+in Spatial Domain. 
+08 
+CO2 
+III Image 
+Transforms 
+Discrete Fourier Transform: Transform Pair, Transform 
+Matrix, Properties, Filtering in Frequency Domain. 
+Other Discrete Transforms:  Discrete Cosine Transform, 
+Discrete Hadamard Transform, Discrete Walsh, 
+Transform, Discrete Haar Transform. 
+07 
+CO3 
+
+ 
+ 
+ 
+Self-Learning   Topics: Application   of   Transforms   in 
+Steganography and CBIR. 
+IV Image 
+Compression  
+Entropy,   Redundancy   and   Types,   Compression   Ratio, 
+Compression Methods.  
+Lossless  Compression: Run-Length  Encoding,  Huffman 
+Coding,    Arithmetic    Coding,    LZW    Coding,    Lossless 
+Predictive coding. 
+Lossy  Compression:  Fidelity  Criterion,  Improved  Gray 
+scale    Quantization, Symbol-Based    Coding,    Bit-Plane 
+Coding, Vector Quantization. 
+ 
+Self-Learning  Topics: DPCM,  Block  Transform  Coding, 
+JPEG compression. 
+07 
+CO4 
+V Image 
+Segmentation and 
+Representation 
+Image  Segmentation: Point,  Line  and  Edge  Detections 
+Methods,   Hough   Transform,   Graph   Theoretic   Method, 
+Region Based Segmentation. 
+Image  Representation: Chain  Codes,  Shape  Number, 
+Polygon Approximation, Statistical Moments.  
+ 
+Self-Learning     Topics: Fourier     Descriptors,     Otsu 
+Thresholding, Application in Number Plate Recognition. 
+07 
+CO5 
+VI Morphological 
+Image Processing 
+Basic    Morphological    Methods: Erosion,    Dilation, 
+Opening, Closing, Hit-or-Miss Transformation. 
+Advanced   Morphological   Methods:  Skeletonization, 
+Thinning, Thickening, Pruning, Boundary Extraction. 
+ 
+Self-Learning  Topics: Gray  Scale  Morphology:  Erosion 
+and Dilation. 
+05 
+CO6 
+Text Books: 
+ 
+1. Rafael C. Gonzalez and Richard E. Woods, “Digital Image Processing”, Addison - Wesley Publishing 
+Company, 3e, 2007. 
+2. William K. Pratt, “Digital Image Processing”, John Wiley, 4e, 2007. 
+3. S. Jayaraman, S. Esakkirajan and T. Veerakumar, “Digital Image Processing”,  MGH Publication, 
+2016. 
+References: 
+ 
+1. Rafael C. Gonzalez and Richard E. Woods, “Digital Image Processing using MATLAB,” Pearson 
+Education. 
+2. J.  G.  Proakis  and  D.  G.  Manolakis,  “Digital  Signal  processing  Principles,  Algorithms  and 
+Applications,” PHI Publications, 3e. 
+3. Anil K. Jain, “Fundamentals of Digital Image Processing,” PHI, 1995. 
+4. Milan  Sonka,  “Digital  Image  Processing  and  Computer  Vision,”  Thomson  publication,  Second 
+Edition.2007. 
+5. Kenneth R. Castleman, “Digital Image Processing,” PHI, 1996. 
+6. S. Sridhar, “Digital Image Processing,” Oxford University Press, 2e, 2016. 
+Assessment: 
+Internal Assessment (IA) for 20 marks:  
+
+ 
+ 
+ IA will consist of Two Compulsory Internal Assessment Tests. Approximately 40% to 50% of 
+syllabus content must be covered in First IA Test and remaining 40% to 50% of syllabus content 
+must be covered in Second IA Test 
+ Question paper format 
+ Question Paper will comprise of a total of six questions each carrying 20 marksQ.1 will be 
+compulsory and should cover maximum contents of the syllabus 
+ Remaining questions will be mixed in nature (part (a) and part (b) of each question must be 
+from different modules. For example, if Q.2 has part (a) from Module 3 then part (b) must be 
+from any other Module randomly selected from all the modules) 
+ A total of four questions need to be answered 
+ 
+ 
+ 
+ 
+ 
+Course Code Course Name Teaching Scheme  
+(Contact Hours) 
+ Credits Assigned 
+Theory Practical Theory Practical Total 
+ITDO6013 Green IT 03 -- 03 -- 03 
+ 
+Course 
+Code 
+Course 
+Name 
+Examination Scheme 
+Theory Marks 
+Term 
+Work 
+Practical Oral Total 
+Internal assessment End 
+Sem. 
+Exam 
+Test1 Test 2 Avg.  
+ITDO6013 Green IT  
+20 20 20 80 -- -- -- 100 
+ 
+Course Objectives:   
+ 
+Course Outcomes:  
+ 
+Sr. 
+No. 
+Course Outcomes Cognitive levels of 
+attainment as per 
+Bloom’s 
+Taxonomy 
+On successful completion, of course, learner/student will be able to: 
+Sr. No. Course Objectives 
+The course aims: 
+1 To understand what Green IT is and How it can help improve environmental Sustainability 
+2 To understand the principles and practices of Green IT.  
+3 To understand how Green IT is adopted or deployed in enterprises. 
+4 To understand how data centres, cloud computing, storage systems, software and networks can 
+be made greener.  
+5 To measure the Maturity of Sustainable ICT world. 
+6 To implement the concept of Green IT in Information Assurance in Communication and Social 
+Media and all other commercial field.  
+
+ 
+ 
+1 Describe  awareness  among  stakeholders  and  promote  green  agenda  and  green 
+initiatives in their working environments leading to green movement 
+L1 
+2 Identify IT Infrastructure Management and Green Data Centre Metrics for software 
+development 
+L1,L2 
+3 
+Recognize Objectives of Green Network Protocols for Data communication. L1,L2 
+4 
+Use Green IT Strategies and metrics for ICT development. L1,L2,L3 
+5 
+Illustrate various green IT services and its roles. L1,L2 
+6 
+Use new  career  opportunities  available  in  IT  profession,  audits  and  others  with 
+special skills such as energy efficiency, ethical IT assets disposal, carbon footprint 
+estimation,   reporting   and   development   of   green   products,   applications   and 
+services. 
+L1,L2,L3 
+ 
+Prerequisite: Environmental Studies 
+ 
+ 
+DETAILED SYLLABUS:   
+ 
+Sr. 
+No. 
+Module Detailed Content Hours CO 
+Mapping 
+0 Prerequisite Environmental Studies 2  
+I Introduction Environmental   Impacts   of   IT,   Holistic   Approach   to 
+Greening   IT,   Green   IT   Standards   and Eco-Labeling, 
+Enterprise Green IT Strategy 
+Hardware: Life  Cycle  of  a  Device  or  Hardware,  Reuse, 
+Recycle and Dispose 
+Software: Introduction, Energy-Saving Software 
+Techniques 
+ 
+Self learning Topics: Evaluating and Measuring Software 
+Impact to Platform Power 
+7 CO 1 
+II Software 
+development and 
+data centers 
+Sustainable  Software,  Software  Sustainability  Attributes, 
+Software Sustainability Metrics 
+Data  Centres  and  Associated  Energy  Challenges,  Data 
+Centre IT Infrastructure, Data Centre Facility 
+Infrastructure:  Implications  for  Energy  Efficiency,  Green 
+Data Centre Metrics 
+ 
+Self-learning   Topics: Sustainable   Software:   A   Case 
+Study, Data Centre Management Strategies: A Case Study 
+7 CO 1 
+CO 2 
+III Data storage and 
+communication 
+Storage Media Power Characteristics, Energy 
+Management Techniques for Hard Disks 
+Objectives  of  Green  Network  Protocols,  Green  Network 
+Protocols and Standards 
+ 
+Self learning Topics: System-Level Energy Management 
+6 CO 1 
+CO 3 
+IV Information 
+systems, green it 
+strategy and 
+metrics 
+Approaching Green  IT  Strategies,  Business  Drivers  of 
+Green IT Strategy 
+Multilevel Sustainable Information, 
+6 CO 1 
+CO 4 
+
+ 
+ 
+Sustainability Hierarchy Models, Product Level 
+Information,   Individual   Level   Information,   Functional 
+Level Information, Measuring the Maturity of Sustainable 
+ICT:   A   Capability   Maturity   Framework   for   SICT, 
+Defining the Scope and Goal, Capability Maturity Levels 
+ 
+Self learning Topics: Business Dimensions for Green IT 
+Transformation 
+V Green IT services 
+and roles 
+Factors   Driving   the   Development   of Sustainable   IT, 
+Sustainable IT Services (SITS), SITS Strategic Framework 
+Organizational   and   Enterprise   Greening,   Information 
+Systems in Greening Enterprises, Greening the Enterprise: 
+IT Usage and Hardware 
+ 
+Self   learning   Topics: Inter-organizational   Enterprise 
+Activities and Green Issues, Enablers and Making the Case 
+for IT and the Green Enterprise 
+6 CO 1 
+CO 4 
+CO 5 
+VI Managing and 
+regulating green 
+IT 
+Strategizing  Green  Initiatives,  Implementation  of  Green 
+IT, Communication and Social Media 
+The   Regulatory Environment   and   IT   Manufacturers, 
+Nonregulatory Government Initiatives, Industry 
+Associations   and   Standards   Bodies,   Green   Building 
+Standards, Social Movements and Greenpeace. 
+ 
+Self learning Topics: Information Assurance, Green Data 
+Centers, Case Study: Managing Green IT 
+5 CO 1 
+CO 5 
+CO 6 
+ 
+Text Books: 
+ 
+1. San Murugesan, G. R. Gangadharan, Harnessing Green IT, WILEY 1st Edition-2013 
+2. Mohammad Dastbaz Colin Pattinson Babak Akhgar, Green Information Technology A Sustainable 
+Approach, Elsevier 2015 
+3. Reinhold, Carol Baroudi, and Jeffrey HillGreen IT for Dummies, Wiley 2009 
+ 
+References: 
+ 
+1. Mark O'Neil, Green IT for Sustainable Business Practice: An ISEB Foundation Guide, BCS 
+2. Jae H. Kim, Myung J. Lee Green IT: Technologies and Applications, Springer, ISBN: 978-3-642-22178-1 
+3. Elizabeth Rogers, Thomas M. Kostigen The Green Book: The Everyday Guide to Saving the Planet One 
+Simple Step at a Time, Springer 
+ 
+Assessment: 
+Internal Assessment (IA) for 20 marks:  
+ IA will consist of Two Compulsory Internal Assessment Tests. Approximately 40% to 50% of 
+syllabus content must be covered in First IA Test and remaining 40% to 50% of syllabus content 
+must be covered in Second IA Test 
+ Question paper format 
+ Question Paper will comprise of a total of six questions each carrying 20 marksQ.1 will be 
+compulsory and should cover maximum contents of the syllabus 
+ Remaining questions will be mixed in nature (part (a) and part (b) of each question must be 
+from different modules. For example, if Q.2 has part (a) from Module 3 then part (b) must be 
+from any other Module randomly selected from all the modules) 
+ A total of four questions need to be answered 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Course Code Course Name Teaching Scheme  
+(Contact Hours) 
+ Credits Assigned 
+Theory Practical Theory Practical Total 
+ITDO6014 Ethical 
+Hacking and 
+Forensics 
+03 -- 03 -- 03 
+ 
+Course 
+Code 
+Course 
+Name 
+Examination Scheme 
+Theory Marks 
+Term 
+Work 
+Practical Oral Total 
+Internal assessment End 
+Sem. 
+Exam 
+Test1 Test 2 Avg.  
+ITDO6014 Ethical 
+Hacking and 
+Forensics  
+20 20 20 80 -- -- -- 100 
+ 
+Course Objectives:   
+ 
+Course Outcomes:  
+Sr. No. Course Objectives 
+The course aims: 
+1 To understand the concept of cybercrime and principles behind ethical hacking.  
+2 To explore the fundamentals of digital forensics, digital evidence and incident response. 
+3 To learn the tools and techniques required for computer forensics.   
+4 To understand the network attacks and tools and techniques required to perform network 
+forensics.  
+5 To learn how to investigate attacks on mobile platforms. 
+6 To generate a forensics report after investigation. 
+
+ 
+ 
+Sr. No. Course Outcomes Cognitive levels of 
+attainment as per 
+Bloom’s 
+Taxonomy 
+On successful completion, of course, learner/student will be able to: 
+1 Define the concept of ethical hacking. L1 
+2 Recognize  the  need  of  digital  forensics  and  define  the  concept  of  digital 
+evidence and incident response. 
+L1,L2 
+3 
+Apply  the  knowledge  of  computer  forensics  using  different  tools  and 
+techniques. 
+L1,L2,L3 
+4 
+Detect the network attacks and analyze the evidence. L1, L2,L3,L4 
+5 
+Apply the knowledge of computer forensics using different tools and 
+techniques. 
+L1,L2,L3 
+6 
+List  the  method  to  generate  legal  evidence  and  supporting  investigation 
+reports 
+L1,L2 
+ 
+ 
+Prerequisite: Computer Networks, Computer Network Security 
+ 
+ 
+ 
+DETAILED SYLLABUS:   
+ 
+Sr. 
+No. 
+Module Detailed Content Hours CO 
+Mapping 
+0 Prerequisite Computer Networks, Computer Network Security 
+01 
+-- 
+I 
+Cybercrime and 
+Ethical Hacking 
+Introduction to Cybercrime, Types of Cybercrime, 
+Classification of Cybercriminals, Role of computer 
+in Cybercrime, Prevention of Cybercrime. 
+Ethical Hacking, Goals of Ethical Hacking, Phases 
+of  Ethical  Hacking,  Difference  between  Hackers, 
+Crackers and Phreakers, Rules of Ethical Hacking.  
+Self  Learning  Topics:  exploring  various  online 
+hacking  tools  for  Reconnaissance  and  scanning 
+Phase. 
+06 
+CO1 
+II 
+Digital Forensics 
+Fundamentals 
+Introduction   to   Digital   Forensics,   Need   and 
+Objectives  of  Digital  Forensics,  Types  of  Digital 
+Forensics, Process of Digital Forensics, Benefits of 
+Digital    Forensics,    Chain    of    Custody,    Anti 
+Forensics. 
+Digital  Evidence  and  its  Types,  Rules  of  Digital 
+Evidences. 
+Incident    Response,    Methodology    of    Incident 
+Response, Roles of CSIRT in handling incident. 
+Self Learning Topics: Pre Incident preparation and 
+Incident Response process 
+06 
+CO2 
+III 
+Computer 
+Forensics 
+Introduction   to   Computer   Forensics,   Evidence 
+collection  (Disk,  Memory,  Registry,  Logs  etc), 
+Evidence Acquisition, Analysis and 
+Examination(Window, Linux, Email, Web, 
+Malware)  ,  Challenges  in  Computer  Forensics, 
+Tools used in Computer Forensics. 
+08 
+CO3 
+
+ 
+ 
+Self  Learning  Topics: Open  source  tool  for  Data 
+collection & analysis in windows or Unix 
+IV 
+Network 
+Forensics 
+Introduction, Evidence Collection and Acquisition 
+(Wired    and    Wireless), Analysis    of    network 
+evidences(IDS,  Router,),  Challenges  in  network 
+forensics, Tools used in network forensics. 
+Self Learning Topics: IDS types and role of IDS 
+in attack prevention 
+08 
+CO4 
+V 
+Mobile Forensics 
+Introduction, Evidence Collection and Acquisition, 
+Analysis   of   Evidences,   Challenges   in   mobile 
+forensics, Tools used in mobile forensics 
+Self Learning Topics: Tools / Techniques used in 
+mobile forensics 
+06 
+CO5 
+VI 
+Report 
+Generation 
+Goals of Report, Layout of an Investigative Report, 
+Guidelines for Writing a Report, sample for writing 
+a forensic report. 
+Self  Learning  Topics:  For  an  incident  write  a 
+forensic report. 
+04 
+CO6 
+ 
+ 
+ 
+Text Books: 
+ 
+1. John Sammons, “The Basics of Digital Forensics: The Premier for Getting Started in Digital Forensics”, 2
+nd
+ 
+Edition, Syngress, 2015. 
+2. Nilakshi Jain, Dhananjay Kalbande, “Digital Forensic: The fascinating world of Digital Evidences” Wiley 
+India Pvt Ltd 2017. 
+3. Jason Luttgens, Matthew Pepe, Kevin Mandia, “Incident Response and computer forensics”,3
+rd
+ Edition Tata 
+McGraw Hill, 2014. 
+ 
+References: 
+ 
+1. Sangita Chaudhuri, Madhumita Chatterjee, “Digital Forensics”, Staredu, 2019. 
+2. Bill  Nelson,Amelia  Phillips,Christopher  Steuart,  “Guide  to  Computer  Forensics  and  Investigations”  
+Cengage Learning, 2014. 
+3. Debra Littlejohn Shinder Michael Cross “Scene of the Cybercrime: Computer Forensics Handbook”, 2nd 
+Edition Syngress Publishing, Inc.2008. 
+ 
+Assessment: 
+Internal Assessment (IA) for 20 marks:  
+ IA will consist of Two Compulsory Internal Assessment Tests. Approximately 40% to 50% of 
+syllabus content must be covered in First IA Test and remaining 40% to 50% of syllabus content 
+must be covered in Second IA Test 
+ Question paper format 
+ Question Paper will comprise of a total of six questions each carrying 20 marksQ.1 will be 
+compulsory and should cover maximum contents of the syllabus 
+ Remaining questions will be mixed in nature (part (a) and part (b) of each question must be 
+from different modules. For example, if Q.2 has part (a) from Module 3 then part (b) must be 
+from any other Module randomly selected from all the modules) 
+ A total of four questions need to be answered 
+ 
+ 

@@ -9,8 +9,15 @@ import { CrashMode } from "./pages/CrashMode.jsx";
 import { Scope } from "./pages/Scope.jsx";
 import { Simplify } from "./pages/Simplify.jsx";
 import { Score } from "./pages/Score.jsx";
+import { Notes } from "./pages/Notes.jsx";
+import { Onboarding } from "./pages/Onboarding.jsx";
+import { InstitutionSignup } from "./pages/InstitutionSignup.jsx";
+import { InstitutionDashboard } from "./pages/InstitutionDashboard.jsx";
 import { ProtectedRoute } from "./components/ProtectedRoute.jsx";
 import { AuthProvider } from "./context/AuthContext.jsx";
+import { RoadmapsDashboard } from "./pages/RoadmapsDashboard.tsx";
+import { RoadmapsBookmarks } from "./pages/RoadmapsBookmarks.tsx";
+import { RoadmapDetail } from "./pages/RoadmapDetail.tsx";
 
 // Navbar shows only on public/marketing pages.
 // App-interior pages (dashboard, tools) use MainLayout's sidebar.
@@ -32,6 +39,14 @@ const AppRoutes = () => {
           element={
             <ProtectedRoute>
               <Dashboard />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/onboarding"
+          element={
+            <ProtectedRoute>
+              <Onboarding />
             </ProtectedRoute>
           }
         />
@@ -64,6 +79,50 @@ const AppRoutes = () => {
           element={
             <ProtectedRoute>
               <Score />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/institution/signup"
+          element={<InstitutionSignup />}
+        />
+        <Route
+          path="/institution/dashboard"
+          element={
+            <ProtectedRoute>
+              <InstitutionDashboard />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/notes"
+          element={
+            <ProtectedRoute>
+              <Notes />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/roadmaps"
+          element={
+            <ProtectedRoute>
+              <RoadmapsDashboard />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/roadmaps/bookmarks"
+          element={
+            <ProtectedRoute>
+              <RoadmapsBookmarks />
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/roadmaps/:roadmapId"
+          element={
+            <ProtectedRoute>
+              <RoadmapDetail />
             </ProtectedRoute>
           }
         />

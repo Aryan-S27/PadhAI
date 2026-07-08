@@ -1,0 +1,4123 @@
+
+
+ 
+ 
+ 
+                                                                                                                            AC:  29/6/2021           
+ 
+ 
+                                                                                                                      Item No. : 6.12       
+ 
+UNIVERSITY OF MUMBAI 
+ 
+ 
+ 
+Bachelor of Engineering 
+in 
+Information Technology  
+Third Year with Effect from AY 2021-22 
+ 
+ (REV- 2019 ‘C’ Scheme) from Academic Year 2019 – 20 
+Under 
+FACULTY OF SCIENCE & TECHNOLOGY 
+ 
+(As per AICTE guidelines with effect from the academic year 
+2019–2020) 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Date : 29/6/2021 
+ 
+ 
+Dr. S. K. Ukarande                      Dr Anuradha Muzumdar 
+Associate Dean                       Dean 
+Faculty of Science and Technology                     Faculty of Science and Technology                     
+University of Mumbai                     University of Mumbai 
+ 
+ 
+Sr. No.  
+Heading  Particulars  
+1  
+Title of the Course  
+Third Year Bachelor of Information Technology    
+2  Eligibility for Admission  
+ 
+After Passing Second Year  Engineering as per the 
+Ordinance 0.6243 
+3  Passing  Marks  
+40%  
+4  
+Ordinances /  
+Regulations ( if any)  
+Ordinance 0.6243 
+5  No. of Years / Semesters  
+8 semesters  
+6  Level   
+Under Graduation    
+ 
+7  Pattern   
+Semester   
+ 
+8  Status   
+Revised   
+ 
+9  
+To be implemented from 
+Academic Year  
+With effect from Academic Year:  2021-2022 
+  
+  
+  
+  
+                          
+  
+                        
+                          
+                          
+                          
+                          
+AC: 29/6/2021 
+  
+                     
+Item No.  6.12 
+  
+  
+UNIVERSITY OF MUMBAI 
+  
+  
+ 
+  
+  
+Syllabus for Approval 
+  
+
+ 
+ 
+ 
+Preamble 
+ 
+ 
+To meet the challenge of ensuring excellence in engineering education, the issue of quality needs to be addressed, 
+debated  and  taken  forward  in  a  systematic  manner.  Accreditation  is  the  principal  means  of  quality  assurance  in 
+higher education. The major emphasis of accreditation process is to measure the outcomes of the program that is 
+being accredited. In line with this Faculty of Science and Technology (in particular Engineering)of University of 
+Mumbai  has  taken  a  lead  in  incorporating  philosophy  of  outcome  based  education  in  the  process  of  curriculum 
+development. 
+Faculty resolved that course objectives and course outcomes are to be clearly defined for each course, so that all 
+faculty  members  in  affiliated  institutes  understand  the  depth  and  approach  of  course  to  be  taught,  which  will 
+enhance learner’s learning process. Choice based Credit and grading system enables a much-required shift in focus 
+from teacher-centric to learner-centric education since the workload estimated is based on the investment of time 
+in learning and not in teaching. It also focuses on continuous evaluation which will enhance the quality of education. 
+Credit assignment for courses is based on 15 weeks teaching learning process, however content of courses is to be 
+taught in 13 weeks and remaining 2 weeks to be utilized for revision, guest lectures, coverage of content beyond 
+syllabus etc. 
+There  was  a  concern  that  the  earlier  revised  curriculum  more  focused  on  providing  information  and  knowledge 
+across  various  domains  of  the  said  program,  which  led  to  heavily  loading  of  students  in  terms  of  direct  contact 
+hours. In this regard, faculty of science and technology resolved that to minimize the burden of contact hours, total 
+credits of entire program will be of 170, wherein focus is not only on providing knowledge but also on building 
+skills, attitude and self learning. Therefore in the present curriculum skill based laboratories and mini projects are 
+made mandatory across all disciplines of engineering in second and third year of programs, which will definitely 
+facilitate self learning of students. The overall credits and approach of curriculum proposed in the present revision 
+is in line with AICTE model curriculum. 
+The  present  curriculum  will  be  implemented  for  Second  Year  of  Engineering  from  the  academic  year  2020-21. 
+Subsequently this will be carried forward for Third Year and Final Year Engineering in the academic years 2021-
+22, 2022-23, respectively. 
+ 
+ 
+ 
+ 
+ 
+ 
+Dr. S. K. Ukarande                 Dr. Anuradha Muzumdar 
+Associate Dean                                                                                  Dean 
+Faculty of Science and Technology                          Faculty of Science and Technology 
+University of Mumbai                University of Mumbai 
+ 
+  
+
+ 
+ 
+ 
+Incorporation and Implementation of Online Contents from 
+NPTEL/ Swayam Platform 
+ 
+ 
+ 
+The curriculum revision is mainly focused on knowledge component, skill based activities and project based 
+activities. Self learning opportunities are provided to learners. In the revision process this time in particular 
+Revised syllabus of ‘C ‘ scheme wherever  possible  additional  resource links  of  platforms  such  as  NPTEL, 
+Swayam are appropriately provided. In an earlier revision of curriculum in the year 2012 and 2016 in Revised 
+scheme ‘A' and ‘B' respectively, efforts were made to use online contents more appropriately  as  additional 
+learning materials to enhance learning of students.  
+In the current revision based on the recommendation of AICTE model curriculum overall credits are reduced 
+to  171,  to  provide  opportunity  of  self  learning  to  learner.  Learners are  now  getting  sufficient  time  for  self 
+learning either through online courses or additional projects for enhancing their knowledge and skill sets. 
+The Principals/ HoD’s/ Faculties of all the institute are required to motivate and encourage learners to use 
+additional online resources available on platforms such as NPTEL/ Swayam. Learners can be advised to take 
+up online courses, on successful completion they are required to submit certification for the same. This will 
+definitely help learners to facilitate their enhanced learning based on their interest.  
+ 
+ 
+ 
+ 
+ 
+Dr. S. K. Ukarande       Dr Anuradha Muzumdar 
+Associate Dean       Dean 
+Faculty of Science and Technology                 Faculty of Science and Technology 
+University of Mumbai      University of Mumbai 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+Preface By Board of Studies Team  
+ 
+It is our honor and a privilege to present the Rev-2019 ‘C’ scheme syllabus of Bachelor of Engineering 
+in Information Technology (effective from year 2019-20) with inclusion of cutting edge technology. 
+Information Technology is comparatively a young branch among other engineering disciplines in the 
+University of Mumbai. It is evident from the placement statistics of various colleges affiliated to the 
+University of Mumbai that IT branch has taken the lead in the placement.  
+ 
+The branch also provides multi-faceted scope like better placement and promotion of entrepreneurship 
+culture among students, and increased Industry Institute Interactions. Industries views are considered 
+as stakeholders will design of the syllabus of Information Technology. As per Industries views only 16 
+% graduates are directly employable. One of the reasons is a syllabus which is not in line with the latest 
+technologies. Our team of faculties has tried to include all the latest technologies in the syllabus. Also 
+first  time  we  are  giving  skill-based  labs  and  Mini-project  to  students  from  third  semester  onwards 
+which will help students to work on latest IT technologies. Also the first time we are giving the choice 
+of elective from fifth semester such that students will be master in one of the IT domain. The syllabus 
+is peer reviewed by experts from reputed industries and as per their suggestions it covers future trends 
+in IT technology and research opportunities available due to these trends. 
+ 
+We would  like  to  thank  senior  faculties  of  IT  department  of  all  colleges  affiliated  to  University of 
+Mumbai for significant contribution in framing the syllabus. Also on behalf of all faculties we thank 
+all the industry experts for their valuable feedback and suggestions. We sincerely hope that the revised 
+syllabus will help all graduate engineers to face the future challenges in the field of information and 
+technology 
+ 
+ 
+Program Specific Outcome for graduate Program in Information Technology 
+ 
+1. Apply Core Information Technology knowledge to develop stable and secure IT system. 
+2. Design, IT infrastructures for an enterprise using concepts of best practices in information 
+    Technology and security domain. 
+3. Ability to work in multidisciplinary projects and make it IT enabled. 
+4. Ability to adapt latest trends and technologies like Analytics, Blockchain, Cloud, Data science. 
+ 
+ 
+ 
+ 
+Board of Studies in Information Technology - Team 
+Dr. Deven Shah (Chairman) 
+Dr. Lata Ragha (Member) 
+Dr. Vaishali D. Khairnar (Member) 
+Dr. Sharvari Govilkar (Member) 
+Dr. Sunil B. Wankhade (Member) 
+Dr. Anil Kale (Member) 
+Dr. Vaibhav Narwade (Member) 
+Dr. GV Choudhary (Member) 
+ 
+ 
+ 
+Ad-hoc Board Information Technology 
+University of Mumbai 
+ 
+ 
+ 
+
+ 
+ 
+Program Structure for Third Year Information Technology  
+Semester V & VI 
+UNIVERSITY OF MUMBAI 
+(With Effect from 2021-2022) 
+ 
+Semester V 
+ 
+Course 
+Code 
+ 
+Course Name 
+Teaching 
+Scheme 
+(Contact 
+Hours) 
+ 
+Credits Assigned 
+Theory Pract. Theory Pract. Total 
+ITC501 Internet Programming 3 -- 3 -- 3 
+ITC502 Computer Network Security 3 -- 3 
+ 
+3 
+ITC503 Entrepreneurship and  E- 
+business 
+3 -- 3 -- 3 
+ITC504 Software Engineering 3 -- 3 -- 3 
+ITDO501X 
+Department Optional Course 
+– 1 
+3 -- 3 -- 3 
+ITL501 IP Lab -
+- 
+2 -- 1 1 
+ITL502 Security Lab -
+- 
+2 -- 1 1 
+ITL503 DevOPs Lab     -
+- 
+2 -- 1 1 
+ITL504 Advance DevOPs Lab - 2 -- 1 1 
+ 
+ITL505 
+Professional Communication 
+& Ethics-II (PCE-II) 
+ 
+-
+- 
+ 
+2*+2 
+ 
+-- 
+ 
+2 
+ 
+2 
+ITM501 Mini Project – 2 A Web Based 
+Business Model 
+-
+- 
+4
+$ 
+-- 2 2 
+Total 
+15 16 15 08 23 
+ 
+ 
+ 
+Course 
+Code 
+ 
+ 
+ 
+Course Name 
+Examination Scheme 
+Theor
+y 
+Term 
+Work 
+Prac 
+/oral 
+Total 
+ 
+Internal Assessment 
+End 
+Sem 
+Exam 
+Exam. 
+Duration 
+(in Hrs) 
+   
+Test1 Test2 Avg 
+     
+ITC501 Internet Programming 20 20 20 80 3 -- -- 100 
+ITC502 Computer Network Security 20 20 20 80 3 -- -- 100 
+ITC503 Entrepreneurship and  E- 
+business 
+20 20 20 80 3 -- -- 100 
+ITC504 Software Engineering 20 20 20 80 3 -- -- 100 
+ITDO501X 
+Department Optional Course 
+– 1 
+20 20 20 80 3 -- -- 100 
+ITL501 IP Lab -- -- -- -- -- 25 25 50 
+ITL502 Security Lab -- -- -- -- -- 25 25 50 
+ITL503 DevOPs Lab -- -- -- -- -- 25 25 50 
+
+ 
+ITL504 Advance DevOPs Lab -- -- -- -- -- 25 25 50 
+ 
+ITL505 
+Professional Communication & 
+Ethics-II (PCE-II) 
+ 
+-- 
+ 
+-- 
+ 
+-- 
+ 
+-- 
+ 
+-- 
+ 
+50 
+ 
+-- 
+ 
+50 
+ITM501 Mini Project – 2 A Web Based 
+Business Model 
+-- -- -- -- -- 25 25 50 
+Total -- -- 100 400 -- 175 125 800 
+ 
+* Theory class to be conducted for full class 
+$ indicates work load of Learner (Not Faculty), for Mini-Project. Students can form groups with minimum 
+2(Two) and not more than 4(Four).  Faculty Load: 1hour per week per four groups.   
+ 
+ 
+ 
+ITDO501X Department Optional Course – 1 
+ 
+ 
+ITDO5011 Microcontroller Embedded Programming 
+ITDO5012 Advance Data Management Technologies 
+ITDO5013 Computer Graphics & Multimedia System 
+ITDO5014 
+Advanced Data structure and Analysis 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+Course Code Course Name 
+Teaching Scheme 
+(Contact Hours) 
+ 
+Credits Assigned 
+Theory Practical Theory Practical Total 
+ITC501 
+Internet 
+Programming 
+03 -- 03 -- 03 
+ 
+Course Code Course Name 
+Examination Scheme 
+Theory 
+Term 
+Work 
+Pract 
+/ Oral 
+Total 
+Internal Assessment 
+End 
+Sem 
+Exam 
+Exam 
+Duration 
+(in Hrs) 
+Test1 Test2 Avg. 
+     
+ITC501 
+Internet 
+Programming 
+20 20 20 80 03 -- -- 100 
+ 
+Course Objectives: 
+Course Outcomes: 
+Sr. No. Course Outcomes Cognitive levels of 
+attainment as per 
+Bloom’s Taxonomy 
+On successful completion, of course, learner/student will be able to: 
+1 Select protocols or technologies required for various web applications.    L1,L2,L3,L4 
+2  Apply JavaScript to add functionality to web pages.   L1, L2, L3 
+3  Design front end application using basic React.  L1,L2,L3,L4,L5,L6 
+4  Design front end applications using functional components of React. L1,L2,L3,L4,L5,L6 
+5  Design back-end applications using Node.js.    L1,L2,L3,L4,L5,L6 
+6  Construct web based Node.js applications using Express. L1,L2,L3,L4,L5,L6 
+ 
+Prerequisite: Knowledge of basic programming, network fundamentals and operating systems. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Sr. No. Course Objectives 
+The course aims: 
+1 To orient students to Web Programming fundamental.   
+2 To expose students to JavaScript to develop interactive web page development 
+3 To orient students to Basics of REACT along with installation 
+4 To expose students to Advanced concepts in REACT 
+5 To orient students to Fundamentals of node.js 
+6 To expose students to node.js applications using express framework. 
+
+ 
+ 
+ 
+   DETAILED SYLLABUS:   
+ 
+Sr. 
+No. 
+Module Detailed Content Hours CO Mapping 
+0 Prerequisite Introduction and basics of HTML, CSS 
+02 
+- 
+I Web 
+programming 
+fundamentals 
+ 
+Working   of   web   browser,   HTTP   protocol, 
+HTTPS,  DNS,  TLS,  XML  introduction,  Json 
+introduction, DOM, URL, URI, REST API. 
+Self-learning Topics:  : Nginx server 
+03 
+CO1 
+II Java script: 
+ 
+Introduction to ES6, Difference between ES5 and 
+ES6.   Variables,   Condition,   Loops,   Functions, 
+Events, Arrow functions,  
+Setting   CSS   Styles   using   JavaScript, DOM 
+manipulation, Classes and Inheritance.  
+Iterators  and  Generators,  Promise,  Client-server 
+communication, Fetch 
+ 
+Self-learning Topics: Asynchronous JavaScript, 
+JSON 
+06 
+CO2 
+III React 
+fundamentals 
+ 
+Installation,  Installing  libraries,  Folder  and  file 
+structure, Components,   Component   lifecycle, 
+State  and  Props,  React  Router  and  Single  page 
+applications,     UI     design,     Forms,     Events, 
+Animations, Best practices. 
+ 
+Self-learning Topics: React vs Angular vs Vue 
+07 
+CO3 
+IV Advanced 
+React: 
+ 
+Functional    components- Refs,    Use effects, 
+Hooks, Flow architecture, Model-View-
+Controller    framework,    Flux,    Bundling    the 
+application. Web pack. 
+ 
+Self-learning Topics:  React Native 
+07 
+CO4 
+V Node.js: 
+ 
+Environment   setup,   First   app,   Asynchronous 
+programming,  Callback  concept,  Event  loops, 
+REPL,   Event   emitter,      Networking   module, 
+Buffers, Streams, File system, Web module. 
+ 
+Self-learning Topics: Node.js with Mongodb. 
+07 
+CO5 
+VI Express: 
+ 
+Introduction,    Express    router,    REST    API, 
+Generator,  Authentication,  sessions,  Integrating 
+with React. 
+ 
+Self-learning Topics: Commercial deployment.   
+07 
+CO6 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+     Text Books: 
+ 
+1. Rediscovering JavaScript, Master ES6, ES7, and ES8, By Venkat Subramaniam · 2018 
+2. Learning React Functional Web Development with React and Redux, Alex Banks and 
+Eve Porcello, O’Reilly 
+3. Learning Redux, Daniel Bugl, Packt Publication 
+4. Learning Node.js Development, Andrew Mead, Packt Publishing 
+5. RESTful Web API Design with Node.js 10, Valentin Bojinov, Packt Publication 
+ 
+ 
+      References: 
+ 
+1. Web Development with Node and Express, Ethan Brown, O’Reilly  
+ 
+Online Resources: 
+ 
+2. https://reactjs.org/tutorial/tutorial.html 
+3. https://react-redux.js.org/introduction/quick-start 
+4. https://webpack.js.org/ 
+5. https://www.youtube.com/watch?v=-27HAh8c0YU 
+ 
+ 
+Assessment: 
+Internal Assessment (IA) for 20 marks:  
+ IA will consist of Two Compulsory Internal Assessment Tests. Approximately 40% to 50% 
+of syllabus content must be covered in First IA Test and remaining 40% to 50% of syllabus 
+content must be covered in Second IA Test 
+ Question paper format 
+ Question Paper will comprise of a total of six questions each carrying 20 marksQ.1 will be 
+compulsory and should cover maximum contents of the syllabus 
+ Remaining questions will be mixed in nature (part (a) and part (b) of each question must be 
+from different modules. For example, if Q.2 has part (a) from Module 3 then part (b) must be 
+from any other Module randomly selected from all the modules) 
+ A total of four questions need to be answered 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+Course Code Course Name 
+Teaching Scheme 
+(Contact Hours) 
+ 
+Credits Assigned 
+Theory Practical Theory Practical Total 
+ITC502 
+Computer 
+Network  
+Security  
+03 -- 03 -- 03 
+ 
+Course Code Course Name 
+Examination Scheme 
+Theory 
+Term 
+Work 
+Pract 
+/ Oral 
+Total 
+Internal Assessment 
+End 
+Sem 
+Exam 
+Exam 
+Duration 
+(in Hrs) 
+Test1 Test2 Avg. 
+     
+ITC502 
+Computer Network  
+Security 
+20 20 20 80 03 -- -- 100 
+ 
+Course Objectives:   
+ 
+Course Outcomes:  
+ 
+ 
+Sr. 
+No. 
+ 
+ 
+Course Outcomes 
+Cognitive levels of 
+attainment as per 
+Bloom’s Taxonomy 
+On successful completion, of course, learner/student will be able to: 
+1 
+Explain the fundamentals concepts of computer security and network 
+security. 
+L1, L2 
+2 
+Identify the basic cryptographic techniques using classical and block 
+encryption methods. 
+L1 
+3 
+Study and describe the system security malicious software. L1, L2 
+4 
+Describe the Network layer security, Transport layer security and 
+application layer security. 
+L1, L2 
+5 
+Explain the need of network management security and illustrate the need 
+for NAC. 
+L1, L2 
+6 
+Identify the function of an IDS and firewall for the system security. L1,L2, L3 
+ 
+Prerequisite: Basic concepts of Computer Networks & Network Design, Operating System  
+Sr. No. Course Objectives 
+The course aims: 
+1 The basic concepts of computer and Network Security 
+2 Various cryptographic algorithms including secret key management and different authentication 
+techniques. 
+3 Different types of malicious Software and its effect on the security. 
+4 Various secure communication standards including IPsec, SSL/TLS and email. 
+5 The Network management Security and Network Access Control techniques in Computer Security. 
+6 Different attacks on networks and infer the use of firewalls and security protocols. 
+
+ 
+ 
+ 
+DETAILED SYLLABUS:  
+ 
+Sr. 
+No. 
+Module Detailed Content Hours 
+CO 
+Mapping 
+0 Prerequisite 
+Basic  concepts  of  Computer  Networks  &  Network  Design, 
+Operating System 
+02 
+-- 
+I 
+Introduction 
+to Network 
+Security & 
+cryptography 
+Computer  security  and  Network  Security(Definition),  CIA, 
+Services,   Mechanisms   and   attacks,   The   OSI   security 
+architecture,  Network  security  model.  Classical Encryption 
+techniques (mono-alphabetic and poly-alphabetic 
+substitution  techniques:  Vigenere  cipher,  playfair  cipher, 
+transposition  techniques:  keyed  and  keyless  transposition 
+ciphers). Introduction to steganography. 
+ 
+Self-learning   Topics:   Study   some   more   classical 
+encryption  techniques  and  solve  more  problems  on  all 
+techniques. Homomorphic encryption in cloud computing 
+07 
+CO1 
+II 
+Cryptography: 
+Key 
+management, 
+distribution 
+and user 
+authentication 
+Block cipher modes of operation,Data Encryption Standard, 
+Advanced Encryption Standard (AES). RC5 algorithm. 
+Public key cryptography: RSA algorithm.                                                                                     
+Hashing   Techniques:   SHA256,   SHA-512,   HMAC   and 
+CMAC,  
+Digital  Signature  Schemes – RSA,  DSS.  Remote  user 
+Authentication   Protocols,   Kerberos,   Digital   Certificate: 
+X.509, PKI 
+ 
+Self-learning  Topics:  Study  working  of  elliptical  curve 
+digital signature and its benefits over RSA digital signature. 
+09 
+CO2 
+III 
+Malicious 
+Software 
+SPAM,  Trojan  horse,  Viruses,  Worms,  System  Corruption, 
+Attack Agents,  Information  Theft,  Trapdoor,  Keyloggers, 
+Phishing,  Backdoors,  Rootkits,  Denial  of  Service  Attacks, 
+Zombie 
+ 
+Self-learning Topics:  Study the recent malicious software’s 
+and their effects. 
+    04 
+CO3 
+IV 
+ 
+IP Security, 
+Transport 
+level security 
+and Email 
+Security 
+ 
+ 
+IP level Security: Introduction to IPSec, IPSec Architecture, 
+Protection   Mechanism   (AH   and   ESP),   Transport   level 
+security:  VPN.  Need  Web  Security  considerations,  Secure 
+Sockets Layer (SSL)Architecture, Transport Layer Security 
+(TLS),  HTTPS,  Secure  Shell  (SSH)  Protocol  Stack.  Email 
+Security: Secure Email S/MIME 
+Screen reader support enabled. 
+ 
+Self-learning  Topics:  Study  Gmail  security  and  privacy 
+from Gmail help 
+ 
+07 
+CO4 
+V 
+Network 
+Management 
+Security and 
+Network 
+Access 
+Control 
+Network Management Security:SNMPv3,                                                                 
+NAC:Principle elements of NAC,Principle NAC 
+enforcement  methods,  How  to  implement  NAC  Solutions, 
+Use cases for network access control     
+ 
+Self-learning Topics:   Explore  any  open  source  network 
+management security tool                     
+06 
+CO5 
+
+ 
+ 
+ 
+ 
+ 
+Textbooks: 
+ 
+1 
+William Stallings, Cryptography and Network Security, Principles and Practice, 6th Edition, 
+Pearson Education, March 2013. 
+2 
+Behrouz A. Ferouzan, “Cryptography & Network Security”, Tata Mc Graw Hill. 
+3 
+Mark Stamp’s Information Security Principles and Practice, Wiley 
+4 
+Bernard Menezes, “Cryptography & Network Security”, Cengage Learning. 
+ 
+ 
+References: 
+ 
+1 
+Applied Cryptography, Protocols, Algorithms and Source Code in C, Bruce Schneier, Wiley. 
+2 
+Cryptography and Network Security, Atul Kahate, Tata Mc Graw Hill. 
+3 
+www.rsa.com 
+ 
+     Online References: 
+ 
+Sr. No. Website Name 
+1.  https://swayam.gov.in/ 
+2.  https://nptel.ac.in/ 
+3.            https://www.coursera.org/ 
+ 
+ 
+Assessment: 
+Internal Assessment (IA) for 20 marks:  
+ IA will consist of Two Compulsory Internal Assessment Tests. Approximately 40% to 
+50% of syllabus content must be covered in First IA Test and remaining 40% to 50% of 
+syllabus content must be covered in Second IA Test 
+ Question paper format 
+ Question Paper will comprise of a total of six  questions each carrying 20 marksQ.1 
+will be compulsory and should cover maximum contents of the syllabus 
+ Remaining  questions will be mixed in nature (part (a) and part (b) of each question 
+must be from different modules.  For example, if Q.2 has part (a) from Module 3 then 
+part (b) must be from any other Module randomly selected from all the modules) 
+ A total of four questions need to be answered 
+ 
+ 
+ 
+ 
+ 
+ 
+VI 
+System 
+Security 
+IDS,    Firewall    Design    Principles,    Characteristics    of 
+Firewalls, Types of Firewalls 
+ 
+Self-learning Topics:  Study firewall rules table 
+04 
+CO6 
+
+ 
+ 
+ 
+Course Code Course Name 
+Teaching Scheme 
+(Contact Hours) 
+ 
+Credits Assigned 
+Theory Practical Theory Practical Total 
+ITC503 
+Entrepreneurship 
+and E-business 
+03 -- 03 -- 03 
+ 
+Course Code Course Name 
+Examination Scheme 
+Theory 
+Term 
+Work 
+Pract 
+/ Oral 
+Total 
+Internal Assessment 
+End 
+Sem 
+Exam 
+Exam 
+Duration 
+(in Hrs) 
+Test1 Test2 Avg.      
+ITC503 
+Entrepreneurship 
+and E-business 
+20 20 20 80 03 -- -- 100 
+ 
+Course Objectives:   
+ 
+Course Outcomes:  
+Sr. No. Course Outcomes Cognitive levels 
+of attainment as 
+per Bloom’s 
+Taxonomy 
+On successful completion, of course, learner/student will be able to: 
+1 
+Understand the concept of entrepreneurship and its close 
+relationship with enterprise and owner-management. 
+L1,L2 
+2 
+Understand the nature of business development in the context of 
+existing organizations and of new business start-ups. 
+L1,L2 
+3 
+Comprehended important factors for starting a new venture and 
+business development. 
+L1,L2,L3 
+4 
+Know issues and decisions involved in financing and resourcing a 
+business start-up 
+L1,L2,L3,L4 
+5 Describe various E-business Models L1,L2,L3,L4 
+6 Discuss various E-business Strategies. L1,L2,L3,L4 
+ 
+Prerequisite: None 
+ 
+ 
+ 
+Sr. No. Course Objectives 
+The course aims: 
+1 Distinguish Entrepreneur and Entrepreneurship starting and feasibility study. 
+2 Realize the skills required to be an entrepreneur 
+3 Acquaint the students with challenges of starting new ventures 
+4 Identify the right sources of fund for starting a new business 
+5 Be familiarized with concept of E-business Models. 
+6 Understand various E-business Strategies. 
+
+ 
+ 
+ 
+ 
+DETAILED SYLLABUS:   
+ 
+Sr. 
+No. 
+Module Detailed Content Hours CO Mapping 
+0 Prerequisite 
+None 
+-- -- 
+I Introduction  
+Concept, meaning and definition of Entrepreneur and 
+Entrepreneurship. Evolution of Entrepreneurship, 
+Role of Entrepreneurship in economic Development; 
+Managerial vs entrepreneurial approach; 
+Classification and types of Entrepreneurs. 
+Characteristics and qualities of successful 
+Entrepreneurs; Women Entrepreneurs; Corporate & 
+Social entrepreneurship. 
+ 
+Self-learning Topics: Factors impacting emergence 
+of entrepreneurship.   
+04 
+CO1 
+II 
+Entrepreneu
+rship 
+Developme
+nt and 
+Leadership 
+Entrepreneurial Motivation: motivating factors, Types 
+of     startups;     Characteristics     of     entrepreneurial 
+leadership, Components of Entrepreneurial 
+Leadership;     Factors    influencing    entrepreneurial 
+development and motivation, Entrepreneurial 
+Opportunities    and    challenges,    Entrepreneurship 
+process.    Types    of    Enterprises    and    Ownership 
+Structure:  small  scale,  medium  scale  and  large-scale 
+enterprises:  Meaning  and  definition  (evolution),  role 
+of   small   enterprises   in   economic   development; 
+proprietorship, Policies governing SMEs, partnership, 
+Ltd.  companies  and  co-operatives:  their  formation, 
+capital structure and source of finance.  
+ 
+Self-learning Topics: study the white paper 
+https://www.ncert.nic.in/ncerts/l/lebs213.pdf 
+06 
+CO2 
+III 
+New 
+Venture 
+Planning 
+Methods to Initiate Ventures; Acquisition-Advantages 
+of  acquiring  an  ongoing  venture  and  examination  of 
+key  issues;  Developing  a  Marketing plan-customer 
+analysis,   sales   analysis   and   competition   analysis, 
+Business   Plan-benefits   of   drivers,   perspectives   in 
+business plan preparation, elements of a business plan; 
+Business plan failures. 
+ 
+Self-learning Topics: Refer following URL to study 
+various case studies 
+https://www.entrepreneurindia.co/case-studies   
+07 
+CO3 
+IV 
+Financing & 
+Managing 
+Venture 
+Financing   Stages;   Sources   of   Finance;   Venture 
+Capital; Criteria for evaluating new-venture proposals 
+& Capital-process. Management of venture: objectives 
+and functions of management, scientific management, 
+general  and  strategic  management;  introduction  to 
+human resource management: planning, job analysis, 
+training, recruitment and selection 
+ 
+Self-learning Topics: visit website 
+06 
+CO4 
+
+ 
+ 
+https://www.startupindia.gov.in  
+ 
+V 
+Overview of 
+ E – 
+business 
+Concept  of  E-business,  Business  Success  through 
+adoption of technology, information management for 
+business     Initiatives,     Performance     improvement 
+through e-business. Introduction to various 
+collaborative partnerships, E-commerce: Sectors of e-
+commerce, B to C, B to B and C to C ecommerce, E-
+commerce   success   factors,   clicks   and   Bricks   in 
+ecommerce, collaborative commerce. E-Marketplace, 
+M-commerce,   E-Government;   Various   E-business 
+Models,   Challenges   of   the   E-Business   Models, 
+Globalization of E-business. 
+ 
+Self-learning  Topics: Social  media  applications  for 
+E-Business, Social media analytics.  
+08 
+CO5 
+VI 
+Strategic 
+Initiatives 
+for 
+Technology 
+Customer Relationship Management:  
+The evolution of CRM, functional areas of CRM, 
+contemporary trends - SRM, PRM AND ERM, 
+Future Trends of CRM  
+Enterprise Resource Planning: 
+Core and Extended ERP; components of ERP system; 
+Benefits and Risks of ERP implementation 
+Supply Chain Management: 
+Meaning, definition, importance, and characteristics 
+of SCM, Elements of SCM, Push & Pull supply chain 
+model, Use of e-business to restructure supply chain, 
+Supply chain management implementation 
+Procurement: 
+Meaning and advantages of   e –procurement, 
+Types& Drivers of e- procurement, Components of e- 
+procurement systems, Implementation of e- 
+procurement 
+ 
+Self-learning Topics: SEM and SEO E-CRM 
+08 
+CO6 
+ 
+ 
+Textbooks: 
+1 
+Entrepreneurship; Robert Hisrich, Michael Peters; Tata McGraw Hill Publication 
+2 
+Entrepreneurship: New venture creation by David Holt, Prentice Hall of India Pvt. Ltd. 
+3 
+E- Business & E– Commerce Management: Strategy, Implementation, Practice – Dave 
+Chaffey, Pearson Education 
+4 
+E-commerce – A Managerial Perspective- P. T. Joseph, Prentice Hall India Publications. 
+Content 
+ 
+References: 
+1 
+Entrepreneurship and Innovations in E-business An Integrative Perspective by Fang Zhao, 
+Idea Group Publications. 
+2 
+        Business Driven Technology –Haag/Baltzan/Philips –Tata McGraw Hill Publication 
+3 
+1.        Digital Business and E-commerce Management by Dave Chaffey, David Edmundson-
+Bird, Tanya Hemphill,  Pearson Education 
+4 
+ 
+5 
+E-Business 2.0 Roadmap for Success by Dr. Ravi Kalakota, Marcia Robinson, Pearson 
+Education 
+Case Studies in International Entrepreneurship: Managing and Financing Ventures in the 
+Global Economy. By Walter Kuemmerle, Walter Kuemmerle. McGraw-Hill/Irwin, 2004. 
+
+ 
+ 
+ 
+      Note: - It is advisable that faculty should discuss case studies in the classroom  
+ 
+ 
+Assessment: 
+Internal Assessment (IA) for 20 marks:  
+ IA will consist of Two Compulsory Internal Assessment Tests. Approximately 40% to 50% of 
+syllabus content must be covered in First IA Test and remaining 40% to 50% of syllabus content 
+must be covered in Second IA Test 
+ Question paper format 
+ Question Paper will comprise of a total of six questions each carrying 20 marksQ.1 will be 
+compulsory and should cover maximum contents of the syllabus 
+ Remaining questions will be mixed in nature (part (a) and part (b) of each question must 
+be from different modules.  For example, if Q.2 has part (a) from  Module 3 then part (b) 
+must be from any other Module randomly selected from all the modules) 
+ A total of four questions need to be answered 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ISBN: 0072977841. 
+
+ 
+ 
+ 
+Course Code Course Name 
+Teaching Scheme 
+(Contact Hours) 
+ 
+Credits Assigned 
+Theory Practical Theory Practical Total 
+ITC504 
+Software 
+Engineering 
+03 -- 03 -- 03 
+ 
+Course Code Course Name 
+Examination Scheme 
+Theory 
+Term 
+Work 
+Pract/ 
+Oral 
+Total 
+Internal Assessment 
+End 
+Sem 
+Exam 
+Exam 
+Duratio
+n 
+(in Hrs) 
+   
+Test1 Test 2 Avg.      
+ITC504 
+Software 
+Engineering 
+20 20 20 80 03 -- -- 100 
+ 
+ 
+Course Objectives: 
+ 
+Course Outcomes:  
+ 
+Sr. No. Course Outcomes Cognitive 
+levels of 
+attainment as 
+per Bloom’s 
+Taxonomy 
+On successful completion, of course, learner/student will be able to: 
+1 
+Understand and use basic knowledge in software engineering. L1, L2 
+2 
+Identify requirements, analyze and prepare models. L1, L2, L3 
+3 
+Plan, schedule and track the progress of the projects. L1, L2, L3 
+4 
+Design & develop the software solutions for the growth of society L1, L2, L3 
+5 
+To demonstrate and evaluate real time projects with respect to software 
+engineering principles 
+L1, L2, L3, L4 
+6 
+Apply testing and assure quality in software solution L1, L2, L3, L4 
+ 
+Prerequisite: Basic programming of knowledge. 
+ 
+ 
+Sr. No. Course Objectives 
+The course aims: 
+1 To provide the knowledge of software engineering discipline. 
+2 To understand Requirements and analyze it 
+3 To do planning and apply scheduling 
+4 To apply analysis, and develop software solutions 
+5 To demonstrate and evaluate real time projects with respect to software engineering 
+principles 
+6 Apply testing and assure quality in software solution. 
+
+ 
+ 
+ 
+ 
+DETAILED SYLLABUS:   
+ 
+Sr. 
+No. 
+Module Detailed Content Hours 
+CO 
+Mapping 
+0 Prerequisite                                    None -- -- 
+I 
+Introduction to 
+Software 
+Engineering  
+ 
+Nature   of   Software,   Software   Engineering,   Software 
+Process, Capability Maturity Model (CMM)  
+ 
+Generic Process Model, Prescriptive Process Models: The 
+Waterfall Model, V-model, Incremental Process Models, 
+Evolutionary Process Models, Concurrent Models, Agile 
+process, Agility Principles, Extreme Programming (XP), 
+Scrum, Kanban model 
+ 
+Self-learning   Topics: Personal   and   Team   Process 
+Models 
+ 
+06 
+CO1,CO2 
+II 
+Requirement 
+Analysis 
+ 
+Software  Requirements:  Functional  &  non-functional – 
+user-system requirement engineering process – feasibility 
+studies – elicitation – validation   &   management – 
+software  prototyping – S/W  documentation – Analysis 
+and modelling 
+ 
+Requirement Elicitation, Software requirement 
+specification (SRS), 
+ 
+Self-learning  Topics: prioritizing requirements  (Kano 
+diagram) - real life application case study. 
+ 
+07 
+CO1,CO2 
+III 
+Software 
+Estimation and 
+Scheduling  
+ 
+Management Spectrum, 3Ps (people, product and process) 
+  
+Process and Project metrics  
+ 
+Software   Project   Estimation:    LOC,    FP,   Empirical 
+Estimation  Models - COCOMO  II  Model,  Specialized 
+Estimation Techniques, Object based estimation, use-case 
+based estimation 
+ 
+ Project scheduling: Defining a Task Set for the Software 
+Project,  Timeline  charts,  Tracking  the  Schedule,  Earned 
+Value Analysis 
+ 
+Self-learning    Topics: Cost    Estimation    Tools    and 
+Techniques, Typical Problems with IT Cost Estimates. 
+06 
+CO3 
+IV 
+Design 
+Engineering  
+ 
+Design  Process  & quality,  Design  Concepts,  The  design 
+Model, Pattern-based Software Design. 4.2 Architectural 
+Design  :Design  Decisions,  Views,  Patterns,  Application 
+Architectures, Modeling  
+ 
+Component  level  Design:  component,  Designing  class 
+based components, conducting component-level design, 
+ 
+User Interface Design: The golden rules, Interface Design 
+07 
+CO3, CO4 
+
+ 
+ 
+steps & Analysis, Design Evaluation 
+ 
+Self-learning Topics: Refinement, Aspects, Refactoring 
+ 
+V 
+Software Risk, 
+Configuration 
+Management  
+ 
+Risk  Identification, Risk  Assessment,  Risk  Projection, 
+RMMM 
+ 
+Software  Configuration  management,  SCM  repositories, 
+SCM process  
+ 
+Software  Quality  Assurance  Task  and  Plan,  Metrics, 
+Software  Reliability,  Formal  Technical  Review  (FTR), 
+Walkthrough 
+ 
+Self-learning  Topics:: Configuration  management  for 
+WebApps 
+ 
+07 
+CO5 
+VI 
+Software 
+Testing and 
+Maintenance 
+ 
+Testing: Software  Quality,  Testing:  Strategic Approach, 
+Strategic  Issues- Testing:  Strategies  for  Conventional 
+Software,    Object    oriented    software,    Web    Apps-
+Validating Testing- System Testing- Art of Debugging.  
+ 
+ Maintenance : Software Maintenance-Software 
+Supportability- Reengineering- Business Process 
+Reengineering- Software Reengineering- Reverse 
+Engineering- Restructuring- Forward Engineering 
+ 
+Self-learning Topics: Test Strategies for WebApps 
+ 
+06 
+CO6 
+ 
+ 
+Text Books: 
+ 
+1  Roger S. Pressman, Software Engineering: A practitioner's approach, McGraw Hill 
+ 
+2 Rajib Mall, Fundamentals of Software Engineering, Prentice Hall India 
+ 
+3  PankajJalote, An integrated approach to Software Engineering, Springer/Narosa. 
+ 
+4  Ian Sommerville, Software Engineering, Addison-Wesley. 
+ 
+  
+References: 
+ 
+1  https://nptel.ac.in/courses/106/101/106101061/ 
+ 
+2  https://www.youtube.com/watch?v=wEr6mwquPLY 
+ 
+3  http://www.nptelvideos.com/video.php?id=911&c=9 
+ 
+4  https://onlinecourses.nptel.ac.in/noc19_cs70/unit?unit=25&lesson=66 
+ 
+5  https://onlinecourses.nptel.ac.in/noc19_cs70/unit?unit=25&lesson=67 
+ 
+6  https://onlinecourses.nptel.ac.in/noc19_cs70/unit?unit=25&lesson=65 
+7  https://onlinecourses.nptel.ac.in/noc19_cs70/unit?unit=25&lesson=64 
+8  https://onlinecourses.nptel.ac.in/noc19_cs70/unit?unit=25&lesson=63 
+ 
+Preferable: Case studies can be discussed on every unit as per requirement for better    
+                     understanding, examples are given below. 
+Unit 1 
+An information system (mental health-care system), wilderness weather system. 
+Unit 2 
+Mental health care patient management system (MHC-PMS). 
+Unit 3 
+Software Tools for Estimation. 
+ 
+
+ 
+ 
+ 
+ 
+Assessment: 
+Internal Assessment (IA) for 20 marks:  
+ IA  will  consist  of  Two  Compulsory  Internal  Assessment  Tests.  Approximately  40%  to 
+50% of syllabus content must be covered in First IA Test and remaining 40% to 50% of 
+syllabus content must be covered in Second IA Test. 
+ Question paper format 
+ Question Paper will comprise of a total of six questions each carrying 20 marksQ.1 will 
+be compulsory and should cover maximum contents of the syllabus 
+ Remaining questions will be mixed in nature (part (a) and part (b) of each question must 
+be from different modules. For example, if Q.2 has part (a) from Module 3 then part (b) 
+must be from any other Module randomly selected from all the modules) 
+ A total of four questions need to be answered. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Unit 4 
+Risk management in Food delivery software. 
+Unit 5 
+Study design of Biometric Authentication software. 
+Unit 6 
+Selenium Testing with any online application. 
+ 
+
+ 
+ 
+ 
+ 
+Course Code Course 
+Name 
+Teaching Scheme 
+(Contact Hours) 
+Credits Assigned 
+Theory Practical Theory Practical Total 
+ITL501 IP Lab -- 02 -- 01 01 
+ 
+Course 
+Code 
+Course 
+Name 
+Examination Scheme 
+Theory Term 
+Work 
+ 
+Pract / 
+Oral 
+ 
+Total 
+ 
+Internal Assessment End 
+Sem 
+Exam 
+ 
+Exam 
+Duration 
+(in Hrs) 
+ 
+Test1 Test 2 Avg. 
+ITL501 IP Lab -- -- -- -- -- 25 25 50 
+ 
+ 
+Lab Objectives:   
+ 
+Sr. No. Lab Objectives 
+The Lab aims: 
+1 
+To orient students to HTML for making webpages  
+2 
+To expose students to CSS for formatting web pages 
+3 
+ To expose students to developing responsive layout  
+4 
+ To expose students to JavaScript to make web pages interactive 
+5 
+ To orient students to React for developing front end applications 
+6 
+ To orient students to Node.js for developing backend applications  
+ 
+Lab Outcomes:  
+ 
+Sr. No. Course Outcomes Cognitive levels of 
+attainment as per 
+Bloom’s Taxonomy 
+On successful completion, of course, learner/student will be able to: 
+1 
+Identify and apply the appropriate HTML tags to develop a webpage. L1, L2,L3,L4 
+2 
+Identify and apply the appropriate CSS tags to format data on 
+webpage 
+L1, L2,L3,L4 
+3 
+Construct responsive websites using Bootstrap L1, L2,L3,L4,L5,L6 
+4 
+Use JavaScript to develop interactive web pages.  L1, L2,L3,L4,L5,L6 
+5 
+Construct front end applications using React L1, L2,L3,L4,L5,L6 
+6 
+Construct back end applications using Node.js/Express L1, L2,L3,L4,L5,L6 
+ 
+     Prerequisite: Knowledge of Java programming and object-oriented programming. 
+
+ 
+ 
+ 
+ 
+Hardware & Software Requirements: 
+ 
+Hardware Requirement:   
+ 
+PC i3 processor and above 
+Software requirement:   
+Google Chrome Browser (latest), Java 8 or above, 
+NodeJS, React. Internet Connection 
+ 
+  DETAILED SYLLABUS: 
+ 
+Textbooks: 
+ 
+1. HTML 5 Black Book (Covers CSS3, JavaScript, XML, XHTML, AJAX, PHP, jQuery) 2Ed., DT 
+Editorial Services 
+2. Learning React Functional Web Development with React and Redux, Alex Banks and Eve Porcello, 
+O’Reilly 
+3. Learning Node.js Development, Andrew Mead, Packt Publishing 
+ 
+References: 
+1. https://www.tutorialspoint.com/ 
+2. https://reactjs.org/tutorial/tutorial.html 
+3. https://nodejs.dev/learn 
+4. https://www.youtube.com/watch?v=-27HAh8c0YU 
+ 
+Term Work:  Term Work shall consist of at least 12 to 15 practicals based on the above list. Also Term 
+work Journal must include at least 2 assignments.   
+ 
+Term Work Marks: 25 Marks (Total marks) = 15 Marks (Experiment) + 5 Marks (Assignments) + 5 Marks 
+(Attendance) 
+ 
+Sr. 
+No. 
+Module Detailed Content Hours LO 
+Mapping 
+I  HTML5 Elements, Attributes, Head, Body, Hyperlink, Formatting, 
+Images, Tables, List, Frames, Forms, Multimedia 
+ 02 
+ LO1 
+II  CSS3 Syntax, Inclusion,  Color,  Background,  Fonts,  Tables, 
+lists,CSS3 selectors, Pseudo classes, Pseudo elements 
+ 02 
+ LO2 
+III  Bootstrap Grid   system,   Forms,   Button,   Navbar,   Breadcrumb, 
+Jumbotron 
+ 02 
+ LO3 
+IV  JavaScript  Variables,   Operators,   Conditions,   Loops,   Functions, 
+Events, Classes and Objects, Error handling, Validations, 
+Arrays, String, Date 
+ 05 
+ LO4 
+V  React Installation and Configuration. JSX, Components, Props, 
+State, Forms, Events, Routers, Refs, Keys. 
+ 08 
+ LO5 
+VI  Node.js Installation  and  Configuration,  Callbacks,  Event  loops, 
+Creating express app.  
+07  
+ LO6 
+
+ 
+ 
+Practical & Oral Exam: An Practical & Oral exam will be held based on the above syllabus. 
+ 
+Course 
+Code 
+Course Name 
+Teaching Scheme 
+(Contact Hours) 
+Credits Assigned 
+Theory Practical Theory Practical Total 
+ITL502 
+Security 
+Lab  
+-- 02 -- 01 01 
+ 
+Course 
+Code 
+Course Name 
+Examination Scheme 
+Theory 
+Term 
+Work 
+Pract 
+/ Oral 
+Total 
+Internal Assessment 
+End 
+Sem 
+Exam 
+Exam 
+Duration 
+(in Hrs) 
+Test1 Test 2 Avg. 
+     
+ITL502 Security Lab  -- -- -- -- -- 25 25 50 
+ 
+Lab Objectives: 
+Sr. 
+No. 
+Lab Objectives 
+The Lab experiments aims: 
+1 
+To apply the knowledge of symmetric cryptography to implement classical ciphers. 
+2 
+To analyze and implement public key encryption algorithms, hashing and digital signature 
+algorithms. 
+3 
+To explore the different network reconnaissance tools to gather information about networks. 
+4 
+To explore the tools like sniffers, port scanners and other related tools for analyzing. 
+5 
+To Scan the network for vulnerabilities and simulate attacks. 
+6 To set up intrusion detection systems using open-source technologies 
+ and to explore email security. 
+ 
+Lab Outcomes: 
+ 
+Sr. No. Lab Outcomes Cognitive levels of 
+attainment as per 
+Bloom’s 
+Taxonomy 
+On successful completion, of course, learner/student will be able to: 
+1 
+Illustrate symmetric cryptography by implementing classical ciphers. L1,L2 
+2 
+Demonstrate Key management, distribution and user authentication. L1,L2 
+3 
+Explore the different network reconnaissance tools to gather 
+information about networks 
+L1,L2, L3 
+4 
+Use tools like sniffers, port scanners and other related tools for 
+analyzing packets in a network. 
+L1,L2,L3 
+5 
+Use open-source tools to scan the network for vulnerabilities and 
+simulate attacks. 
+L1,L2,L3 
+6 
+Demonstrate the network security system using open source tools. L1,L2 
+ 
+
+ 
+ 
+ 
+ 
+ 
+Prerequisite: Basic concepts of Computer Networks & Network Design, Operating System  
+ 
+Hardware & Software Requirements: 
+ 
+Hardware Requirement:   
+ 
+PC With following Configuration 
+ 1. Intel Core i3/i5/i7 Processor  
+ 2. 4 GB RAM  
+ 3. 500 GB Harddisk 
+Software requirement:   
+1. Windows or Linux Desktop OS  
+2. wireshark  
+3. ARPWATCH  
+4. Kismet, NetStumbler  
+5. NESSU 
+ 
+DETAILED SYLLABUS: 
+ 
+Sr. No. Detailed Content Hours 
+LO 
+Mapping 
+I 
+Classical   Encryption   techniques (mono-alphabetic   and   poly-
+alphabetic   substitution   techniques:   Vigenere   cipher,   playfair 
+cipher) 
+04 
+LO1 
+II 
+1)Block  cipher  modes  of  operation  using  a)Data  Encryption 
+Standard b)Advanced Encryption Standard (AES). 
+2)Public key cryptography: RSA algorithm.                                                                                     
+3)Hashing Techniques: HMAC using SHA 
+4)Digital Signature Schemes – RSA, DSS. 
+06 
+LO2 
+III 
+1) Study the use of network reconnaissance tools like WHOIS, 
+dig, traceroute, nslookup to gather  information about networks 
+and domain  registrars.  
+2) Study of packet sniffer tools Wireshark, :-  a. Observer 
+performance in promiscuous as well  as non-promiscuous mode.  
+ b. Show the packets can be traced based on   different filters. 
+04 
+LO3 
+IV 
+1) Download and install nmap.   
+2) Use it with different options to scan open ports, perform OS 
+fingerprinting, ping scan, tcp port scan, udp port scan, etc. 
+04 
+LO4 
+V 
+a) Keylogger attack using a keylogger tool.  
+b) Simulate DOS attack using Hping or other tools  
+c) Use the NESSUS/ISO Kali Linux tool to scan the network for 
+vulnerabilities. 
+04 
+LO5 
+VI 
+1) Set up IPSec under Linux. 
+2) Set up Snort and study the logs.  
+3)  Explore the GPG tool to implement email security 
+04 
+LO6 
+ 
+Text Books 
+ 
+1 
+Build your own Security Lab, Michael Gregg, Wiley India. 
+2 
+CCNA Security, Study Guide, TIm Boyles, Sybex. 
+3 
+Hands-On Information Security Lab Manual, 4th edition,  Andrew Green, Michael Whitman,  
+
+ 
+ 
+Herbert Mattord. 
+4 
+The Network Security Test Lab: A Step-by-Step Guide Kindle Edition,  Michael Gregg. 
+ 
+ 
+ 
+References: 
+ 
+1 
+Network Security Bible, Eric Cole, Wiley India. 
+2 
+Network Defense and Countermeasures,  William (Chuck) Easttom. 
+3 
+Principles of Information Security + Hands-on Information Security Lab Manual, 4th Ed. , Michael 
+E. Whitman , Herbert J. Mattord. 
+4 
+IITB virtual Lab: http://cse29-iiith.vlabs.ac.in/ 
+5
+  
+https://www.dcode.fr/en 
+ 
+Sr.No Experiment Title 
+1. 
+Breaking    the    Mono-alphabetic    Substitution    Cipher    using 
+Frequency analysis method. 
+2. 
+Design and Implement a product cipher using Substitution ciphers. 
+3. 
+Cryptanalysis or decoding Playfair, vigenere cipher. 
+4. 
+Encrypt  long  messages  using  various  modes  of  operation  using 
+AES or DES. 
+5. 
+Cryptographic  Hash  Functions  and  Applications  (HMAC):  to 
+understand the need, design and applications of collision resistant 
+hash functions. 
+6. 
+Implementation  and  analysis  of  RSA  cryptosystem  and  Digital 
+signature scheme using RSA. 
+7. 
+Study the use of network reconnaissance tools like WHOIS, dig, 
+traceroute,  nslookup  to  gather  information about  networks  and 
+domain registrars. 
+8. 
+Study of packet sniffer tools wireshark: - a. Observer performance 
+in promiscuous as well   as non-promiscuous mode.  b. Show the 
+packets can be traced based on different filters. 
+9. 
+Download,  install  nmap and  use it  with  different  options  to  scan 
+open  ports,  perform  OS  fingerprinting,  ping  scan,  tcp  port  scan, 
+udp port scan, etc. 
+10. 
+Study of malicious software using different tools: 
+ a) Keylogger attack using a keylogger tool.  
+ b) Simulate DOS attack using Hping or other tools  
+c) Use the NESSUS/ISO Kali  Linux tool to scan the network for    
+vulnerabilities. 
+11. 
+Study of Network security by 
+ a) Set up IPSec under Linux. 
+          b) Set up Snort and study the logs.       
+c)  Explore the GPG tool to implement email security 
+ 
+ 
+ 
+Term Work:  Term Work shall consist of at least 12 to 15 practicals based on the above list. Also Term 
+work Journal must include at least 2 assignments.   
+ 
+Term Work Marks: 25 Marks (Total marks) = 15 Marks (Experiment) + 5 Marks (Assignments) + 5 Marks 
+(Attendance) 
+ 
+Practical & Oral Exam: An Practical & Oral exam will be held based on the above syllabus. 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+Course 
+Code 
+Course Name 
+Teaching 
+Scheme 
+(Contact Hours) 
+Credits Assigned 
+Theory Practical Theory Practical Total 
+ITL503 DevOPs Lab -- 02 -- 01 01 
+ 
+Course 
+Code 
+Course Name 
+Examination Scheme 
+Theory 
+Term 
+Work 
+Pract 
+/ Oral 
+Total 
+Internal Assessment 
+End 
+Sem 
+Exam 
+Exam 
+Duration 
+(in Hrs) 
+Test1 Test 2 Avg.      
+ITL503 DevOPs Lab -- -- -- -- -- 25 25 50 
+ 
+Lab Objectives:   
+ 
+Sr. 
+No. 
+Lab Objectives 
+The Lab experiments aims: 
+1 
+To understand DevOps practices which aims to simplify Software Development Life Cycle 
+2 
+To be aware of different Version Control tools like GIT, CVS or Mercurial 
+3 
+To  Integrate  and  deploy  tools  like  Jenkins  and  Maven,  which  is  used  to  build,  test  and  deploy 
+applications in DevOps environment 
+4 
+To be familiarized with selenium tool, which is used for continuous testing of applications deployed. 
+5 
+To use Docker to Build, ship and manage applications using containerization 
+6 
+To understand the concept of Infrastructure as a code and install and configure Ansible tool. 
+ 
+Lab Outcomes: 
+ 
+Sr. 
+No. 
+Lab Outcomes Cognitive 
+levels of 
+attainment as 
+per Bloom’s 
+Taxonomy 
+On successful completion, of course, learner/student will be able to: 
+1 To understand the fundamentals of DevOps engineering and be fully proficient 
+with DevOps terminologies, concepts, benefits, and deployment options to meet 
+your business requirements 
+L1,L2 
+2 
+To obtain complete knowledge of the “version control system” to effectively track 
+changes augmented with Git and GitHub 
+L1,L2 
+3 
+To   understand   the   importance   of   Jenkins   to   Build   and   deploy   Software 
+Applications on server environment 
+L1,L2 
+4 
+Understand the importance of Selenium and Jenkins to test Software Applications L1,L2 
+
+ 
+ 
+5 
+To understand concept of containerization and  Analyze the Containerization of 
+OS images and deployment of applications over Docker 
+L1,L2,L3 
+6 
+To Synthesize software configuration and provisioning using Ansible. L1,L2,L3 
+ 
+Prerequisite: Operating System, Linux Administration, Java /Web Application Programming, and Software 
+Engineering. 
+ 
+Hardware & Software Requirements: 
+ 
+Hardware Requirements Software Requirements Other Requirements 
+PC With following Configuration 
+1. Intel i3 core or above  
+2. 4 GB RAM or above 
+3. 500 GB HDD 
+4. Network interface card  
+1.  Linux  /  Windows  Operating     
+system 
+2. VIRTUAL BOX/ VMWARE 
+ 
+1. Internet Connection for installing 
+additional packages 
+2. GitHub account 
+3. Docker hub account 
+ 
+DETAILED SYLLABUS:  
+Sr. 
+No. 
+Module Detailed Content Hours 
+LO 
+Mapping 
+0 Prerequisite 
+Knowledge  of  Linux  Operating  system,  installation  and 
+configuration   of   services   and   command   line basics, 
+Basics of Computer Networks and Software 
+Development Life cycle. 
+00 
+LO1 
+I 
+Introduction   to 
+Devops 
+Understanding  of  the  process  to  be  followed  during  the 
+development of an application, from the inception of an 
+idea to its  final  deployment.  Learn  about the  concept  of 
+DevOps  and  the  practices  and  principles  followed  to 
+implement it in any company’s software development life 
+cycle.  
+Learn   about   the   phases   of   Software   Lifecycle.   Get 
+familiar  with  the  concept  of  Minimum  Viable  Product 
+(MVP)   &   Cross-functional   Teams.   Understand   why 
+DevOps  evolved  as  a  prominent  culture  in  most  of  the 
+modern-day  startups  to  achieve  agility  in  the  software 
+development process 
+Self-Learning Topics: Scrum, Kanban, Agile 
+04 
+LO1 
+II Version Control 
+In this module you will learn: 
+ GIT Installation, Version Control, Working with 
+remote repository 
+ GIT Cheat sheet 
+ Create and fork repositories in GitHub 
+ Apply branching, merging and rebasing 
+concepts. 
+ Implement different Git workflow strategies in 
+real-time scenarios  
+ Understand Git operations in IDE 
+ 
+Self-Learning Topics: AWS Codecommit, Mercurial, 
+Subversion, Bitbucket, CVS 
+04 
+LO1 & 
+LO2 
+III 
+Continuous 
+Integration 
+using Jenkins 
+In this module, you will know how to perform Continuous 
+Integration using Jenkins by building and automating test 
+cases using Maven / Gradle / Ant. 
+ Introduction to Jenkins (With Architecture) 
+  Introduction to Maven / Gradle / Ant. 
+04 
+LO1 & 
+LO3 
+
+ 
+ 
+ Jenkins Management Adding a slave node to 
+Jenkins  
+ Build the pipeline of jobs using Maven / Gradle / 
+Ant in Jenkins, create a pipeline script to deploy 
+an application over the tomcat server 
+Self-Learning Topics: Travis CI, Bamboo, 
+GitLab, AWS CodePipeline 
+IV 
+Continuous 
+Testing with 
+Selenium  
+In this module, you will learn about selenium and how to 
+automate  your  test  cases  for  testing  web  elements.  You 
+will also get introduced to X-Path, TestNG and integrate 
+Selenium with Jenkins and Maven. 
+ Introduction to Selenium 
+ Installing Selenium 
+ Creating Test Cases in Selenium WebDriver 
+ Run Selenium Tests in Jenkins Using Maven 
+ 
+Self-Learning Topics: Junit, Cucumber 
+04 
+LO1 , LO3 
+&  LO4 
+V 
+Continuous 
+Deployment: 
+Containerizatio
+n with Docker 
+In  this  module,  you  will  be  introduced  to  the  core 
+concepts and technology behind Docker. Learn in detail 
+about container and various operations performed on it. 
+ Introduction to Docker Architecture and 
+Container Life Cycle 
+ Understanding images and containers 
+ Create and Implement docker images using 
+Dockerfile. 
+ Container Lifecycle and working with 
+containers. 
+ To Build, deploy and manage web or software 
+application on Docker Engine. 
+ Publishing image on Docker Hub. 
+ 
+Self-Learning Topics: Docker Compose, Docker 
+Swarm. 
+05 
+LO1 & 
+LO5 
+VI 
+Continuous 
+Deployment: 
+Configuration 
+Management 
+with Puppet 
+In this module, you will learn to Build and operate a 
+scalable automation system. 
+ Puppet Architecture 
+ Puppet Master Slave Communication 
+ Puppet Blocks  
+ Installation and Configuring Puppet Master and 
+Agent on Linux machines 
+ Use exported resources and forge modules to set 
+up Puppet modules 
+ Create efficient manifests to streamline your 
+deployments 
+ 
+Self-Learning Topics: Ansible, Saltstack 
+05 
+LO1 & 
+LO6 
+ 
+ 
+Text books  
+1. DevOps Bootcamp, Sybgen Learning 
+2. Karl Matthias & Sean P. Kane, Docker: Up and Running, O'Reilly Publication. 
+3.  Len  Bass,Ingo  Weber,Liming  Zhu,”DevOps,  A  Software  Architects  Perspective”,  AddisonWesley-
+Pearson Publication. 
+4. John Ferguson Smart,” Jenkins, The Definitive Guide”, O'Reilly Publication. 
+5. Mastering Puppet 5: Optimize enterprise-grade environment performance with Puppet, by Ryan Russell-
+
+ 
+ 
+Yates Packt Publishing (September 29, 2018) 
+ 
+References: 
+1. Sanjeev Sharma and Bernie Coyne,” DevOps for Dummies”, Wiley Publication  
+2. Httermann, Michael, “DevOps for Developers”, Apress Publication.  
+3. Joakim Verona, “Practical DevOps”, Pack publication 
+4. Puppet 5 Essentials - Third Edition: A fast-paced guide to automating your infrastructure by Martin  
+    Alfke Packt Publishing; 3rd Revised edition (September 13, 2017) 
+ 
+List of Experiments: 
+ 
+Sr.No Experiment Title 
+1. 
+To understand DevOps: Principles, Practices, and DevOps 
+Engineer Role and Responsibilities. 
+2.  
+To understand Version Control System / Source Code 
+Management, install git and create a GitHub account. 
+3. 
+To Perform various GIT operations on local and Remote 
+repositories using GIT Cheat-Sheet  
+4.  
+To understand Continuous Integration, install and configure 
+Jenkins with Maven/Ant/Gradle to setup a build Job. 
+5. 
+To Build the pipeline of jobs using Maven / Gradle / Ant in 
+Jenkins, create a pipeline script to Test and deploy an application 
+over the tomcat server. 
+6. 
+To understand Jenkins Master-Slave Architecture and scale your 
+Jenkins standalone implementation by implementing slave nodes. 
+7. 
+To Setup and Run Selenium Tests in Jenkins Using Maven. 
+8. 
+To understand Docker Architecture and Container Life Cycle, 
+install Docker and execute docker commands to manage images 
+and interact with containers. 
+9. 
+To learn Dockerfile instructions, build an image for a sample web 
+application using Dockerfile. 
+10. 
+To install and Configure Pull based Software Configuration 
+Management and provisioning tools using Puppet. 
+11. 
+To learn Software Configuration Management and provisioning 
+using Puppet Blocks(Manifest, Modules, Classes, Function) 
+12 
+To provision a LAMP/MEAN Stack using Puppet Manifest. 
+ 
+Term Work:  Term Work shall consist of at least 12 to 15 practicals based on the above list. Also Term 
+work Journal must include at least 2 assignments, one of which must include a Case study on DevOps 
+Implementation in real world and the other one can be based on the self-learning topics mentioned in 
+syllabus. 
+ 
+Term Work Marks: 25 Marks (Total marks) = 15 Marks (Experiment) + 5 Marks (Assignments) + 5 Marks 
+(Attendance) 
+ 
+Practical & Oral Exam: An Practical & Oral exam will be held based on the above syllabus. 
+ 
+. 
+
+ 
+ 
+ 
+ 
+ 
+Course 
+Code 
+Course Name 
+Teaching 
+Scheme 
+(Contact Hours) 
+Credits Assigned 
+Theory Practical Theory Practical Total 
+ITL504 Advance DevOps Lab -- 02 -- 01 01 
+ 
+Course 
+Code 
+Course Name 
+Examination Scheme 
+Theory 
+Term 
+Work 
+Pract / 
+Oral 
+Total 
+Internal Assessment 
+End 
+Sem 
+Exam 
+Exam 
+Duration 
+(in Hrs) 
+Test1 Test 2 Avg.      
+     ITL504 
+Advance DevOps 
+Lab 
+-- -- -- -- -- 25 25 50 
+ 
+Lab Objectives: 
+ 
+Sr. 
+No. 
+Lab Objectives 
+The Lab experiments aims: 
+1 To understand DevOps practices and cloud native environments to achieve continuous software 
+delivery pipelines and automated operations that address the gap between IT resources and growing 
+cloud complexity. 
+2 
+To Use Kubernetes services to structure N-tier applications.  
+3 To be familiarized with Infrastructure as code for provisioning, compliance, and management of 
+any cloud infrastructure, and service. 
+4 To understand that security and speed in software development are not inversely-related objectives 
+Internalizing the contribution of tools and automation in DevSecOps 
+5 To understand various troubleshooting techniques by monitoring your entire infrastructure and 
+business processes 
+6 To understand how software and software-defined hardware are provisioned dynamically. 
+ 
+Lab Outcomes: 
+ 
+Sr. No. Lab Outcomes Cognitive levels of 
+attainment as per 
+Bloom’s Taxonomy 
+On successful completion, of course, learner/student will be able to: 
+1 To understand the fundamentals of Cloud Computing and be fully 
+proficient with Cloud based DevOps solution deployment options to 
+meet your business requirements 
+L1,L2 
+2 
+To deploy single and multiple container applications and manage 
+application deployments with rollouts in Kubernetes 
+L1,L2,L3 
+3 
+To apply best practices for managing infrastructure as code 
+environments and use terraform to define and deploy cloud 
+L1,L2,L3 
+
+ 
+ 
+infrastructure. 
+4 
+To identify and remediate application vulnerabilities earlier and help 
+integrate security in the development process using SAST 
+Techniques. 
+L1,L2,L3 
+5 
+To use Continuous Monitoring Tools to resolve any system errors 
+(low memory, unreachable server etc.) before they have any negative 
+impact on the business productivity 
+L1,L2,L3 
+6 
+To engineer a composition of nano services using AWS Lambda and 
+Step Functions with the Serverless Framework 
+L1,L2,L3 
+ 
+Prerequisite: Operating System, Linux Administration, Java /Web Application Programming, 
+Software Engineering, Cloud Computing and DevOps Ecosystem. 
+ 
+Hardware & Software Requirements: 
+ 
+Hardware Requirements Software Requirements Other Requirements 
+PC With following 
+Configuration 
+1. Intel i3 core or above  
+2. 4 GB RAM or above 
+3. 500 GB HDD 
+4. Network interface card  
+1.  Linux  /  Windows  Operating 
+system 
+2. VIRTUAL BOX/ VMWARE 
+ 
+1.  Internet  Connection  for  installing 
+additional packages 
+2. GitHub account 
+3. AWS free tier account 
+ 
+DETAILED SYLLABUS: 
+ 
+Sr. No. Module Detailed Content 
+Hour
+s 
+LO 
+Mapping 
+0 Prerequisite 
+Knowledge  of  Linux  Operating  system,  installation 
+and configuration   of   services   and   command  line 
+basics,   Basics   of   Computer   Networks,   Software 
+Development   Life   cycle,   Cloud   Computing   and 
+DevOps Ecosystem. 
+02 
+-- 
+I 
+Introduction to 
+Devops on 
+Cloud 
+Learn   about   various   cloud   services   and   service 
+providers, also get the brief idea of how to implement 
+DevOps over Cloud Platforms.  
+ Introduction  to  high  availability  architecture 
+and auto-scaling 
+ Set up the DevOps infrastructure on the cloud 
+ Work and set up IDE on Cloud9 
+  Deploy  projects  on  AWS  using  Code  Build, 
+CodeDeploy, and CodePipeline 
+Self-Learning Topics: AWS Codestar 
+04 
+LO1 
+II 
+Container 
+Orchestration 
+using 
+Kubernetes 
+ 
+In   this   module,   you   will   learn   how 
+Kubernetes automates many of the manual 
+processes involved in deploying, 
+managing,     and     scaling     containerized 
+applications. 
+ Install and configure Kubernetes 
+ Spin Up a Kubernetes Cluster 
+ Check the Nodes of Your Kubernetes Cluster 
+04 
+LO1, LO2 
+
+ 
+ 
+ Installing kubectl to manage cluster and deploy Your 
+First Kubernetes Application 
+Self-Learning Topics: 
+ Using Services and Ingresses to Expose 
+Deployments 
+ Perform logging, monitoring, services, and 
+volumes in Kubernetes. 
+ 
+III 
+Infrastructure 
+Automation with 
+Terraform 
+ 
+In  this  module  you  will  learn, Infrastructure  as  code 
+for provisioning, compliance, and management of any 
+cloud infrastructure, and service. 
+ Introduction to Infrastructure as Code 
+with Terraform 
+ Install, Build, change and Destroy 
+Infrastructure using Terraform. 
+Self-Learning Topics: 
+ Terraform 
+ Create Resource Dependencies 
+ Provision Infrastructure 
+  Define Input Variables, Query Data with 
+output and store remote state 
+04 
+LO1, LO3 
+IV 
+DevSecOps: 
+Static 
+Application 
+Security  Testing 
+(SAST) 
+ 
+In  this  module,  you  will  learn  to  identify 
+and remediate  application  vulnerabilities 
+earlier  and  help  integrate  security  in  the 
+development   process   using   tools   like 
+SonarQube / Gitlab / 
+ Perform static analysis on application source 
+code and binaries.  
+ Spot potential vulnerabilities before 
+deployment 
+ Analysis of java / web-based project 
+ Jenkins SonarQube / Gitlab Integration 
+Self-Learning Topics: Snyk, OWASP ZAP, 
+Analysis Core Plugin 
+04 
+LO1, LO4 
+V 
+DevSecOps: 
+Continuous 
+Monitoring  
+In  this  module,  you  will  learn  to  detect, 
+report,  respond  to  the  attacks  and  issues 
+which occur within the infrastructure. 
+ Introduction to Continuous Monitoring 
+ Introduction to Nagios  
+ Installing Nagios  
+ Nagios Plugins (NRPE) and Objects Nagios 
+Commands and Notification 
+ Monitoring of different servers using Nagios 
+ 
+04 
+LO1, LO5 
+
+ 
+ 
+Self-Learning Topics: Splunk, Snort, Tenable 
+VI 
+NoOps: 
+Serverless 
+Computing 
+In  this module,  you  will  learn  serverless 
+computing  platform  like  AWS  Lambda, 
+which  allows  you  to  build  your  code  and 
+deploy it without ever needing to configure 
+or manage underlying servers. 
+ AWS Lambda - Overview and Environment 
+Setup 
+ Building and Configuring the Lambda 
+function (NODEJS/PYTHON/JAVA) 
+ Creating & Deploying using AWS 
+Console/CLI 
+ Creating & Deploying using Serverless 
+Framework 
+Self-Learning Topics: AWS Lambda 
+ Create a REST API with the Serverless 
+Framework 
+04 
+LO1, LO6 
+ 
+ 
+Textbooks: 
+1. AWS   Certified   SysOps Administrator   Official   Study   Guide:   Associate   Exam 
+by Stephen  Cole (Author), Gareth    Digby (Author), Chris  Fitch (Author), Steve 
+Friedberg (Author), Shaun Qual 
+2. AWS  Certified  Solutions  Architect  Official  Study  Guide:  Associate  Exam by Joe 
+Baron 
+3. Terraform:   Up   &   Running - Writing   Infrastructure   as   Code,   Second   Edition 
+by Yevgeniy Brikman , O'Reilly 
+4. Kubernetes:  Up  and  Running - Dive  into  the  Future  of  Infrastructure,  Second 
+Editionby Brendan Burns,O'Reilly 
+5. Going  Serverless  with  AWS  Lambda:  Leveraging  the  latest  services  from the  AWS 
+cloud by Ajay Pherwani , Shroff/X-Team;  
+6. Learning Nagios, Packt Publishing. 
+ 
+References: 
+1. Learning Aws - Second Edition: Design, build, and deploy responsive applications using 
+AWS by Amit Shah Aurobindo Sarkar  
+2. Mastering Aws Lambda by Yohan Wadia Udita Gupta  
+        List of Experiments: 
+ 
+ 
+Sr. 
+No 
+Experiment Title 
+1 
+To understand the benefits of Cloud Infrastructure and Setup AWS Cloud9 IDE, Launch AWS 
+Cloud9 IDE and Perform Collaboration Demonstration. 
+2 
+To  Build  Your  Application  using  AWS  CodeBuild  and  Deploy  on  S3  /  SEBS  using  AWS 
+CodePipeline, deploy Sample Application on EC2 instance using AWS CodeDeploy. 
+3 
+To understand the Kubernetes Cluster Architecture, install and Spin Up a Kubernetes Cluster on 
+Linux Machines/Cloud Platforms. 
+4 
+To install Kubectl and execute Kubectl commands to manage the Kubernetes cluster and deploy 
+Your First Kubernetes Application. 
+
+ 
+ 
+5 
+To understand terraform lifecycle, core concepts/terminologies and install it on a Linux Machine. 
+6 
+To Build, change, and destroy AWS / GCP /Microsoft Azure/ DigitalOcean infrastructure Using 
+Terraform. 
+7 
+To   understand   Static   Analysis   SAST   process   and   learn   to  integrate  Jenkins   SAST   to 
+SonarQube/GitLab. 
+8 
+Create a Jenkins CICD Pipeline with SonarQube / GitLab Integration to perform a static analysis 
+of the  code to  detect bugs,  code  smells, and  security  vulnerabilities  on  a sample  Web /  Java  / 
+Python application. 
+9 
+To  Understand  Continuous  monitoring  and  Installation  and  configuration  of Nagios  Core, 
+Nagios Plugins and NRPE (Nagios Remote Plugin Executor) on Linux Machine. 
+10 
+To perform Port, Service monitoring, Windows/Linux server monitoring using Nagios. 
+11 
+To  understand  AWS  Lambda,  its  workflow,  various  functions  and  create  your  first  Lambda 
+functions using Python / Java / Nodejs. 
+12 
+To create a Lambda function which will log “An Image has been added” once you add an 
+object to a specific bucket in S3. 
+ 
+Term Work:  Term Work shall consist of at least 12 to 15 practicals based on the above list. Also Term 
+work  Journal  must  include  at  least  2  assignments  based  on  the  self-learning topics  mentioned  in 
+syllabus. 
+ 
+Term Work Marks: 25 Marks (Total marks) = 15 Marks (Experiment) + 5 Marks (Assignments) + 5 Marks 
+(Attendance) 
+ 
+Practical & Oral Exam: An Practical & Oral exam will be held based on the above syllabus. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+Course 
+Code 
+Course Name 
+Teaching scheme Credit assigned 
+ITL505 Professional 
+Communication & 
+Ethics-II (PCE-II) 
+Theory Pract. Tut. Theory Pract. Tut. Total 
+-- 
+2 ⃰ + 2 
+Hours 
+(Batch-
+wise) 
+-- -- 
+02 -- 02 
+*Theory class to be conducted for full class. 
+ 
+Course Code Course Name Credits 
+ITL505 Professional Communication & Ethics-II (PCE-II) 
+02 
+Course Rationale 
+This curriculum is designed to build up a professional and ethical approach, effective oral 
+and  written  communication  with  enhanced  soft skills.  Through  practical  sessions,  it 
+augments  student's  interactive  competence  and  confidence  to  respond  appropriately  and 
+creatively to the implied challenges of the global Industrial and Corporate requirements. It 
+further inculcates the social responsibility of engineers as technical citizens. 
+Course Objectives 
+ To discern and develop an effective style of writing important technical/business 
+documents. 
+ To investigate possible resources and plan a successful job campaign. 
+ To understand the dynamics of professional communication in the form of group 
+discussions, meetings, etc. required for career enhancement. 
+ To develop creative and impactful presentation skills. 
+ To analyze personal traits, interests, values, aptitudes and skills. 
+ To understand the importance of integrity and develop a personal code of ethics. 
+Course Outcomes Learner will be able to... 
+ plan  and  prepare  effective  business/ technical  documents  which  will  in  turn  
+provide  solid  foundation  for  their  future  managerial  roles. 
+ strategize  their  personal  and  professional  skills  to  build  a  professional  image  
+and  meet  the  demands  of  the  industry. 
+ emerge  successful  in  group discussions, meetings and  result-oriented  agreeable  
+solutions  in  group  communication situations. 
+ deliver persuasive and professional  presentations. 
+ develop creative thinking and interpersonal skills required for effective professional 
+communication. 
+ apply codes  of  ethical conduct, personal  integrity and norms  of  organizational 
+behaviour. 
+ 
+ 
+Course 
+Code 
+Course Name 
+Examination Scheme 
+Theory 
+Term 
+work 
+Pract Oral 
+Internal 
+Oral 
+Total 
+Internal Assessment 
+End 
+sem 
+Duration 
+(hrs) 
+Test 
+1 
+Test 
+2 
+Avg
+. 
+ITL505 Professional 
+Communicati
+on & Ethics-II 
+(PCE-II) 
+-- -- -- -- -- 25 -- -- 25 50 
+
+ 
+ 
+Module Contents Hours 
+1 
+ADVANCED   TECHNICAL   WRITING   :PROJECT/PROBLEM 
+BASED LEARNING (PBL) 
+ 
+1.1 Purpose and Classification of Reports: 
+Classification on the basis of: 
+ Subject Matter (Technology, Accounting, Finance, Marketing, etc.) 
+ Time Interval (Periodic, One-time, Special) 
+ Function (Informational, Analytical, etc.) 
+ Physical Factors (Memorandum, Letter, Short & Long) 
+1.2. Parts of a Long Formal Report: 
+ Prefatory Parts (Front Matter) 
+ Report Proper (Main Body) 
+ Appended Parts (Back Matter) 
+1.3. Language and Style of Reports 
+ Tense, Person & Voice of Reports  
+ Numbering Style of Chapters, Sections, Figures, Tables and 
+Equations 
+ Referencing Styles in APA & MLA Format 
+ Proofreading through Plagiarism Checkers 
+1.4. Definition, Purpose & Types of Proposals 
+ Solicited (in conformance with RFP) & Unsolicited Proposals 
+ Types (Short and Long proposals) 
+1.5. Parts of a Proposal 
+ Elements 
+ Scope and Limitations 
+ Conclusion 
+1.6. Technical Paper Writing 
+ Parts of a Technical Paper (Abstract, Introduction, 
+Research Methods, Findings and Analysis, Discussion, Limitations, 
+Future Scope and References) 
+ Language and Formatting  
+ Referencing in IEEE Format 
+06 
+2 
+EMPLOYMENT SKILLS 
+2.1. Cover Letter & Resume  
+ Parts and Content of a Cover Letter 
+ Difference between Bio-data, Resume & CV 
+ Essential Parts of a Resume 
+ Types of Resume (Chronological, Functional & Combination) 
+2.2 Statement of Purpose 
+ Importance of SOP 
+ Tips for Writing an Effective SOP 
+2.3 Verbal Aptitude Test 
+ Modelled on CAT, GRE, GMAT exams 
+2.4.  Group Discussions 
+ Purpose of a GD 
+ Parameters of Evaluating a GD 
+ Types of GDs (Normal, Case-based & Role Plays) 
+06 
+
+ 
+ 
+ GD Etiquettes 
+2.5. Personal Interviews 
+ Planning and Preparation  
+ Types of Questions  
+ Types of Interviews (Structured, Stress, Behavioural, Problem 
+Solving & Case-based) 
+ Modes   of      Interviews:   Face-to-face   (One-to   one   and   Panel) 
+Telephonic, Virtual 
+3 
+BUSINESS MEETINGS 
+1.1. Conducting Business Meetings 
+ Types of Meetings  
+ Roles and Responsibilities of Chairperson, Secretary and Members  
+ Meeting Etiquette 
+3.2. Documentation 
+ Notice 
+ Agenda 
+ Minutes 
+02 
+4 
+TECHNICAL/ BUSINESS PRESENTATIONS 
+1.1 Effective Presentation Strategies 
+ Defining Purpose  
+ Analyzing Audience, Location and Event 
+ Gathering, Selecting &Arranging Material 
+ Structuring a Presentation 
+  Making Effective Slides 
+ Types of Presentations Aids 
+ Closing a Presentation 
+ Platform skills 
+1.2 Group Presentations 
+ Sharing Responsibility in a Team 
+ Building the contents and visuals together 
+ Transition Phases 
+02 
+5 
+INTERPERSONAL SKILLS  
+1.1. Interpersonal Skills 
+ Emotional Intelligence 
+ Leadership & Motivation 
+ Conflict Management & Negotiation  
+ Time Management 
+ Assertiveness 
+ Decision Making 
+5.2 Start-up Skills 
+ Financial Literacy  
+ Risk Assessment  
+ Data Analysis (e.g. Consumer Behaviour, Market Trends, etc.) 
+08 
+6 
+CORPORATE ETHICS 
+6.1Intellectual Property Rights 
+ Copyrights 
+ Trademarks 
+ Patents 
+ Industrial Designs 
+02 
+
+ 
+ 
+ Geographical Indications 
+ Integrated Circuits 
+ Trade Secrets (Undisclosed Information) 
+6.2 Case Studies 
+ Cases related to Business/ Corporate Ethics 
+ 
+List of assignments: 
+(In the form of Short Notes, Questionnaire/ MCQ Test, Role Play, Case Study, Quiz, etc.) 
+1. Cover Letter and Resume 
+2. Short Proposal  
+3. Meeting Documentation  
+4. Writing a Technical Paper/ Analyzing a Published Technical Paper 
+5. Writing a SOP 
+6. IPR 
+7. Interpersonal Skills  
+8. Aptitude test (Verbal Ability) 
+ Note:  
+1. The  Main  Body  of  the  project/book  report  should  contain  minimum  25  pages  (excluding  Front  and 
+Back matter). 
+2. The group size for the final report presentation should not be less than 5 students or exceed 7 students. 
+3. There will be an end–semester presentation based on the book report. 
+ 
+Assessment:  
+ 
+Term Work:  
+Term work shall consist of minimum 8 experiments.  
+The distribution of marks for term work shall be as follows:  
+Assignment                      : 10 Marks  
+Attendance    : 5 Marks  
+Presentation slides                       : 5 Marks 
+Book Report (hard copy)            : 5 Marks 
+The final certification and acceptance of term work ensures the satisfactory performance of laboratory work 
+and minimum passing in the term work.  
+ 
+Internal oral: 
+Oral Examination will be based on a GD & the Project/Book Report presentation. 
+Group Discussion     : 10 marks 
+Project Presentation  : 10 Marks 
+Group Dynamics       : 5 Marks 
+ 
+Books Recommended:  
+Textbooks and Reference books: 
+1. Arms,   V.   M.   (2005). Humanities   for   the   engineering   curriculum:   With   selected   chapters   from 
+Olsen/Huckin: Technical writing and professional communication, second edition. Boston, MA: McGraw-
+Hill. 
+2. Bovée, C. L., &Thill, J. V. (2021). Business communication today. Upper Saddle River, NJ: Pearson. 
+3. Butterfield,  J.  (2017). Verbal  communication:  Soft  skills  for  a  digital  workplace.  Boston,  MA:  Cengage 
+Learning. 
+4. Masters,  L.  A.,  Wallace,  H.  R.,  &  Harwood,  L.  (2011).Personal  development for  life  and  work.  Mason: 
+South-Western Cengage Learning. 
+5. Robbins,  S.  P.,  Judge,  T.  A.,  &  Campbell,  T.  T.  (2017). Organizational  behaviour.  Harlow,  England: 
+
+ 
+ 
+Pearson. 
+6. Meenakshi  Raman,  Sangeeta  Sharma  (2004)  Technical  Communication,  Principles  and  Practice.  Oxford 
+University Press 
+7. Archana Ram (2018)  Place Mentor, Tests  of  Aptitude  For  Placement Readiness. Oxford University Press 
+Sanjay Kumar &PushpLata (2018). Communication Skills a workbook, New Delhi: Oxford University 
+Press. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+Course Code 
+ 
+Course 
+Name 
+Teaching Scheme  
+(Contact Hours) 
+Credits Assigned 
+Theory Practical Tutorial Theory Practical Tutorial Total 
+ITM501 Mini Project 
+– 2 A Web 
+Based 
+Business 
+Model 
+-- 04 -- -- 02 -- 02 
+ 
+ 
+Course 
+Code 
+ 
+Course 
+Name 
+Examination Scheme 
+Theory Marks 
+Term Work Pract. /Oral Total 
+Internal assessment End 
+Sem. 
+Exam 
+Test1 Test 2 Avg.  
+ITM501 Mini Project 
+– 2 A Web 
+Based 
+Business 
+Model 
+-- -- -- -- 25 25 50 
+ 
+Course Objectives  
+1. To acquaint with the process of identifying the needs and converting it into the problem. 
+2. To familiarize the process of solving the problem in a group. 
+3. To  acquaint  with  the  process  of  applying  basic  engineering  fundamentals to  attempt  solutions  to  the 
+problems. 
+4. To inculcate the process of self-learning and research. 
+Course Outcome: Learner will be able to...  
+1. Identify problems based on societal /research needs.  
+2. Apply Knowledge and skill to solve societal problems in a group.  
+3. Develop interpersonal skills to work as member of a group or leader.  
+4. Draw the proper inferences from available results through theoretical/ experimental/simulations. 
+5. Analyse the impact of solutions in societal and environmental context for sustainable development. 
+6. Use standard norms of engineering practices  
+7. Excel in written and oral communication. 
+8. Demonstrate capabilities of self-learning in a group, which leads to life long learning.  
+9. Demonstrate project management principles during project work. 
+ 
+Guidelines for Mini Project  
+ Students shall form a group of 3 to 4 students, while forming a group shall not be allowed less than 
+three or more than four students, as it is a group activity. 
+ Students  should  do  survey  and  identify  needs,  which  shall  be  converted  into  problem  statement  for 
+mini project in consultation with faculty supervisor/head of department/internal committee of faculties. 
+ Students  hall  submit  implementation  plan  in  the  form  of  Gantt/PERT/CPM  chart,  which  will  cover 
+weekly activity of mini project. 
+ A  log  book  to  be  prepared  by  each  group,  wherein  group  can  record  weekly  work  progress, 
+guide/supervisor can verify and record notes/comments.   
+ Faculty supervisor may give inputs to students during mini project activity;however, focus shall be on 
+self-learning.   
+
+ 
+ 
+ Students  in  a  group  shall  understand  problem  effectively,  propose  multiple  solution  and  select  best 
+possible solution in consultation with guide/ supervisor. 
+ Students shall convert the best solution into working model using various components of their domain 
+areas and demonstrate. 
+ The solution to be validated with proper justification and report to be compiled in standard format of 
+University of Mumbai.  
+ With  the  focus  on  the  self-learning,  innovation,  addressing  societal  problems  and  entrepreneurship 
+quality development within the students through the Mini Projects, it is preferable that a single project 
+of appropriate level and quality to be carried out in two semesters by all the groups of the students. i.e. 
+Mini Project 1 in semester III and IV. Similarly, Mini Project 2 in semesters V and VI.  
+ However, based on the individual students or group capability, with the mentor’s recommendations, if 
+the proposed Mini Project adhering to the qualitative aspects mentioned above gets completed in odd 
+semester, then that group can be allowed to work on the extension of the Mini Project with suitable 
+improvements/modifications  or  a completely  new  project  idea  in  even  semester.  This  policy  can  be 
+adopted on case by case basis. 
+Guidelines for Assessment of Mini Project: 
+Term Work 
+ The review/ progress monitoring committee shall be constituted by head of departments of each 
+institute. The progress of mini project to be evaluated on continuous basis, minimum two reviews 
+in each semester. 
+ In  continuous  assessment  focus  shall  also  be  on  each  individual  student,  assessment  based  on 
+individual’s contribution in group activity, their understanding and response to questions. 
+ Distribution of Term work marks for both semesters shall be as below; 
+o Marks awarded by guide/supervisor based on log book : 10 
+o Marks awarded by review committee  : 10 
+o Quality of Project report  : 05 
+   
+Review/progress  monitoring committee  may consider following points for assessment  based  on either 
+one year or half year project as mentioned in general guidelines. 
+ One-year project: 
+ In first semester entire theoretical solution shall be ready, including components/system selection 
+and cost analysis. Two reviews will be conducted based on presentation given by students group. 
+ First shall be for finalisation of problem   
+ Second shall be on finalisation of proposed solution of problem. 
+ In second semester expected work shall be procurement of component’s/systems, building of 
+working  prototype,  testing  and  validation  of  results  based  on  work  completed  in  an  earlier 
+semester. 
+ First review is based on readiness of building working prototype to be conducted. 
+ Second  review  shall  be  based  on  poster  presentation  cum  demonstration  of  working 
+model in last month of the said semester.  
+ 
+Half-year project: 
+ In this case in one semester students’ group shall complete project in all aspects including, 
+o Identification of need/problem 
+o Proposed final solution 
+o Procurement of components/systems 
+o Building prototype and testing 
+ Two reviews will be conducted for continuous assessment, 
+ First shall be for finalisation of problem and proposed solution 
+ Second shall be for implementation and testing of solution. 
+ 
+Assessment criteria of Mini Project. 
+
+ 
+ 
+ 
+Mini Project shall be assessed based on following criteria; 
+1. Quality of survey/ need identification  
+2. Clarity of Problem definition based on need. 
+3. Innovativeness in solutions  
+4. Feasibility of proposed problem solutions and selection of best solution 
+5. Cost effectiveness  
+6. Societal impact 
+7. Innovativeness   
+8. Cost effectiveness and Societal impact 
+9. Full functioning of working model as per stated requirements 
+10. Effective use of skill sets 
+11. Effective use of standard engineering norms 
+12. Contribution of an individual’s as member or leader 
+13. Clarity in written and oral communication 
+ 
+ In one year, project, first semester evaluation may be based on first six criteria’s and remaining 
+may be used for second semester evaluation of performance of students in mini project. 
+ In  case  of half  year  project all criteria’s in generic may be considered  for  evaluation  of 
+performance of students in mini project.    
+Guidelines for Assessment of Mini Project Practical/Oral Examination: 
+ Report should be prepared as per the guidelines issued by the University of Mumbai.  
+ Mini  Project  shall  be  assessed  through  a  presentation  and  demonstration  of  working  model  by  the 
+student  project  group  to  a  panel  of  Internal  and  External  Examiners  preferably  from  industry  or 
+research organisations having experience of more than five years approved by head of Institution. 
+ Students shall be motivated to publish a paper based on the work in Conferences/students competitions. 
+ 
+Mini Project shall be assessed based on following points; 
+1. Quality of problem and Clarity 
+2. Innovativeness in solutions  
+3. Cost effectiveness and Societal impact 
+4. Full functioning of working model as per stated requirements 
+5. Effective use of skill sets 
+6. Effective use of standard engineering norms 
+7. Contribution of an individual’s as member or leader 
+8. Clarity in written and oral communication 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+Course Code Course Name 
+Teaching Scheme 
+(Contact Hours) 
+ 
+Credits Assigned 
+Theory Practical Theory Practical Total 
+ITDO5011 
+Microcontroller 
+Embedded 
+Programming 
+03 -- 03 -- 03 
+ 
+Course 
+Code 
+Course Name 
+Examination Scheme 
+Theory 
+Term 
+Work 
+Pract/ 
+Oral 
+Total 
+Internal Assessment 
+End 
+Sem 
+Exam 
+Exam 
+Duration 
+(in Hrs) 
+Test1 Test 2 Avg. 
+     
+ITDO5011 
+Microcontroller 
+Embedded 
+Programming 
+20 20 20 80 3 -- -- 100 
+ 
+ 
+Course Objectives:   
+ 
+ 
+ 
+ 
+Course Outcomes:  
+Sr. No. Course Outcomes Cognitive 
+levels of 
+attainment as 
+per Bloom’s 
+Taxonomy 
+On successful completion, of course, learner/student will be able to: 
+1 
+Introduce and discuss the embedded system concepts, architecture of 
+embedded systems and understand the embedded development environments  
+L1, L2 
+2 
+Describe the architecture of 8051 microcontroller and write embedded 
+programs for 8051Microcontroller 
+L2, L3 
+3 
+Illustrate the interfacing of peripherals with 8051 microcontroller and write 
+programs   
+L2, L3 
+4 
+Understand and apply the concepts of ARM architecture L2, L3 
+5 
+Explain and Demonstrate the open source RTOS  L3 
+6 
+Select the embedded platform and program it for real time application L3, L4 
+ 
+Sr. No. Course Objectives 
+The course aims: 
+1 Conceptualize the architecture of embedded systems. 
+2 Study the basics of microcontroller 8051. 
+3 Elaborate on the concepts of microcontroller interfacing. 
+4 Understand the concepts of ARM architecture 
+5 Study the concepts of real-time operating system 
+6 Learn about various embedded platforms and their programming 
+
+ 
+ 
+ 
+ 
+ 
+Prerequisite: Computer Organization and Architecture, Operating System. 
+ 
+DETAILED SYLLABUS:   
+Sr. 
+No. 
+Module Detailed Content Hours 
+CO 
+Mapping 
+0 Prerequisite 
+Revision of microcomputer system terminologies, High 
+level, difference between microprocessor and 
+microcontroller, basics of operating System. 
+02 
+-- 
+I 
+Introduction to 
+Embedded 
+systems 
+Overview of Embedded System 
+Architecture, Application areas, 
+Categories of embedded systems, specialties of embedded 
+systems. 
+Recent trends in embedded systems. 
+ 
+Brief introduction to embedded 
+microcontroller cores CISC, RISC, 
+ARM, DSP and SoC. 
+ 
+Introduction to Embedded System Integrated 
+Development Environments (IDEs) with examples.  
+Self-learning Topics: Comparison of CISC & RISC, 
+Case studies of Real Time Embedded Systems. 
+04  
+CO1 
+II 
+The 
+Microcontroller 
+Architecture and 
+Programming of 
+8051 
+Introduction to 8051 Microcontroller, Architecture, Pin 
+configuration, Memory 
+Organization, Input /Output Ports, Counter and Timers,  
+Serial communication, Interrupts. Addressing modes, 
+Instruction set 
+8051 developing tools, 
+Programming based on 
+Arithmetic & Logical 
+Operations, I/O parallel and serial ports, Timers & 
+Counters, and ISR. 
+Self-learning Topics: Writing 8051 programming in 
+Embedded C 
+10  
+ 
+CO2 
+III 
+Interfacing with 
+8051Microcontr
+oller 
+Interfacing 8051 with peripherals: ADC, DAC, stepper 
+motor. 
+ 
+Interfacing 8051 with LED, LCD, keyboard, Temp 
+sensor, etc. using assembly language. 
+ 
+Self-learning Topics: Study of 8051 based GSM, 
+Bluetooth and RS232 communication 
+04 
+CO3 
+IV 
+ARM 7 
+Architecture 
+Architectural inheritance, Detailed study of Programmer’s 
+model,  
+ARM Development tools, Addressing modes, Instruction 
+set: Data processing, Data Transfer, Control flow. 
+Pipelining, 
+ 
+Writing simple assembly language programs.  
+ 
+07 
+CO4 
+
+ 
+ 
+Brief introduction to exceptions and interrupts handling. 
+Self-learning    Topics: Writing    ARM    programs    in 
+Embedded C and Python for sensor application 
+V 
+Open source 
+RTOS 
+Real Time 
+system concept 
+with embedded 
+OS 
+Basics of RTOS: Real-time concepts, Hard Real time and 
+Soft Real-time, differences between general purpose OS 
+& RTOS,  
+ 
+Basic architecture of an RTOS, scheduling systems,  
+Inter-process-communication using pipes and mailboxes, 
+performance matrix in scheduling models, interrupt 
+management in RTOS environment, RTOS comparative 
+study.  
+ucos2 for real time embedded system demonstrate one 
+case study: Case study of automobile 
+ 
+RTOS issues in multitasking –selecting a Real Time 
+Operating  
+System 
+ 
+Self-learning Topics: Inter-process-communication using 
+semaphore, and Mutex, RTOS simple programming using 
+ucos2 
+07  
+CO5 
+VI 
+Introduction to 
+Embedded 
+Platforms 
+Overview of various Embedded hardware Platforms:  
+Architecture of Arduino, 
+  
+Basic Arduino programming using Arduino IDE and 
+Arduino libraries for interfacing of LCD and sensors such 
+as Temperature (DHT11), Pressure, Humidity. 
+ 
+RaspberryPi (RPi-Functional Block diagram and its 
+operation, GPIO pins, Features of RaspbianOS) 
+ 
+Programming Arduino using python (pyserial or 
+pyfirmata): blink.py 
+Programming RaspberryPi GPIO using python: blink.py 
+ 
+Self-learning  Topics: Study  of  Arduino/  RaspberryPi 
+using  Thingspeak  cloud  platform  and  Blink  app  using 
+Mobile. 
+05  
+CO6 
+ 
+Textbooks: 
+ 
+1 M. A. Mazidi, J. G. Mazidi, R. D., McKinlay,” The 8051 microcontroller & Embedded 
+systems Using Assembly and C”, Pearson, 3rd edition 
+2 Embedded / real – time systems: concepts, design & programming, Black Book, Dr. K. V. 
+K. K. Prasad, Dreamtech press, Reprint edition 2013 
+3 Shibu K. V., “Introduction to embedded systems”, McGraw Hill 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+References: 
+ 
+1 Steve Furber, “ARM System on chip Architecture”, Pearson, edition second 
+2 Laya B. Das, “Embedded systems an integrated approach”, Pearson, Third impression, 
+2013 
+3 Embedded Systems, Architecture, program and Design by Rajkamal 
+4 Simon Monk,” Raspberry Pi Cookbook”, O’reilly 
+5 Massimo Banzi, “Getting Started with Arduino: The Open Source Electronics Prototyping 
+Platform (Make)”, O'Reilly Media. 
+6 https://nptel.ac.in/courses/117/104/117104072/ 
+7 https://www.coursera.org/learn/raspberry-pi-platform 
+ 
+Assessment: 
+Internal Assessment (IA) for 20 marks:  
+ IA will consist of Two Compulsory Internal Assessment Tests. Approximately 40% to 
+50% of syllabus content must be covered in First IA Test and remaining 40% to 50% of 
+syllabus content must be covered in Second IA Test 
+ Question paper format 
+ Question Paper will comprise of a total of six questions each carrying 20 marksQ.1 
+will be compulsory and should cover maximum contents of the syllabus 
+ Remaining questions will be mixed in nature (part (a) and part (b) of each question 
+must be from different modules. For example, if Q.2 has part (a) from Module 3 then 
+part (b) must be from any other Module randomly selected from all the modules) 
+ A total of four questions need to be answered. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Course Code Course Name 
+Teaching Scheme 
+(Contact Hours) 
+ 
+Credits Assigned 
+Theory Practical Theory Practical Total 
+ITDO5012 
+Advance Data 
+Management 
+Technologies 
+03 -- 03 -- 03 
+ 
+ 
+Course Code Course Name 
+Examination Scheme 
+Theory 
+Term 
+Work 
+Pract 
+/ Oral 
+Total 
+Internal Assessment 
+End 
+Sem 
+Exam 
+Exam 
+Duratio
+n 
+(in Hrs) 
+Test1 Test 2 Avg.      
+ITDO5012 
+ Advance Data 
+Management 
+Technologies 
+20 20 20 80 3 -- -- 100 
+ 
+ 
+Course Objectives: 
+ 
+Sr. No. Course Objectives 
+The course aims: 
+1 
+To impart knowledge related to query processing and query optimization phases of a 
+database management system. 
+2 
+To learn advanced techniques for data management and to overview emerging data 
+models like Temporal, Mobile, and Spatial database. 
+3 
+To introduce advanced database models like distributed databases. 
+4 
+To create awareness of how enterprise can organize and analyze large amounts of data by 
+creating a Data Warehouse. 
+5 
+To understand the process of data extraction, transformation and loading. 
+6 
+To understand the concept of Big data and NoSQL databases.. 
+ 
+Course Outcomes:  
+ 
+Sr. No. Course Outcomes: Cognitive levels 
+of attainment 
+as per bloom’s 
+Taxonomy 
+1 
+Measure query costs and design alternate efficient paths for query 
+execution. 
+L1,L2 
+2 
+Apply sophisticated access protocols to control access to the database. L1,L2,L3 
+3 
+Implement Distributed databases. L1,L2,L3 
+
+ 
+ 
+ 
+Prerequisite: Course on Database Management System 
+ 
+DETAILED SYLLABUS: 
+ 
+ 
+Sr. 
+No. 
+Module Detailed Content Hours 
+CO 
+Mapping 
+0 Prerequisite 
+Reviewing basic concepts of a 
+Relational database, SQL concepts 
+02 
+---- 
+I 
+Query 
+Processing 
+and 
+Optimization 
+Overview:   Introduction,   Query   processing   in   DBMS, 
+Steps  of  Query  Processing,  Measures  of  Query  Cost 
+Selection  Operation,  Sorting,  Join  Operation,  Evaluation 
+of Expressions. 
+Query     Optimization     Overview,     Goals     of     Query 
+Optimization,    Approaches    of    Query    Optimization, 
+Transformations   of   Relational   Expression,   Estimating 
+Statistics  of  Expression  Results  Choice  of  Evaluation 
+Plans.    
+ 
+Self-learning    Topics: Solve    problems    on    query 
+optimization. 
+ 
+06 
+CO1 
+II 
+Advanced 
+Data 
+Management 
+Techniques 
+Advanced Database Access protocols: 
+Discretionary  Access  Control  Based  on  Granting  and 
+Revoking Privileges. Mandatory Access Control and Role-
+Based Access Control, Remote Database access protocol. 
+Overview  of  Advanced  Database  Models like  Mobile 
+databases, Temporal databases, Spatial databases. 
+ 
+Self-learning  Topics:  Learn  Data  Security  concepts  like 
+Authentication, Authorization and encryption. 
+06 
+CO2 
+III 
+Distributed 
+Databases 
+Introduction:   Distributed   Data   Processing,   Distributed 
+Database  System:  Architecture,  Types,  Design  Issues. 
+Data Fragmentation, Allocation in distributed databases. 
+ 
+Self-learning Topics: Query Optimization in Distributed 
+Databases 
+04 
+CO3 
+IV 
+Data 
+Warehousing, 
+Dimensional 
+Modelling 
+and 
+OLAP 
+The   Need   for   Data   Warehousing;   Data   Warehouse 
+Defined; Is data warehouse still relevant in the age of big 
+data,  Features  of  a  Data  Warehouse;  Data  Warehouse 
+Architecture-Enterprise or centralized, federated and multi 
+tired architectures; Data Warehouse and Data Marts; Data 
+Warehousing     Design     Strategies,     Data     modeling-
+Dimensional Model; The Star Schema; How Does a Query 
+Execute?   The   Snowflake   Schema;   Fact   Tables   and 
+Dimension   Tables;   Factless   Fact   Table;,   Updates   To 
+Dimension   Tables,   Primary   Keys,   Surrogate Keys   & 
+Foreign Keys.  
+What is business intelligence, use of BI, Tools used in BI, 
+Need for Online Analytical Processing; OLAP Operations 
+09 
+CO4 
+4 
+Organize strategic data in an enterprise and build a data Warehouse. L1,L2,L3 
+5 
+Analyse data using OLAP operations so as to take strategic decisions. L1,L2,L3,L4 
+6 
+Design modern applications using NoSQL databases. 
+databases. 
+L1,L2,L3,L4 
+
+ 
+ 
+in a cube: Roll-up, Drill-down, Slice, Dice, Pivot; OLAP 
+Architectures: MOLAP, ROLAP, DOLAP and HOLAP. 
+ 
+Self-learning   Topics: Explore   life   cycle   of      data 
+warehouse development 
+ 
+V ETL Process 
+Challenges     in     ETL     Functions;     Data     Extraction; 
+Identification of Data Sources; Immediate Data Extraction, 
+Deferred  Data  Extraction;  Data  Transformation:  Tasks 
+Involved  in  Data Transformation,  Techniques  of  Data 
+Loading 
+ 
+Self-learning Topics:  
+Find    out    various    ETL    tools    for    enterprise    data 
+management. 
+05 
+CO5 
+VI 
+Big data and 
+NoSQL 
+Big    data    and    NoSQL    :    Introduction,    types    and 
+characteristics of big data,  What is NoSQL, CAP theorem, 
+BASE property, 
+NoSQL data architecture patterns: Key-value stores, Graph 
+stores, Column family stores, Document stores. 
+ 
+Self-learning   Topics: Google’s Bigtable, Cassandra, 
+MongoDB, Neo4j 
+07 
+CO6 
+ 
+Textbooks: 
+ 
+1 Korth, Slberchatz,Sudarshan, :”Database System Concepts”, 6th Edition, McGraw – Hill 
+2 Elmasri and Navathe, “Fundamentals of Database Systems”, 6th Edition, PEARSON Education. 
+3 Theraja Reema, “Data Warehousing”, Oxford University Press. 
+4 Raghu  Ramakrishnan  and  Johannes  Gehrke,  “Database  Management  Systems”  3rd  Edition -
+McGraw Hill 
+ 
+      References: 
+ 
+1 Paulraj Ponniah, “Data Warehousing: Fundamentals for IT Professionals”, Wiley India. 
+2 Ralph Kimball, Margy Ross, “The Data Warehouse Toolkit: The Definitive Guide to 
+Dimensional Modeling”, 3rd Edition. Wiley India. 
+3 Han, Kamber, "Data Mining Concepts and Techniques", Morgan Kaufmann 3nd Edition. 
+4 Peter Rob and Carlos Coronel, “Database Systems Design, Implementation and Management”, 
+Thomson Learning, 9th Edition. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+Assessment: 
+Internal Assessment (IA) for 20 marks:  
+ IA will consist of Two Compulsory Internal Assessment Tests. 
+Approximately 40% to 50% of syllabus content must be covered in First IA 
+Test and remaining 40% to 50% of syllabus content must be covered in 
+Second IA Test 
+ Question paper format 
+ Question Paper will comprise of a total of six questions each carrying 20 
+marksQ.1 will be compulsory and should cover maximum contents of the 
+syllabus 
+ Remaining questions will be mixed in nature (part (a) and part (b) of each 
+question must be from different modules. For example, if Q.2 has part (a) 
+from Module 3 then part (b) must be from any other Module randomly 
+selected from all the modules) 
+ A total of four questions need to be answered 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+Course 
+Code 
+Course Name 
+Teaching 
+Scheme 
+(Contact Hours) 
+ 
+Credits Assigned 
+Theory Practical Theory Practical Total 
+ITDO5013 
+Computer 
+Graphics & 
+Multimedia 
+System 
+03 -- 03 -- 03 
+ 
+Course 
+Code 
+Course Name 
+Examination Scheme 
+Theory 
+Term 
+Work 
+Pract / 
+Oral 
+Total 
+Internal Assessment 
+End 
+Sem 
+Exam 
+Exam 
+Duratio
+n 
+(in Hrs) 
+Test1 Test 2 Avg.      
+ITDO5013 
+Computer 
+Graphics & 
+Multimedia 
+System 
+20 20 20 80 3 -- -- 100 
+ 
+Course Objectives: 
+ 
+Sr. 
+No. 
+Course Objectives 
+The course aims: 
+1 
+To equip student with the fundamental knowledge and basic technical competence in the  
+field of      Computer Graphics. 
+2 
+To emphasize on understanding of Computer Graphics Algorithms. 
+3 
+To prepare the student for advanced areas in the field of Computer               Graphics. 
+4 
+To introduce student for professional avenues in the field of Computer                 Graphics 
+5 
+To introduce students about basic fundamentals and key aspects of Multimedia system. 
+6 
+To equip the students for various techniques of Multimedia.  
+ 
+Course Outcomes:  
+Sr. 
+No. 
+Course Outcomes Cognitive levels 
+of attainment as 
+per Bloom’s 
+Taxonomy 
+On successful completion, of course, learner/student will be able to: 
+1 
+Describe the basic concepts of Computer Graphics. L1,L2 
+2 
+Demonstrate various algorithms for basic graphics primitives. L1,L2 
+3 
+Apply 2-D geometric transformations on graphical objects. Use various 
+Clipping  
+algorithms on graphical objects 
+L1,L2,L3 
+4 
+Explore 3-D geometric transformations and curve representation techniques. L1,L2,L3 
+5 
+Describe the basics of Multimedia System  L1,L2 
+6 
+Explore the Digital images audio & video and their related concepts. 
+ 
+L1,L2,L3 
+ 
+
+ 
+ 
+ 
+Prerequisite: Basic knowledge of mathematics. 
+ 
+DETAILED SYLLABUS: 
+ 
+Sr. 
+No. 
+Module Detailed Content Hours 
+CO 
+Mapping 
+0 Prerequisite Basic knowledge of mathematics -- --- 
+I Introduction 
+Definition   and   Representative   uses   of   computer 
+graphics,  Overview  of coordinate system, Definition 
+of scan conversion, Raster scan & random scan 
+displays, Architecture of raster graphics system with 
+display   processor,   Architecture of random   scan 
+systems. 
+ 
+Self-learning  Topics:- study  the  working  of  some 
+Raster scan display devices 
+ 
+ 
+02 
+CO1 
+II 
+Output 
+Primitives 
+ 
+Scan  conversions of  point,  line  and  circle:  DDA 
+algorithm  and Brenham  algorithm  for  line  drawing, 
+Midpoint  algorithm  for  circle, Aliasing, Antialiasing 
+techniques like Pre filtering and post filtering, super 
+sampling, and  pixel  phasing.  Filled Area Primitive: 
+Scan line Polygon Fill algorithm, inside outside  tests, 
+Boundary Fill and Flood fill algorithm. 
+ 
+Self-learning  Topics:-Implementation  of  DDA  and 
+Bresenhams line algorithm for dotted line, dashed line, 
+Dash-dot line etc.  
+ 
+ 
+08 
+CO2 
+III 
+Two 
+Dimensional 
+Transformations 
+and Clipping 
+Basic 2D transformations:- Translation, Scaling, 
+Rotation,    Reflection.    Matrix    representation and 
+Homogeneous Coordinates. Composite transformation.  
+Viewing transformation pipeline and Window to 
+Viewport coordinate transformation. Clipping 
+operations: Point clipping, Line Clipping.  
+Line  clipping  algorithms:  Cohen- Sutherland,  Liang- 
+Barsky,  
+Polygon Clipping Algorithms: Sutherland- Hodgeman, 
+Weiler-Atherton. 
+ 
+Self-learning Topics:-Implementation of 2D 
+transformations  like  translation,  rotation  and  scaling. 
+Implementation of clipping algorithm. 
+ 
+09 
+CO3 
+IV 
+3D 
+Transformation, 
+curves and 
+fractals 
+ 
+3D Transformations: Translation, Rotation, Scaling. 
+Reflection , Composite transformations: Rotation about 
+an arbitrary axis.  
+Bezier Curve, B-Spline Curve. 
+06 
+CO4 
+
+ 
+ 
+Fractal-Geometry: Fractal Dimension, Hilbert’s curve,  
+Koch Curve. 
+ 
+Self-learning Topics:-Implementation of 3D 
+transformations, Bezier curve , Koch curve. 
+ 
+V 
+Introduction to 
+Multimedia 
+ 
+Overview,   Objects and Elements of Multimedia, 
+Applications of Multimedia,   Multimedia Systems 
+Architecture – IMA, Workstation, Network,  Types of 
+Medium (Perception, Representation-..),   Interaction 
+Techniques 
+ 
+Self-learning  Topics:-Study  the  objects  and  elements 
+of multimedia 
+ 
+04 
+CO5 
+VI 
+Digital Image, 
+audio & video 
+ 
+Digital Image Representation (2D format, resolution) 
+Types of Images (monochrome, gray, color),  
+File formats: JPG. Compression Techniques: 
+fundamentals  (coding,  inter  pixel  and  psychovisual  
+redundancies). Types – lossless and lossy Compression, 
+Lossless Compression Algorithms– Shannon-Fano,  
+Lossy Compression Algorithm – JPEG 
+Digital Audio   
+Basic  Sound  Concepts:  computer  representation  of 
+sound 
+File Formats – WAV 
+Digital Video 
+Digitization    of    Video,    types    of    video signals 
+(component, composite and S- video). 
+File Formats: MPEG Video 
+ 
+Self-learning Topics:-Implementation of compression 
+algorithms, Analysis of Digital audio and digital video 
+file formats. 
+ 
+10 
+CO6 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Text Books: 
+ 
+1 
+Hearn & Baker, “Computer Graphics C version”, 2nd Edition, Pearson Publication 
+2 
+James D. Foley, Andries van Dam, Steven K Feiner, John F. Hughes, “Computer Graphics  
+Principles and Practice in C”, 2
+nd
+Edition, Pearson Publication 
+3 
+Rajesh K. Maurya, “Computer Graphics”, Wiley India Publication. 
+4 
+Multimedia System Design, Prabhat K. Andleigh& Kiran Thakrar, PHI 
+5 Fundamentals of Multimedia, Ze-Nian Li & Mark S. Drew, PHI. 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Assessment: 
+Internal Assessment (IA)for 20 marks:  
+ IA will consist of Two Compulsory Internal Assessment Tests. Approximately 40% to 
+50% of syllabus content must be covered in First IA Test and remaining 40% to 50% of 
+syllabus content must be covered in Second IA Test 
+ Question paper format 
+ Question Paper will comprise of a total of six questions each carrying 20 marksQ.1 
+will be compulsory and should cover maximum contents of the syllabus 
+ Remaining questions will be mixed in nature (part (a) and part (b) of each question 
+must be from different modules. For example, if Q.2 has part (a) from Module 3 then 
+part (b) must be from any other Module randomly selected from all the modules) 
+ A total of four questions need to be answered 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+References: 
+ 
+1 D. Rogers, “Procedural Elements for Computer Graphics”, Tata McGraw-Hill Publications. 
+2 
+Samit Bhattacharya, “Computer Graphics”, Oxford Publication 
+3 Multimedia Communication Systems: Techniques, Standards & Networks, K. R. Rao, Zoran S. 
+Bojkovic & Dragorad A. Milovanovic, TMH. 
+4 
+Multimedia Systems, K. Buford, PHI. 
+ 
+Sr.No Online Resources  
+1 
+https://nptel.ac.in/courses/106/106/106106090/ 
+2 
+https://nptel.ac.in/courses/106/103/106103224/ 
+3 
+https://nptel.ac.in/courses/106/102/106102065/ 
+4 
+https://onlinecourses.swayam2.ac.in/nou21_cs04/preview 
+5 
+https://nptel.ac.in/courses/117/105/117105083/ 
+
+ 
+ 
+ 
+ 
+ 
+Course 
+Code 
+Course Name 
+Teaching 
+Scheme 
+(Contact Hours) 
+ 
+Credits Assigned 
+Theory Practical Theory Practical Total 
+ITDO5014 
+Advanced Data 
+structure and 
+Analysis 
+03 -- 03 -- 03 
+ 
+Course 
+Code 
+Course Name 
+Examination Scheme 
+Theory 
+Term 
+Work 
+Pract / 
+Oral 
+Total 
+Internal Assessment 
+End 
+Sem 
+Exam 
+Exam 
+Duration 
+(in Hrs) 
+Test1 Test 2 Avg.      
+ITDO5014 
+Advanced Data 
+structure and 
+Analysis 
+20 20 20 80 3 -- -- 100 
+ 
+ Course Objectives:   
+ 
+Sr. 
+No. 
+Course Objectives 
+The course aims: 
+1 
+To learn mathematical background for analysis of algorithm 
+2 
+To learn various advanced data structures. 
+3 
+To understand the different design approaches of algorithm. 
+4 
+To learn dynamic programming methods. 
+5 
+To understand the concept of pattern matching 
+6 
+To learn advanced algorithms. 
+ 
+Course Outcomes:  
+ 
+Sr. 
+No. 
+Course Outcomes Cognitive levels of 
+attainment as per 
+Bloom’s Taxonomy 
+On successful completion, of course, learner/student will be able to: 
+1 
+Understand the different methods for analysis of algorithms. L1,L2 
+2 
+Choose an appropriate advanced data structure to solve a specific problem. L1,L2 
+3 
+Apply an appropriate algorithmic design approach for a given problem. L1,L2,L3 
+4 
+Apply the dynamic programming technique to solve a given problem. L1,L2,L3 
+5 
+Select an appropriate pattern matching algorithm for a given application. L1,L2,L3 
+6 
+Understand the concepts of Optimization, Approximation and Parallel 
+computing algorithms. 
+L1,L2 
+ 
+Prerequisite:  Data structures and Analysis, Knowledge of Any Programming Language 
+ 
+ 
+
+ 
+ 
+ 
+DETAILED SYLLABUS:  
+ 
+Sr. 
+No 
+Module Detailed Content Hours 
+CO 
+Mapping 
+0 Prerequisite 
+Basic of Data structures and analysis and programming 
+language. 
+02 
+- 
+I Introduction 
+Fundamentals  of  the  analysis  of  algorithms:  Time  and 
+Space  complexity,  Asymptotic  analysis  and  notation, 
+average   and   worst-case   analysis,   Recurrences:   The 
+substitution  method,  Recursive  tree  method,  Masters 
+method. 
+ 
+Self-learning  Topics: Analysis  of  Time  and  space 
+complexity of iterative and recursive algorithms 
+ 
+04 
+CO1 
+II 
+Advanced Data 
+Structures 
+B/B+    tree,    Red-Black    Trees,    Heap    operations, 
+Implementation    of    priority    queue    using    heap, 
+Topological Sort. 
+ 
+Self-learning  Topics: Implementation  of  Red-Black 
+Tree and Heaps. 
+ 
+05 
+CO2 
+III  
+Divide and 
+Conquer AND 
+Greedy 
+algorithms 
+Introduction to Divide and conquer, Analysis of Binary 
+Search, Merge sort and Quick sort, Finding minimum 
+and maximum algorithm. 
+ 
+Introduction to Greedy Algorithms: Knapsack Problem, 
+Job  sequencing  using  deadlines,  Optimal  storage  on 
+tape,  Optimal  Merge  Pattern,  Analysis  of  all  these 
+algorithms and problem solving. 
+ 
+Self-learning Topics: Implementation of minimum and 
+maximum algorithm, Knapsack problem, Job 
+sequencing using deadlines. 
+ 
+08 
+CO3 
+IV 
+Dynamic 
+algorithms 
+Introduction  to  Dynamic  Algorithms,  all  pair  shortest 
+path, 0/1 knapsack, travelling salesman problem, Matrix 
+Chain   Multiplication,   Optimal   binary   search   tree, 
+Analysis of All algorithms and problem solving. 
+ 
+Self-learning   Topics: Implementation   of   All   pair 
+shortest path, 0/1 Knapsack and OBST. 
+ 
+06 
+CO4 
+V 
+String 
+Matching 
+Introduction, the naïve string matching algorithm, 
+Rabin Karp algorithm, Boyer Moore algorithm, Knuth-
+Morris-Pratt algorithm, Longest Common Subsequence 
+(LCS), Analysis of All algorithms and problem 
+solving. 
+ 
+Self-learning Topics: Implementation of Robin Karp 
+algorithm, KMP algorithm and LCS. 
+ 
+ 
+07 
+CO5 
+
+ 
+ 
+VI 
+Advanced 
+Algorithms 
+and NP 
+problems 
+Optimization Algorithms: Genetic algorithm(GA),  
+ 
+Approximation Algorithms: Vertex-cover problem,  
+ 
+Parallel Computing Algorithms: Fast Fourier 
+Transform,  
+ 
+Introduction to NP-Hard and NP-Complete 
+Problems 
+ 
+Self-learning Topics: Implementation of Genetic 
+algorithm and Vertex-cover problem 
+07 
+CO6 
+ 
+ 
+ 
+ 
+Assessment: 
+Internal Assessment (IA) for 20 marks:  
+ IA will consist of Two Compulsory Internal Assessment Tests. Approximately 40% to 
+50% of syllabus content must be covered in First IA Test and remaining 40% to 50% of 
+syllabus content must be covered in Second IA Test 
+ Question paper format 
+ Question Paper will comprise of a total of six questions each carrying 20 marks Q.1 
+will be compulsory and should cover maximum contents of the syllabus 
+ Remaining questions will be mixed in nature (part (a) and part (b) of each question 
+must be from different modules. For example, if Q.2 has part (a) from Module 3 then 
+part (b) must be from any other Module randomly selected from all the modules) 
+ A total of four questions need to be answered.  
+ 
+Textbooks: 
+ 
+1 Introduction to Algorithms, Cormen, Leiserson, Rivest, Stein, PHI. 
+2 Algorithms: Design and Analysis, Harsh Bhasin, OXFORD. 
+3 Fundamentals of Computer Algorithms, Horowitz, Sahani, Rajsekaran, Universities Press. 
+4 C and Data structures, Deshpande, Kakde, Dreamtech Press. 
+ 
+References: 
+ 
+1 Data Structures and Algorithms in C++, Goodritch, Tamassia, Mount, WILEY. 
+2 Data Structures using C,  Reema  Thareja , OXFORD. 
+3 Data Structures and Algorithm Analysis in C, Mark A. Weiss, Pearson. 
+4 Optimization Algorithms and Applications, By Rajesh Kumar Arora by Chapman and Hall 
+ 
+Online Resources 
+ 
+Sr.No Website Links  
+1 https://nptel.ac.in/courses/106/106/106106131/ 
+2 https://swayam.gov.in/nd1_noc19_cs47/preview 
+3 https://www.coursera.org/specializations/algorithms 
+4 https://www.mooc-list.com/tags/algorithms 
