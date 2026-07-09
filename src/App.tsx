@@ -18,14 +18,18 @@ import { AuthProvider } from "./context/AuthContext.jsx";
 import { RoadmapsDashboard } from "./pages/RoadmapsDashboard.tsx";
 import { RoadmapsBookmarks } from "./pages/RoadmapsBookmarks.tsx";
 import { RoadmapDetail } from "./pages/RoadmapDetail.tsx";
+import { useTargetReminder } from "./hooks/useTargetReminder";
+import { SocraticChatbot } from "./components/SocraticChatbot";
 
 // Navbar shows only on public/marketing pages.
 // App-interior pages (dashboard, tools) use MainLayout's sidebar.
-const PUBLIC_ROUTES = ["/", "/login", "/signup"];
+const PUBLIC_ROUTES = ["/", "/login", "/signup", "/institution/signup"];
 
 const AppRoutes = () => {
+  useTargetReminder();
   const { pathname } = useLocation();
   const showNavbar = PUBLIC_ROUTES.includes(pathname);
+  const showChatbot = !PUBLIC_ROUTES.includes(pathname);
 
   return (
     <>
@@ -127,6 +131,7 @@ const AppRoutes = () => {
           }
         />
       </Routes>
+      {showChatbot && <SocraticChatbot />}
     </>
   );
 };

@@ -6,7 +6,7 @@ export const Signup = () => {
   const navigate = useNavigate();
   const location = useLocation();
   const { signUp } = useAuth();
-  
+
   // Get potential message from redirect (e.g. from ProtectedRoute trying to access locked features)
   const redirectMsg = location.state?.msg;
 
@@ -110,7 +110,7 @@ export const Signup = () => {
       }}
     >
       <div style={{ width: "100%", maxWidth: "460px" }}>
-        
+
         {/* Redirect notice if guest attempts locked page */}
         {redirectMsg && (
           <div
@@ -164,7 +164,7 @@ export const Signup = () => {
 
         {/* Card */}
         <div className="memoir-card" style={{ padding: "32px", position: "relative" }}>
-          
+
           {/* Progress bar indicator */}
           <div style={{
             position: "absolute",
@@ -258,7 +258,7 @@ export const Signup = () => {
           ) : (
             /* STEP 2: Academic Profile Form */
             <form onSubmit={handleSubmit}>
-              
+
               {/* Selector buttons for Study Level */}
               <div style={fieldStyle}>
                 <label style={labelStyle}>What are you studying?</label>
@@ -292,7 +292,7 @@ export const Signup = () => {
               </div>
 
               {/* DYNAMIC FIELDS BASED ON STREAM */}
-              
+
               {studyLevel === "school" && (
                 <div style={{ animation: "fadeIn 0.25s ease" }}>
                   <div style={fieldStyle}>

@@ -47,6 +47,7 @@ export const Scope = () => {
     try {
       const result = await api.scope({
         subject_code: selectedSubjectCode,
+        userId: user?.id,
       });
       setScopeData(result);
     } catch (err) {

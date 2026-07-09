@@ -2,8 +2,8 @@
 # Project config for Supabase CLI.
 # Your project ref is: zbfqidnjspzruabgazvx  (from your .env VITE_SUPABASE_URL)
 
-[project]
-project_id = "zbfqidnjspzruabgazvx"
+# [project]
+# project_id = "zbfqidnjspzruabgazvx"
 
 [api]
 enabled = true

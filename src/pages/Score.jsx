@@ -119,6 +119,7 @@ export const Score = () => {
         action: "generate",
         subject_code: selectedSubjectCode,
         type: questionType,
+        userId: user?.id,
       });
 
       if (result && result.questions) {
@@ -177,6 +178,7 @@ export const Score = () => {
         question: selectedTheoryQuestion.question,
         marks: selectedTheoryQuestion.marks,
         student_answer: studentAnswer.trim(),
+        userId: user?.id,
       });
       setGradingResult(result);
     } catch (err) {
@@ -247,7 +249,8 @@ export const Score = () => {
           action: "solve",
           subject_code: questionObj.subject_code,
           question: questionObj.question,
-          marks: questionObj.marks
+          marks: questionObj.marks,
+          userId: user?.id,
         });
         
         finalAnswer = solverRes.answer;

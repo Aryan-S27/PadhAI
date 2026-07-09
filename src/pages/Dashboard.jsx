@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 import { MainLayout } from "../components/MainLayout";
+import api from "../lib/api";
 import {
   Calendar,
   AlertCircle,
@@ -178,6 +179,89 @@ export const Dashboard = () => {
     daysLeft = Math.ceil(diff / (1000 * 60 * 60 * 24));
     countdownLabel = daysLeft < 0 ? "Exam Finished" : daysLeft === 0 ? "Exam Today!" : `${daysLeft} days remaining`;
   }
+
+  // ── Today's Dynamic Focus ──────────────────────────────────────────
+  const [dynamicFocus, setDynamicFocus] = useState("");
+
+  useEffect(() => {
+    const computeTodayFocus = async () => {
+      // Allow chatbot manual override
+      const customFocus = localStorage.getItem("padhai_custom_today_focus");
+      if (customFocus) {
+        setDynamicFocus(customFocus);
+        return;
+      }
+
+      let weakSubjectText = "Normalization and Scheduling";
+      try {
+        // Fetch real user progress to find weak modules
+        if (user && user.id !== "guest") {
+          const { data: progress } = await api.supabase
+            .from("user_topic_progress")
+            .select("*")
+            .eq("user_id", user.id);
+
+          if (progress && progress.length > 0) {
+            const struggling = progress.filter(r => r.questions_attempted > 0 && (r.questions_correct / r.questions_attempted) < 0.6);
+            if (struggling.length > 0) {
+              weakSubjectText = struggling.map(s => s.module_name.split(":")[0]).join(" and ");
+            }
+          }
+        }
+      } catch (err) {
+        console.warn("Failed to compute weak subjects for focus:", err);
+      }
+
+      // Check active schedules for today's scheduled topics
+      let scheduleText = "Third Normal Form (3NF) and CPU gantt calculations";
+      let hoursNeeded = 2;
+      try {
+        const activeList = JSON.parse(localStorage.getItem("padhai_active_schedules") || "[]");
+        const todayStr = new Date(Date.now() - new Date().getTimezoneOffset()*60000).toISOString().split("T")[0];
+        
+        let foundTodayTopic = false;
+        for (const code of activeList) {
+          const schStr = localStorage.getItem(`padhai_schedule_${code}`);
+          if (schStr) {
+            const sch = JSON.parse(schStr);
+            const todayPlan = sch.plan?.find(d => d.date === todayStr);
+            if (todayPlan) {
+              scheduleText = todayPlan.topics?.join(" and ") || todayPlan.goals;
+              hoursNeeded = todayPlan.hours || 2;
+              foundTodayTopic = true;
+              break;
+            }
+          }
+        }
+
+        // If no topic matches today's date exactly, get the first incomplete day's topics of the selected subject tab
+        if (!foundTodayTopic && selectedSubjectTab) {
+          const schStr = localStorage.getItem(`padhai_schedule_${selectedSubjectTab}`);
+          if (schStr) {
+            const sch = JSON.parse(schStr);
+            const completedDaysList = JSON.parse(localStorage.getItem(`padhai_completed_days_${selectedSubjectTab}`) || "[]");
+            const nextDay = sch.plan?.find(d => !completedDaysList.includes(d.day));
+            if (nextDay) {
+              scheduleText = nextDay.topics?.join(" and ") || nextDay.goals;
+              hoursNeeded = nextDay.hours || 2;
+            }
+          }
+        }
+      } catch (err) {
+        console.warn("Failed to compute scheduled topic for focus:", err);
+      }
+
+      const focusMessage = `Based on your ${nextExam ? `${nextExam.subject} exam in ${daysLeft} days` : "active study curriculum"} and your weak scores in ${weakSubjectText} — we recommend dedicating ${hoursNeeded} hours to <strong>${scheduleText}</strong> today.`;
+      setDynamicFocus(focusMessage);
+    };
+
+    computeTodayFocus();
+    
+    // Listen to storage events or custom focus changes
+    const handleFocusUpdate = () => computeTodayFocus();
+    window.addEventListener("padhai_focus_updated", handleFocusUpdate);
+    return () => window.removeEventListener("padhai_focus_updated", handleFocusUpdate);
+  }, [user, nextExam, daysLeft, selectedSubjectTab]);
 
   // ── 6. Static mock metrics & checklists ──────────────────────────────────
   const readinessScores = [
@@ -514,16 +598,20 @@ export const Dashboard = () => {
             }}>
               💡 Today's Focus
             </span>
-            <p style={{
-              fontFamily: "var(--font-sans)",
-              fontSize: "13.5px",
-              lineHeight: "20px",
-              color: "var(--color-ink-black)",
-              margin: "0 0 16px 0",
-              fontWeight: 500
-            }}>
-              Based on your {nextExam ? `${nextExam.subject} exam in ${daysLeft} days` : "active study curriculum"} and your weak scores in Normalization and Scheduling — we recommend dedicating 2 hours to <strong>Third Normal Form (3NF)</strong> and <strong>CPU gantt calculations</strong> today.
-            </p>
+            <p
+              style={{
+                fontFamily: "var(--font-sans)",
+                fontSize: "13.5px",
+                lineHeight: "20px",
+                color: "var(--color-ink-black)",
+                margin: "0 0 16px 0",
+                fontWeight: 500
+              }}
+              dangerouslySetInnerHTML={{
+                __html: dynamicFocus ||
+                  `Based on your ${nextExam ? `${nextExam.subject} exam in ${daysLeft} days` : "active study curriculum"} and your weak scores in Normalization and Scheduling — we recommend dedicating 2 hours to <strong>Third Normal Form (3NF)</strong> and <strong>CPU gantt calculations</strong> today.`
+              }}
+            />
             <Link
               to={recommendedToolPath(struggle)}
               className="memoir-btn-primary"

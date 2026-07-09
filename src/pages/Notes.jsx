@@ -80,6 +80,43 @@ export const Notes = () => {
     loadSubjects();
   }, [branch, semester]);
 
+  // Track reading time spent on expanded module notes
+  useEffect(() => {
+    if (!user || user.id === "guest" || !activeSubjectCode || !expandedModule) return;
+
+    const interval = setInterval(async () => {
+      try {
+        await api.incrementNotesTime(user.id, activeSubjectCode, expandedModule, 1);
+      } catch (err) {
+        console.warn("Failed to increment notes time:", err.message);
+      }
+    }, 60000); // every 60 seconds (1 minute)
+
+    return () => clearInterval(interval);
+  }, [user, activeSubjectCode, expandedModule]);
+
+  // Set active subject and module in localStorage for the chatbot
+  useEffect(() => {
+    if (activeSubjectCode && activeSubjectCode !== "All") {
+      localStorage.setItem("padhai_active_subject", activeSubjectCode);
+    } else {
+      localStorage.removeItem("padhai_active_subject");
+    }
+    if (expandedModule) {
+      localStorage.setItem("padhai_expanded_module", expandedModule);
+    } else {
+      localStorage.removeItem("padhai_expanded_module");
+    }
+  }, [activeSubjectCode, expandedModule]);
+
+  // Clean up localStorage on unmount
+  useEffect(() => {
+    return () => {
+      localStorage.removeItem("padhai_active_subject");
+      localStorage.removeItem("padhai_expanded_module");
+    };
+  }, []);
+
   // Dynamically compile and render Mermaid.js diagrams on expand/load
   useEffect(() => {
     if (window.mermaid) {

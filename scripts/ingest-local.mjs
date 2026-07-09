@@ -63,7 +63,7 @@ async function embedText(text) {
 async function extractTextWithGemini(buffer) {
   const base64Pdf = buffer.toString("base64");
   const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.5-flash:generateContent?key=${GEMINI_API_KEY}`;
-  
+
   const payload = {
     contents: [
       {
@@ -155,7 +155,7 @@ async function main() {
       // 4. Parse PDF → text
       process.stdout.write("   Parsing PDF... ");
       const buffer = Buffer.from(await blob.arrayBuffer());
-      
+
       let rawText = "";
       let parsedOk = false;
       try {

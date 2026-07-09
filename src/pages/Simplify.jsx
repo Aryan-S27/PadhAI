@@ -18,7 +18,7 @@ export const Simplify = () => {
   const [selectedSubjectCode, setSelectedSubjectCode] = useState("");
   const [topic, setTopic] = useState("");
   const [level, setLevel] = useState("exam-ready");
-  
+
   const [loading, setLoading] = useState(false);
   const [explanation, setExplanation] = useState("");
   const [error, setError] = useState("");
@@ -75,9 +75,10 @@ export const Simplify = () => {
         subject_code: selectedSubjectCode,
         topic: topic.trim(),
         level,
+        userId: user?.id,
       });
       setExplanation(result.explanation || "No explanation returned.");
-      
+
       // Increment guest queries count on successful generation
       if (isGuest) {
         const nextCount = guestQueries + 1;
@@ -121,8 +122,8 @@ export const Simplify = () => {
           <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
             <Sparkles size={16} />
             <span>
-              {guestQueries >= 3 
-                ? "You have used all 3 free trial queries." 
+              {guestQueries >= 3
+                ? "You have used all 3 free trial queries."
                 : `Guest Trial Active: ${3 - guestQueries} of 3 free queries remaining.`
               }
             </span>
@@ -195,7 +196,7 @@ export const Simplify = () => {
         {/* Form Card */}
         <div className="memoir-card" style={{ padding: "32px" }}>
           <form onSubmit={handleSubmit} style={{ display: "flex", flexDirection: "column", gap: "20px" }}>
-            
+
             {/* Branch and Semester Selection */}
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "16px" }}>
               <div>
@@ -393,31 +394,31 @@ export const Simplify = () => {
                 <div style={{ height: "16px", backgroundColor: "var(--color-linen-warm)", borderRadius: "4px", width: "40%", animation: "pulse 1.5s infinite" }} />
               </div>
             ) : (
-                <ReactMarkdown
-                  remarkPlugins={[remarkGfm]}
-                  components={{
-                    table({ children }) {
-                      return (
-                        <div style={{ overflowX: "auto", margin: "20px 0" }}>
-                          <table style={{ width: "100%", borderCollapse: "collapse", fontSize: "13px", color: "var(--color-ink-black)", border: "1px solid var(--color-ink-border)" }}>
-                            {children}
-                          </table>
-                        </div>
-                      );
-                    },
-                    thead({ children }) {
-                      return <thead style={{ backgroundColor: "var(--color-linen-warm)", borderBottom: "2px solid var(--color-ink-border)" }}>{children}</thead>;
-                    },
-                    th({ children }) {
-                      return <th style={{ padding: "10px 14px", fontWeight: 600, textAlign: "left", border: "1px solid var(--color-ink-border)" }}>{children}</th>;
-                    },
-                    td({ children }) {
-                      return <td style={{ padding: "10px 14px", border: "1px solid var(--color-ink-border)" }}>{children}</td>;
-                    }
-                  }}
-                >
-                  {explanation}
-                </ReactMarkdown>
+              <ReactMarkdown
+                remarkPlugins={[remarkGfm]}
+                components={{
+                  table({ children }) {
+                    return (
+                      <div style={{ overflowX: "auto", margin: "20px 0" }}>
+                        <table style={{ width: "100%", borderCollapse: "collapse", fontSize: "13px", color: "var(--color-ink-black)", border: "1px solid var(--color-ink-border)" }}>
+                          {children}
+                        </table>
+                      </div>
+                    );
+                  },
+                  thead({ children }) {
+                    return <thead style={{ backgroundColor: "var(--color-linen-warm)", borderBottom: "2px solid var(--color-ink-border)" }}>{children}</thead>;
+                  },
+                  th({ children }) {
+                    return <th style={{ padding: "10px 14px", fontWeight: 600, textAlign: "left", border: "1px solid var(--color-ink-border)" }}>{children}</th>;
+                  },
+                  td({ children }) {
+                    return <td style={{ padding: "10px 14px", border: "1px solid var(--color-ink-border)" }}>{children}</td>;
+                  }
+                }}
+              >
+                {explanation}
+              </ReactMarkdown>
             )}
           </div>
         )}
@@ -478,7 +479,7 @@ export const Simplify = () => {
             >
               Save Your Progress
             </h3>
-            
+
             <p
               style={{
                 fontFamily: "var(--font-sans)",
@@ -526,7 +527,7 @@ export const Simplify = () => {
           </div>
         </div>
       )}
-      
+
       {/* Keyframe animation styles */}
       <style>{`
         @keyframes pulse {

@@ -71,6 +71,7 @@ export const CrashMode = () => {
         hours_per_day: Number(hoursPerDay),
         topics_done,
         weak_topics,
+        userId: user?.id,
       });
       setPlanData(result);
 
